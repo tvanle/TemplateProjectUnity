@@ -1,0 +1,3 @@
+[submodule "Assets/UITemplate"]
+	path = Assets/UITemplate
+	url = https://github.com/ngocphat03/UITemplate.git
