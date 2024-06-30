@@ -747,7 +747,7 @@ namespace DG.DOTweenEditor
     {
         static Initializer()
         {
-            DOTweenAnimation.OnReset += OnReset;
+            DOTweenAnimation.OnReset += null;
         }
 
         static void OnReset(DOTweenAnimation src)
