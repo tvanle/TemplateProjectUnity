@@ -1,4 +1,4 @@
-﻿namespace UniUI.Utilities.UIStuff
+﻿namespace UniUI.Scripts.Utilities.UIStuff
 {
     using Cysharp.Threading.Tasks;
     using UnityEngine;

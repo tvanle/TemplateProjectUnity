@@ -1,4 +1,4 @@
-namespace UniUI.BaseScreen.Model
+namespace UniUI.Scripts.BaseScreen.Model
 {
     public class IScreenModel
     {

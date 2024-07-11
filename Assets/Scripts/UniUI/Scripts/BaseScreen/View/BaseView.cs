@@ -1,9 +1,9 @@
-namespace UniUI.BaseScreen.View
+namespace UniUI.Scripts.BaseScreen.View
 {
     using System;
     using Cysharp.Threading.Tasks;
     using UnityEngine;
-    using UniUI.Utilities.UIStuff;
+    using UniUI.Scripts.Utilities.UIStuff;
 
     [RequireComponent(typeof(CanvasGroup))]
     public class BaseView : MonoBehaviour, IScreenView

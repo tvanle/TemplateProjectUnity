@@ -1,9 +1,9 @@
-namespace UniUI.BaseScreen.View
+namespace UniUI.Scripts.BaseScreen.View
 {
     using System;
     using Cysharp.Threading.Tasks;
     using UnityEngine;
-    using UniUI.BaseUI;
+    using UniUI.Scripts.BaseUI;
 
     public interface IScreenView : IUIView
     {

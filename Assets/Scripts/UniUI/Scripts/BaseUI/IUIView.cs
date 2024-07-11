@@ -1,4 +1,4 @@
-namespace UniUI.BaseUI
+namespace UniUI.Scripts.BaseUI
 {
     public interface IUIView
     {
