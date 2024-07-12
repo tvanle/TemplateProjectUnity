@@ -8,26 +8,20 @@
     using UniUI.Scripts.BaseUI;
     using Zenject;
 
-     public abstract class BaseScreenPresenter<TView> : IScreenPresenter where TView : IScreenView
+    public abstract class BaseScreenPresenter<TView> : IScreenPresenter where TView : IScreenView
     {
         public ScreenStatus             ScreenStatus { get; protected set; } = ScreenStatus.Closed;
         public Action<IScreenPresenter> OnCloseView  { get; set; }
 
         public TView View;
 
-        public  async void SetView(IScreenView viewInstance, Action<IScreenPresenter> onClose = null)
+        public async void SetView(IScreenView viewInstance, Action<IScreenPresenter> onClose = null)
         {
             this.View        = (TView)viewInstance;
             this.OnCloseView = onClose;
-            if (this.View.IsReadyToUse)
-            {
-                this.OnViewReady();
-            }
-            else
-            {
-                await UniTask.WaitUntil(() => this.View.IsReadyToUse);
-                this.OnViewReady();
-            }
+
+            await UniTask.WaitUntil(() => this.View.IsReadyToUse);
+            this.OnViewReady();
         }
 
         protected virtual void OnViewReady() { }
