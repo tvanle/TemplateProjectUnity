@@ -1,4 +1,4 @@
-﻿namespace UniUI.Scripts.BaseScreen.Presenter
+﻿namespace GDK_TrongLe.UniUI.Scripts.BaseScreen.Presenter
 {
     using System;
 

@@ -1,13 +1,14 @@
-namespace UniData.Scripts.Manager
+namespace GDK_TrongLe.UniData.Scripts.Manager
 {
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
     using Cysharp.Threading.Tasks;
-    using UITemplate.Scripts.Extension.Ulties;
-    using UniData.Scripts.Interface;
-    using UniData.Scripts.Signal;
-    using UniData.Scripts.UserData;
+    using GDK_TrongLe.UniCore.Extension;
+    using GDK_TrongLe.UniData.Scripts.Interface;
+    using GDK_TrongLe.UniData.Scripts.Signal;
+    using GDK_TrongLe.UniData.Scripts.UserData;
+    using Zenject;
 
     public class UserDataManager
     {

@@ -1,0 +1,484 @@
+Index: Assets/Plugins/Zenject/Source/Zenject.csproj.meta
+===================================================================
+diff --git a/Assets/Plugins/Zenject/Source/Zenject.csproj.meta b/Assets/Plugins/Zenject/Source/Zenject.csproj.meta
+deleted file mode 100644
+--- a/Assets/Plugins/Zenject/Source/Zenject.csproj.meta	(revision fba5e82632af07b549ecd5c7b2bd93eb78f8d5a1)
++++ /dev/null	(revision fba5e82632af07b549ecd5c7b2bd93eb78f8d5a1)
+@@ -1,8 +0,0 @@
+-fileFormatVersion: 2
+-guid: 8645273165cb7f54290d6eaa1e10ab37
+-timeCreated: 1461878212
+-licenseType: Pro
+-DefaultImporter:
+-  userData: 
+-  assetBundleName: 
+-  assetBundleVariant: 
+Index: Assets/Scripts/UniUI/BaseScreen/Presenter.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/UniUI/BaseScreen/Presenter.meta b/Assets/Scripts/UniUI/BaseScreen/Presenter.meta
+new file mode 100644
+--- /dev/null	(date 1720322654566)
++++ b/Assets/Scripts/UniUI/BaseScreen/Presenter.meta	(date 1720322654566)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: d8e31d28a4ee4d80830f443d812fec30
++timeCreated: 1720322654
+\ No newline at end of file
+Index: Packages/packages-lock.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"dependencies\": {\r\n    \"com.brogrammist.jsam\": {\r\n      \"version\": \"https://github.com/jackyyang09/Simple-Unity-Audio-Manager.git\",\r\n      \"depth\": 0,\r\n      \"source\": \"git\",\r\n      \"dependencies\": {},\r\n      \"hash\": \"6d93b0b5050443d4a9f71cd804afb0b2bbcb1386\"\r\n    },\r\n    \"com.cysharp.unitask\": {\r\n      \"version\": \"https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask\",\r\n      \"depth\": 0,\r\n      \"source\": \"git\",\r\n      \"dependencies\": {},\r\n      \"hash\": \"fbe0bf85155f42f8832205f7b3ac3df571ada33e\"\r\n    },\r\n    \"com.unity.2d.animation\": {\r\n      \"version\": \"9.1.0\",\r\n      \"depth\": 1,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.2d.common\": \"8.0.2\",\r\n        \"com.unity.2d.sprite\": \"1.0.0\",\r\n        \"com.unity.collections\": \"1.1.0\",\r\n        \"com.unity.modules.animation\": \"1.0.0\",\r\n        \"com.unity.modules.uielements\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.2d.aseprite\": {\r\n      \"version\": \"1.1.1\",\r\n      \"depth\": 1,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.2d.sprite\": \"1.0.0\",\r\n        \"com.unity.2d.common\": \"6.0.6\",\r\n        \"com.unity.mathematics\": \"1.2.6\",\r\n        \"com.unity.modules.animation\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.2d.common\": {\r\n      \"version\": \"8.0.2\",\r\n      \"depth\": 2,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.2d.sprite\": \"1.0.0\",\r\n        \"com.unity.mathematics\": \"1.1.0\",\r\n        \"com.unity.modules.uielements\": \"1.0.0\",\r\n        \"com.unity.modules.animation\": \"1.0.0\",\r\n        \"com.unity.burst\": \"1.7.3\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.2d.pixel-perfect\": {\r\n      \"version\": \"5.0.3\",\r\n      \"depth\": 1,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {},\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.2d.psdimporter\": {\r\n      \"version\": \"8.0.4\",\r\n      \"depth\": 1,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.2d.animation\": \"9.1.0\",\r\n        \"com.unity.2d.common\": \"8.0.2\",\r\n        \"com.unity.2d.sprite\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.2d.sprite\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 1,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.2d.spriteshape\": {\r\n      \"version\": \"9.0.2\",\r\n      \"depth\": 1,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.mathematics\": \"1.1.0\",\r\n        \"com.unity.2d.common\": \"8.0.1\",\r\n        \"com.unity.modules.physics2d\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.2d.tilemap\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 1,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.tilemap\": \"1.0.0\",\r\n        \"com.unity.modules.uielements\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.2d.tilemap.extras\": {\r\n      \"version\": \"3.1.2\",\r\n      \"depth\": 1,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.tilemap\": \"1.0.0\",\r\n        \"com.unity.2d.tilemap\": \"1.0.0\",\r\n        \"com.unity.ugui\": \"1.0.0\",\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.addressables\": {\r\n      \"version\": \"1.21.21\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.scriptablebuildpipeline\": \"1.21.23\",\r\n        \"com.unity.modules.assetbundle\": \"1.0.0\",\r\n        \"com.unity.modules.imageconversion\": \"1.0.0\",\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\",\r\n        \"com.unity.modules.unitywebrequest\": \"1.0.0\",\r\n        \"com.unity.modules.unitywebrequestassetbundle\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.burst\": {\r\n      \"version\": \"1.8.12\",\r\n      \"depth\": 3,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.mathematics\": \"1.2.1\",\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.collab-proxy\": {\r\n      \"version\": \"2.4.3\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {},\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.collections\": {\r\n      \"version\": \"1.2.4\",\r\n      \"depth\": 2,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.burst\": \"1.6.6\",\r\n        \"com.unity.test-framework\": \"1.1.31\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.ext.nunit\": {\r\n      \"version\": \"1.0.6\",\r\n      \"depth\": 1,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {},\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.feature.2d\": {\r\n      \"version\": \"2.0.1\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.2d.animation\": \"9.1.0\",\r\n        \"com.unity.2d.pixel-perfect\": \"5.0.3\",\r\n        \"com.unity.2d.psdimporter\": \"8.0.4\",\r\n        \"com.unity.2d.sprite\": \"1.0.0\",\r\n        \"com.unity.2d.spriteshape\": \"9.0.2\",\r\n        \"com.unity.2d.tilemap\": \"1.0.0\",\r\n        \"com.unity.2d.tilemap.extras\": \"3.1.2\",\r\n        \"com.unity.2d.aseprite\": \"1.1.1\"\r\n      }\r\n    },\r\n    \"com.unity.ide.rider\": {\r\n      \"version\": \"3.0.28\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.ext.nunit\": \"1.0.6\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.ide.visualstudio\": {\r\n      \"version\": \"2.0.22\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.test-framework\": \"1.1.9\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.mathematics\": {\r\n      \"version\": \"1.2.6\",\r\n      \"depth\": 2,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {},\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.nuget.newtonsoft-json\": {\r\n      \"version\": \"3.0.1\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {},\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.scriptablebuildpipeline\": {\r\n      \"version\": \"1.21.23\",\r\n      \"depth\": 1,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {},\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.test-framework\": {\r\n      \"version\": \"1.1.33\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.ext.nunit\": \"1.0.6\",\r\n        \"com.unity.modules.imgui\": \"1.0.0\",\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.textmeshpro\": {\r\n      \"version\": \"3.0.6\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.ugui\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.timeline\": {\r\n      \"version\": \"1.7.6\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.director\": \"1.0.0\",\r\n        \"com.unity.modules.animation\": \"1.0.0\",\r\n        \"com.unity.modules.audio\": \"1.0.0\",\r\n        \"com.unity.modules.particlesystem\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.ugui\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.ui\": \"1.0.0\",\r\n        \"com.unity.modules.imgui\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.visualscripting\": {\r\n      \"version\": \"1.9.4\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.ugui\": \"1.0.0\",\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.modules.ai\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.androidjni\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.animation\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.assetbundle\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.audio\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.cloth\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.physics\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.director\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.audio\": \"1.0.0\",\r\n        \"com.unity.modules.animation\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.imageconversion\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.imgui\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.jsonserialize\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.particlesystem\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.physics\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.physics2d\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.screencapture\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.imageconversion\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.subsystems\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 1,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.terrain\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.terrainphysics\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.physics\": \"1.0.0\",\r\n        \"com.unity.modules.terrain\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.tilemap\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.physics2d\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.ui\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.uielements\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.ui\": \"1.0.0\",\r\n        \"com.unity.modules.imgui\": \"1.0.0\",\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.umbra\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.unityanalytics\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.unitywebrequest\": \"1.0.0\",\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.unitywebrequest\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.unitywebrequestassetbundle\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.assetbundle\": \"1.0.0\",\r\n        \"com.unity.modules.unitywebrequest\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.unitywebrequestaudio\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.unitywebrequest\": \"1.0.0\",\r\n        \"com.unity.modules.audio\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.unitywebrequesttexture\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.unitywebrequest\": \"1.0.0\",\r\n        \"com.unity.modules.imageconversion\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.unitywebrequestwww\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.unitywebrequest\": \"1.0.0\",\r\n        \"com.unity.modules.unitywebrequestassetbundle\": \"1.0.0\",\r\n        \"com.unity.modules.unitywebrequestaudio\": \"1.0.0\",\r\n        \"com.unity.modules.audio\": \"1.0.0\",\r\n        \"com.unity.modules.assetbundle\": \"1.0.0\",\r\n        \"com.unity.modules.imageconversion\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.vehicles\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.physics\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.video\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.audio\": \"1.0.0\",\r\n        \"com.unity.modules.ui\": \"1.0.0\",\r\n        \"com.unity.modules.unitywebrequest\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.vr\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\",\r\n        \"com.unity.modules.physics\": \"1.0.0\",\r\n        \"com.unity.modules.xr\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.wind\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.xr\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.physics\": \"1.0.0\",\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\",\r\n        \"com.unity.modules.subsystems\": \"1.0.0\"\r\n      }\r\n    }\r\n  }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Packages/packages-lock.json b/Packages/packages-lock.json
+--- a/Packages/packages-lock.json	(revision fba5e82632af07b549ecd5c7b2bd93eb78f8d5a1)
++++ b/Packages/packages-lock.json	(date 1720320685743)
+@@ -15,20 +15,19 @@
+       "hash": "fbe0bf85155f42f8832205f7b3ac3df571ada33e"
+     },
+     "com.unity.2d.animation": {
+-      "version": "9.1.0",
++      "version": "7.0.12",
+       "depth": 1,
+       "source": "registry",
+       "dependencies": {
+-        "com.unity.2d.common": "8.0.2",
++        "com.unity.2d.common": "6.0.6",
+         "com.unity.2d.sprite": "1.0.0",
+-        "com.unity.collections": "1.1.0",
+         "com.unity.modules.animation": "1.0.0",
+         "com.unity.modules.uielements": "1.0.0"
+       },
+       "url": "https://packages.unity.com"
+     },
+     "com.unity.2d.aseprite": {
+-      "version": "1.1.1",
++      "version": "1.0.1",
+       "depth": 1,
+       "source": "registry",
+       "dependencies": {
+@@ -40,16 +39,22 @@
+       "url": "https://packages.unity.com"
+     },
+     "com.unity.2d.common": {
+-      "version": "8.0.2",
++      "version": "6.0.6",
+       "depth": 2,
+       "source": "registry",
+       "dependencies": {
+         "com.unity.2d.sprite": "1.0.0",
+         "com.unity.mathematics": "1.1.0",
+         "com.unity.modules.uielements": "1.0.0",
+-        "com.unity.modules.animation": "1.0.0",
+-        "com.unity.burst": "1.7.3"
++        "com.unity.burst": "1.5.1"
+       },
++      "url": "https://packages.unity.com"
++    },
++    "com.unity.2d.path": {
++      "version": "5.0.2",
++      "depth": 2,
++      "source": "registry",
++      "dependencies": {},
+       "url": "https://packages.unity.com"
+     },
+     "com.unity.2d.pixel-perfect": {
+@@ -60,12 +65,12 @@
+       "url": "https://packages.unity.com"
+     },
+     "com.unity.2d.psdimporter": {
+-      "version": "8.0.4",
++      "version": "6.0.7",
+       "depth": 1,
+       "source": "registry",
+       "dependencies": {
+-        "com.unity.2d.animation": "9.1.0",
+-        "com.unity.2d.common": "8.0.2",
++        "com.unity.2d.animation": "7.0.9",
++        "com.unity.2d.common": "6.0.6",
+         "com.unity.2d.sprite": "1.0.0"
+       },
+       "url": "https://packages.unity.com"
+@@ -77,12 +82,13 @@
+       "dependencies": {}
+     },
+     "com.unity.2d.spriteshape": {
+-      "version": "9.0.2",
++      "version": "7.0.7",
+       "depth": 1,
+       "source": "registry",
+       "dependencies": {
+         "com.unity.mathematics": "1.1.0",
+-        "com.unity.2d.common": "8.0.1",
++        "com.unity.2d.common": "6.0.6",
++        "com.unity.2d.path": "5.0.2",
+         "com.unity.modules.physics2d": "1.0.0"
+       },
+       "url": "https://packages.unity.com"
+@@ -91,13 +97,10 @@
+       "version": "1.0.0",
+       "depth": 1,
+       "source": "builtin",
+-      "dependencies": {
+-        "com.unity.modules.tilemap": "1.0.0",
+-        "com.unity.modules.uielements": "1.0.0"
+-      }
++      "dependencies": {}
+     },
+     "com.unity.2d.tilemap.extras": {
+-      "version": "3.1.2",
++      "version": "2.2.7",
+       "depth": 1,
+       "source": "registry",
+       "dependencies": {
+@@ -123,12 +126,11 @@
+       "url": "https://packages.unity.com"
+     },
+     "com.unity.burst": {
+-      "version": "1.8.12",
++      "version": "1.6.6",
+       "depth": 3,
+       "source": "registry",
+       "dependencies": {
+-        "com.unity.mathematics": "1.2.1",
+-        "com.unity.modules.jsonserialize": "1.0.0"
++        "com.unity.mathematics": "1.2.1"
+       },
+       "url": "https://packages.unity.com"
+     },
+@@ -138,16 +140,6 @@
+       "source": "registry",
+       "dependencies": {},
+       "url": "https://packages.unity.com"
+-    },
+-    "com.unity.collections": {
+-      "version": "1.2.4",
+-      "depth": 2,
+-      "source": "registry",
+-      "dependencies": {
+-        "com.unity.burst": "1.6.6",
+-        "com.unity.test-framework": "1.1.31"
+-      },
+-      "url": "https://packages.unity.com"
+     },
+     "com.unity.ext.nunit": {
+       "version": "1.0.6",
+@@ -161,14 +153,14 @@
+       "depth": 0,
+       "source": "builtin",
+       "dependencies": {
+-        "com.unity.2d.animation": "9.1.0",
++        "com.unity.2d.animation": "7.0.12",
+         "com.unity.2d.pixel-perfect": "5.0.3",
+-        "com.unity.2d.psdimporter": "8.0.4",
++        "com.unity.2d.psdimporter": "6.0.7",
+         "com.unity.2d.sprite": "1.0.0",
+-        "com.unity.2d.spriteshape": "9.0.2",
++        "com.unity.2d.spriteshape": "7.0.7",
+         "com.unity.2d.tilemap": "1.0.0",
+-        "com.unity.2d.tilemap.extras": "3.1.2",
+-        "com.unity.2d.aseprite": "1.1.1"
++        "com.unity.2d.tilemap.extras": "2.2.7",
++        "com.unity.2d.aseprite": "1.0.1"
+       }
+     },
+     "com.unity.ide.rider": {
+@@ -392,6 +384,17 @@
+     "com.unity.modules.uielements": {
+       "version": "1.0.0",
+       "depth": 0,
++      "source": "builtin",
++      "dependencies": {
++        "com.unity.modules.ui": "1.0.0",
++        "com.unity.modules.imgui": "1.0.0",
++        "com.unity.modules.jsonserialize": "1.0.0",
++        "com.unity.modules.uielementsnative": "1.0.0"
++      }
++    },
++    "com.unity.modules.uielementsnative": {
++      "version": "1.0.0",
++      "depth": 1,
+       "source": "builtin",
+       "dependencies": {
+         "com.unity.modules.ui": "1.0.0",
+Index: ProjectSettings/ProjectSettings.asset
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>%YAML 1.1\r\n%TAG !u! tag:unity3d.com,2011:\r\n--- !u!129 &1\r\nPlayerSettings:\r\n  m_ObjectHideFlags: 0\r\n  serializedVersion: 26\r\n  productGUID: 3accb08ae1524f44a9a5f53490b13008\r\n  AndroidProfiler: 0\r\n  AndroidFilterTouchesWhenObscured: 0\r\n  AndroidEnableSustainedPerformanceMode: 0\r\n  defaultScreenOrientation: 4\r\n  targetDevice: 2\r\n  useOnDemandResources: 0\r\n  accelerometerFrequency: 60\r\n  companyName: DefaultCompany\r\n  productName: TemplateProject\r\n  defaultCursor: {fileID: 0}\r\n  cursorHotspot: {x: 0, y: 0}\r\n  m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}\r\n  m_ShowUnitySplashScreen: 1\r\n  m_ShowUnitySplashLogo: 1\r\n  m_SplashScreenOverlayOpacity: 1\r\n  m_SplashScreenAnimation: 1\r\n  m_SplashScreenLogoStyle: 1\r\n  m_SplashScreenDrawMode: 0\r\n  m_SplashScreenBackgroundAnimationZoom: 1\r\n  m_SplashScreenLogoAnimationZoom: 1\r\n  m_SplashScreenBackgroundLandscapeAspect: 1\r\n  m_SplashScreenBackgroundPortraitAspect: 1\r\n  m_SplashScreenBackgroundLandscapeUvs:\r\n    serializedVersion: 2\r\n    x: 0\r\n    y: 0\r\n    width: 1\r\n    height: 1\r\n  m_SplashScreenBackgroundPortraitUvs:\r\n    serializedVersion: 2\r\n    x: 0\r\n    y: 0\r\n    width: 1\r\n    height: 1\r\n  m_SplashScreenLogos: []\r\n  m_VirtualRealitySplashScreen: {fileID: 0}\r\n  m_HolographicTrackingLossScreen: {fileID: 0}\r\n  defaultScreenWidth: 1920\r\n  defaultScreenHeight: 1080\r\n  defaultScreenWidthWeb: 960\r\n  defaultScreenHeightWeb: 600\r\n  m_StereoRenderingPath: 0\r\n  m_ActiveColorSpace: 1\r\n  unsupportedMSAAFallback: 0\r\n  m_SpriteBatchVertexThreshold: 300\r\n  m_MTRendering: 1\r\n  mipStripping: 0\r\n  numberOfMipsStripped: 0\r\n  numberOfMipsStrippedPerMipmapLimitGroup: {}\r\n  m_StackTraceTypes: 010000000100000001000000010000000100000001000000\r\n  iosShowActivityIndicatorOnLoading: -1\r\n  androidShowActivityIndicatorOnLoading: -1\r\n  iosUseCustomAppBackgroundBehavior: 0\r\n  allowedAutorotateToPortrait: 1\r\n  allowedAutorotateToPortraitUpsideDown: 1\r\n  allowedAutorotateToLandscapeRight: 1\r\n  allowedAutorotateToLandscapeLeft: 1\r\n  useOSAutorotation: 1\r\n  use32BitDisplayBuffer: 1\r\n  preserveFramebufferAlpha: 0\r\n  disableDepthAndStencilBuffers: 0\r\n  androidStartInFullscreen: 1\r\n  androidRenderOutsideSafeArea: 1\r\n  androidUseSwappy: 1\r\n  androidBlitType: 0\r\n  androidResizableWindow: 0\r\n  androidDefaultWindowWidth: 1920\r\n  androidDefaultWindowHeight: 1080\r\n  androidMinimumWindowWidth: 400\r\n  androidMinimumWindowHeight: 300\r\n  androidFullscreenMode: 1\r\n  androidAutoRotationBehavior: 1\r\n  defaultIsNativeResolution: 1\r\n  macRetinaSupport: 1\r\n  runInBackground: 0\r\n  captureSingleScreen: 0\r\n  muteOtherAudioSources: 0\r\n  Prepare IOS For Recording: 0\r\n  Force IOS Speakers When Recording: 0\r\n  deferSystemGesturesMode: 0\r\n  hideHomeButton: 0\r\n  submitAnalytics: 1\r\n  usePlayerLog: 1\r\n  dedicatedServerOptimizations: 0\r\n  bakeCollisionMeshes: 0\r\n  forceSingleInstance: 0\r\n  useFlipModelSwapchain: 1\r\n  resizableWindow: 0\r\n  useMacAppStoreValidation: 0\r\n  macAppStoreCategory: public.app-category.games\r\n  gpuSkinning: 0\r\n  xboxPIXTextureCapture: 0\r\n  xboxEnableAvatar: 0\r\n  xboxEnableKinect: 0\r\n  xboxEnableKinectAutoTracking: 0\r\n  xboxEnableFitness: 0\r\n  visibleInBackground: 1\r\n  allowFullscreenSwitch: 1\r\n  fullscreenMode: 1\r\n  xboxSpeechDB: 0\r\n  xboxEnableHeadOrientation: 0\r\n  xboxEnableGuest: 0\r\n  xboxEnablePIXSampling: 0\r\n  metalFramebufferOnly: 0\r\n  xboxOneResolution: 0\r\n  xboxOneSResolution: 0\r\n  xboxOneXResolution: 3\r\n  xboxOneMonoLoggingLevel: 0\r\n  xboxOneLoggingLevel: 1\r\n  xboxOneDisableEsram: 0\r\n  xboxOneEnableTypeOptimization: 0\r\n  xboxOnePresentImmediateThreshold: 0\r\n  switchQueueCommandMemory: 1048576\r\n  switchQueueControlMemory: 16384\r\n  switchQueueComputeMemory: 262144\r\n  switchNVNShaderPoolsGranularity: 33554432\r\n  switchNVNDefaultPoolsGranularity: 16777216\r\n  switchNVNOtherPoolsGranularity: 16777216\r\n  switchGpuScratchPoolGranularity: 2097152\r\n  switchAllowGpuScratchShrinking: 0\r\n  switchNVNMaxPublicTextureIDCount: 0\r\n  switchNVNMaxPublicSamplerIDCount: 0\r\n  switchNVNGraphicsFirmwareMemory: 32\r\n  switchMaxWorkerMultiple: 8\r\n  stadiaPresentMode: 0\r\n  stadiaTargetFramerate: 0\r\n  vulkanNumSwapchainBuffers: 3\r\n  vulkanEnableSetSRGBWrite: 0\r\n  vulkanEnablePreTransform: 0\r\n  vulkanEnableLateAcquireNextImage: 0\r\n  vulkanEnableCommandBufferRecycling: 1\r\n  loadStoreDebugModeEnabled: 0\r\n  visionOSBundleVersion: 1.0\r\n  tvOSBundleVersion: 1.0\r\n  bundleVersion: 1.0\r\n  preloadedAssets: []\r\n  metroInputSource: 0\r\n  wsaTransparentSwapchain: 0\r\n  m_HolographicPauseOnTrackingLoss: 1\r\n  xboxOneDisableKinectGpuReservation: 1\r\n  xboxOneEnable7thCore: 1\r\n  vrSettings:\r\n    enable360StereoCapture: 0\r\n  isWsaHolographicRemotingEnabled: 0\r\n  enableFrameTimingStats: 0\r\n  enableOpenGLProfilerGPURecorders: 1\r\n  allowHDRDisplaySupport: 0\r\n  useHDRDisplay: 0\r\n  hdrBitDepth: 0\r\n  m_ColorGamuts: 00000000\r\n  targetPixelDensity: 30\r\n  resolutionScalingMode: 0\r\n  resetResolutionOnWindowResize: 0\r\n  androidSupportedAspectRatio: 1\r\n  androidMaxAspectRatio: 2.1\r\n  applicationIdentifier:\r\n    Standalone: com.DefaultCompany.2DProject\r\n  buildNumber:\r\n    Standalone: 0\r\n    VisionOS: 0\r\n    iPhone: 0\r\n    tvOS: 0\r\n  overrideDefaultApplicationIdentifier: 1\r\n  AndroidBundleVersionCode: 1\r\n  AndroidMinSdkVersion: 22\r\n  AndroidTargetSdkVersion: 0\r\n  AndroidPreferredInstallLocation: 1\r\n  aotOptions: \r\n  stripEngineCode: 1\r\n  iPhoneStrippingLevel: 0\r\n  iPhoneScriptCallOptimization: 0\r\n  ForceInternetPermission: 0\r\n  ForceSDCardPermission: 0\r\n  CreateWallpaper: 0\r\n  APKExpansionFiles: 0\r\n  keepLoadedShadersAlive: 0\r\n  StripUnusedMeshComponents: 0\r\n  strictShaderVariantMatching: 0\r\n  VertexChannelCompressionMask: 4054\r\n  iPhoneSdkVersion: 988\r\n  iOSTargetOSVersionString: 12.0\r\n  tvOSSdkVersion: 0\r\n  tvOSRequireExtendedGameController: 0\r\n  tvOSTargetOSVersionString: 12.0\r\n  VisionOSSdkVersion: 0\r\n  VisionOSTargetOSVersionString: 1.0\r\n  uIPrerenderedIcon: 0\r\n  uIRequiresPersistentWiFi: 0\r\n  uIRequiresFullScreen: 1\r\n  uIStatusBarHidden: 1\r\n  uIExitOnSuspend: 0\r\n  uIStatusBarStyle: 0\r\n  appleTVSplashScreen: {fileID: 0}\r\n  appleTVSplashScreen2x: {fileID: 0}\r\n  tvOSSmallIconLayers: []\r\n  tvOSSmallIconLayers2x: []\r\n  tvOSLargeIconLayers: []\r\n  tvOSLargeIconLayers2x: []\r\n  tvOSTopShelfImageLayers: []\r\n  tvOSTopShelfImageLayers2x: []\r\n  tvOSTopShelfImageWideLayers: []\r\n  tvOSTopShelfImageWideLayers2x: []\r\n  iOSLaunchScreenType: 0\r\n  iOSLaunchScreenPortrait: {fileID: 0}\r\n  iOSLaunchScreenLandscape: {fileID: 0}\r\n  iOSLaunchScreenBackgroundColor:\r\n    serializedVersion: 2\r\n    rgba: 0\r\n  iOSLaunchScreenFillPct: 100\r\n  iOSLaunchScreenSize: 100\r\n  iOSLaunchScreenCustomXibPath: \r\n  iOSLaunchScreeniPadType: 0\r\n  iOSLaunchScreeniPadImage: {fileID: 0}\r\n  iOSLaunchScreeniPadBackgroundColor:\r\n    serializedVersion: 2\r\n    rgba: 0\r\n  iOSLaunchScreeniPadFillPct: 100\r\n  iOSLaunchScreeniPadSize: 100\r\n  iOSLaunchScreeniPadCustomXibPath: \r\n  iOSLaunchScreenCustomStoryboardPath: \r\n  iOSLaunchScreeniPadCustomStoryboardPath: \r\n  iOSDeviceRequirements: []\r\n  iOSURLSchemes: []\r\n  macOSURLSchemes: []\r\n  iOSBackgroundModes: 0\r\n  iOSMetalForceHardShadows: 0\r\n  metalEditorSupport: 1\r\n  metalAPIValidation: 1\r\n  metalCompileShaderBinary: 0\r\n  iOSRenderExtraFrameOnPause: 0\r\n  iosCopyPluginsCodeInsteadOfSymlink: 0\r\n  appleDeveloperTeamID: \r\n  iOSManualSigningProvisioningProfileID: \r\n  tvOSManualSigningProvisioningProfileID: \r\n  VisionOSManualSigningProvisioningProfileID: \r\n  iOSManualSigningProvisioningProfileType: 0\r\n  tvOSManualSigningProvisioningProfileType: 0\r\n  VisionOSManualSigningProvisioningProfileType: 0\r\n  appleEnableAutomaticSigning: 0\r\n  iOSRequireARKit: 0\r\n  iOSAutomaticallyDetectAndAddCapabilities: 1\r\n  appleEnableProMotion: 0\r\n  shaderPrecisionModel: 0\r\n  clonedFromGUID: 10ad67313f4034357812315f3c407484\r\n  templatePackageId: com.unity.template.2d@7.0.3\r\n  templateDefaultScene: Assets/Scenes/SampleScene.unity\r\n  useCustomMainManifest: 0\r\n  useCustomLauncherManifest: 0\r\n  useCustomMainGradleTemplate: 0\r\n  useCustomLauncherGradleManifest: 0\r\n  useCustomBaseGradleTemplate: 0\r\n  useCustomGradlePropertiesTemplate: 0\r\n  useCustomGradleSettingsTemplate: 0\r\n  useCustomProguardFile: 0\r\n  AndroidTargetArchitectures: 1\r\n  AndroidTargetDevices: 0\r\n  AndroidSplashScreenScale: 0\r\n  androidSplashScreen: {fileID: 0}\r\n  AndroidKeystoreName: \r\n  AndroidKeyaliasName: \r\n  AndroidEnableArmv9SecurityFeatures: 0\r\n  AndroidBuildApkPerCpuArchitecture: 0\r\n  AndroidTVCompatibility: 0\r\n  AndroidIsGame: 1\r\n  AndroidEnableTango: 0\r\n  androidEnableBanner: 1\r\n  androidUseLowAccuracyLocation: 0\r\n  androidUseCustomKeystore: 0\r\n  m_AndroidBanners:\r\n  - width: 320\r\n    height: 180\r\n    banner: {fileID: 0}\r\n  androidGamepadSupportLevel: 0\r\n  chromeosInputEmulation: 1\r\n  AndroidMinifyRelease: 0\r\n  AndroidMinifyDebug: 0\r\n  AndroidValidateAppBundleSize: 1\r\n  AndroidAppBundleSizeToValidate: 150\r\n  m_BuildTargetIcons: []\r\n  m_BuildTargetPlatformIcons:\r\n  - m_BuildTarget: iPhone\r\n    m_Icons:\r\n    - m_Textures: []\r\n      m_Width: 180\r\n      m_Height: 180\r\n      m_Kind: 0\r\n      m_SubKind: iPhone\r\n    - m_Textures: []\r\n      m_Width: 120\r\n      m_Height: 120\r\n      m_Kind: 0\r\n      m_SubKind: iPhone\r\n    - m_Textures: []\r\n      m_Width: 167\r\n      m_Height: 167\r\n      m_Kind: 0\r\n      m_SubKind: iPad\r\n    - m_Textures: []\r\n      m_Width: 152\r\n      m_Height: 152\r\n      m_Kind: 0\r\n      m_SubKind: iPad\r\n    - m_Textures: []\r\n      m_Width: 76\r\n      m_Height: 76\r\n      m_Kind: 0\r\n      m_SubKind: iPad\r\n    - m_Textures: []\r\n      m_Width: 120\r\n      m_Height: 120\r\n      m_Kind: 3\r\n      m_SubKind: iPhone\r\n    - m_Textures: []\r\n      m_Width: 80\r\n      m_Height: 80\r\n      m_Kind: 3\r\n      m_SubKind: iPhone\r\n    - m_Textures: []\r\n      m_Width: 80\r\n      m_Height: 80\r\n      m_Kind: 3\r\n      m_SubKind: iPad\r\n    - m_Textures: []\r\n      m_Width: 40\r\n      m_Height: 40\r\n      m_Kind: 3\r\n      m_SubKind: iPad\r\n    - m_Textures: []\r\n      m_Width: 87\r\n      m_Height: 87\r\n      m_Kind: 1\r\n      m_SubKind: iPhone\r\n    - m_Textures: []\r\n      m_Width: 58\r\n      m_Height: 58\r\n      m_Kind: 1\r\n      m_SubKind: iPhone\r\n    - m_Textures: []\r\n      m_Width: 29\r\n      m_Height: 29\r\n      m_Kind: 1\r\n      m_SubKind: iPhone\r\n    - m_Textures: []\r\n      m_Width: 58\r\n      m_Height: 58\r\n      m_Kind: 1\r\n      m_SubKind: iPad\r\n    - m_Textures: []\r\n      m_Width: 29\r\n      m_Height: 29\r\n      m_Kind: 1\r\n      m_SubKind: iPad\r\n    - m_Textures: []\r\n      m_Width: 60\r\n      m_Height: 60\r\n      m_Kind: 2\r\n      m_SubKind: iPhone\r\n    - m_Textures: []\r\n      m_Width: 40\r\n      m_Height: 40\r\n      m_Kind: 2\r\n      m_SubKind: iPhone\r\n    - m_Textures: []\r\n      m_Width: 40\r\n      m_Height: 40\r\n      m_Kind: 2\r\n      m_SubKind: iPad\r\n    - m_Textures: []\r\n      m_Width: 20\r\n      m_Height: 20\r\n      m_Kind: 2\r\n      m_SubKind: iPad\r\n    - m_Textures: []\r\n      m_Width: 1024\r\n      m_Height: 1024\r\n      m_Kind: 4\r\n      m_SubKind: App Store\r\n  - m_BuildTarget: Android\r\n    m_Icons:\r\n    - m_Textures: []\r\n      m_Width: 432\r\n      m_Height: 432\r\n      m_Kind: 2\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 324\r\n      m_Height: 324\r\n      m_Kind: 2\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 216\r\n      m_Height: 216\r\n      m_Kind: 2\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 162\r\n      m_Height: 162\r\n      m_Kind: 2\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 108\r\n      m_Height: 108\r\n      m_Kind: 2\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 81\r\n      m_Height: 81\r\n      m_Kind: 2\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 192\r\n      m_Height: 192\r\n      m_Kind: 1\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 144\r\n      m_Height: 144\r\n      m_Kind: 1\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 96\r\n      m_Height: 96\r\n      m_Kind: 1\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 72\r\n      m_Height: 72\r\n      m_Kind: 1\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 48\r\n      m_Height: 48\r\n      m_Kind: 1\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 36\r\n      m_Height: 36\r\n      m_Kind: 1\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 192\r\n      m_Height: 192\r\n      m_Kind: 0\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 144\r\n      m_Height: 144\r\n      m_Kind: 0\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 96\r\n      m_Height: 96\r\n      m_Kind: 0\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 72\r\n      m_Height: 72\r\n      m_Kind: 0\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 48\r\n      m_Height: 48\r\n      m_Kind: 0\r\n      m_SubKind: \r\n    - m_Textures: []\r\n      m_Width: 36\r\n      m_Height: 36\r\n      m_Kind: 0\r\n      m_SubKind: \r\n  m_BuildTargetBatching: []\r\n  m_BuildTargetShaderSettings: []\r\n  m_BuildTargetGraphicsJobs:\r\n  - m_BuildTarget: MacStandaloneSupport\r\n    m_GraphicsJobs: 0\r\n  - m_BuildTarget: Switch\r\n    m_GraphicsJobs: 0\r\n  - m_BuildTarget: MetroSupport\r\n    m_GraphicsJobs: 0\r\n  - m_BuildTarget: AppleTVSupport\r\n    m_GraphicsJobs: 0\r\n  - m_BuildTarget: BJMSupport\r\n    m_GraphicsJobs: 0\r\n  - m_BuildTarget: LinuxStandaloneSupport\r\n    m_GraphicsJobs: 0\r\n  - m_BuildTarget: PS4Player\r\n    m_GraphicsJobs: 0\r\n  - m_BuildTarget: iOSSupport\r\n    m_GraphicsJobs: 0\r\n  - m_BuildTarget: WindowsStandaloneSupport\r\n    m_GraphicsJobs: 0\r\n  - m_BuildTarget: XboxOnePlayer\r\n    m_GraphicsJobs: 0\r\n  - m_BuildTarget: LuminSupport\r\n    m_GraphicsJobs: 0\r\n  - m_BuildTarget: AndroidPlayer\r\n    m_GraphicsJobs: 0\r\n  - m_BuildTarget: WebGLSupport\r\n    m_GraphicsJobs: 0\r\n  m_BuildTargetGraphicsJobMode: []\r\n  m_BuildTargetGraphicsAPIs:\r\n  - m_BuildTarget: AndroidPlayer\r\n    m_APIs: 150000000b000000\r\n    m_Automatic: 1\r\n  - m_BuildTarget: iOSSupport\r\n    m_APIs: 10000000\r\n    m_Automatic: 1\r\n  m_BuildTargetVRSettings: []\r\n  m_DefaultShaderChunkSizeInMB: 16\r\n  m_DefaultShaderChunkCount: 0\r\n  openGLRequireES31: 0\r\n  openGLRequireES31AEP: 0\r\n  openGLRequireES32: 0\r\n  m_TemplateCustomTags: {}\r\n  mobileMTRendering:\r\n    Android: 1\r\n    iPhone: 1\r\n    tvOS: 1\r\n  m_BuildTargetGroupLightmapEncodingQuality: []\r\n  m_BuildTargetGroupHDRCubemapEncodingQuality: []\r\n  m_BuildTargetGroupLightmapSettings: []\r\n  m_BuildTargetGroupLoadStoreDebugModeSettings: []\r\n  m_BuildTargetNormalMapEncoding: []\r\n  m_BuildTargetDefaultTextureCompressionFormat:\r\n  - m_BuildTarget: Android\r\n    m_Format: 3\r\n  playModeTestRunnerEnabled: 0\r\n  runPlayModeTestAsEditModeTest: 0\r\n  actionOnDotNetUnhandledException: 1\r\n  enableInternalProfiler: 0\r\n  logObjCUncaughtExceptions: 1\r\n  enableCrashReportAPI: 0\r\n  cameraUsageDescription: \r\n  locationUsageDescription: \r\n  microphoneUsageDescription: \r\n  bluetoothUsageDescription: \r\n  macOSTargetOSVersion: 10.13.0\r\n  switchNMETAOverride: \r\n  switchNetLibKey: \r\n  switchSocketMemoryPoolSize: 6144\r\n  switchSocketAllocatorPoolSize: 128\r\n  switchSocketConcurrencyLimit: 14\r\n  switchScreenResolutionBehavior: 2\r\n  switchUseCPUProfiler: 0\r\n  switchEnableFileSystemTrace: 0\r\n  switchLTOSetting: 0\r\n  switchApplicationID: 0x01004b9000490000\r\n  switchNSODependencies: \r\n  switchCompilerFlags: \r\n  switchTitleNames_0: \r\n  switchTitleNames_1: \r\n  switchTitleNames_2: \r\n  switchTitleNames_3: \r\n  switchTitleNames_4: \r\n  switchTitleNames_5: \r\n  switchTitleNames_6: \r\n  switchTitleNames_7: \r\n  switchTitleNames_8: \r\n  switchTitleNames_9: \r\n  switchTitleNames_10: \r\n  switchTitleNames_11: \r\n  switchTitleNames_12: \r\n  switchTitleNames_13: \r\n  switchTitleNames_14: \r\n  switchTitleNames_15: \r\n  switchPublisherNames_0: \r\n  switchPublisherNames_1: \r\n  switchPublisherNames_2: \r\n  switchPublisherNames_3: \r\n  switchPublisherNames_4: \r\n  switchPublisherNames_5: \r\n  switchPublisherNames_6: \r\n  switchPublisherNames_7: \r\n  switchPublisherNames_8: \r\n  switchPublisherNames_9: \r\n  switchPublisherNames_10: \r\n  switchPublisherNames_11: \r\n  switchPublisherNames_12: \r\n  switchPublisherNames_13: \r\n  switchPublisherNames_14: \r\n  switchPublisherNames_15: \r\n  switchIcons_0: {fileID: 0}\r\n  switchIcons_1: {fileID: 0}\r\n  switchIcons_2: {fileID: 0}\r\n  switchIcons_3: {fileID: 0}\r\n  switchIcons_4: {fileID: 0}\r\n  switchIcons_5: {fileID: 0}\r\n  switchIcons_6: {fileID: 0}\r\n  switchIcons_7: {fileID: 0}\r\n  switchIcons_8: {fileID: 0}\r\n  switchIcons_9: {fileID: 0}\r\n  switchIcons_10: {fileID: 0}\r\n  switchIcons_11: {fileID: 0}\r\n  switchIcons_12: {fileID: 0}\r\n  switchIcons_13: {fileID: 0}\r\n  switchIcons_14: {fileID: 0}\r\n  switchIcons_15: {fileID: 0}\r\n  switchSmallIcons_0: {fileID: 0}\r\n  switchSmallIcons_1: {fileID: 0}\r\n  switchSmallIcons_2: {fileID: 0}\r\n  switchSmallIcons_3: {fileID: 0}\r\n  switchSmallIcons_4: {fileID: 0}\r\n  switchSmallIcons_5: {fileID: 0}\r\n  switchSmallIcons_6: {fileID: 0}\r\n  switchSmallIcons_7: {fileID: 0}\r\n  switchSmallIcons_8: {fileID: 0}\r\n  switchSmallIcons_9: {fileID: 0}\r\n  switchSmallIcons_10: {fileID: 0}\r\n  switchSmallIcons_11: {fileID: 0}\r\n  switchSmallIcons_12: {fileID: 0}\r\n  switchSmallIcons_13: {fileID: 0}\r\n  switchSmallIcons_14: {fileID: 0}\r\n  switchSmallIcons_15: {fileID: 0}\r\n  switchManualHTML: \r\n  switchAccessibleURLs: \r\n  switchLegalInformation: \r\n  switchMainThreadStackSize: 1048576\r\n  switchPresenceGroupId: \r\n  switchLogoHandling: 0\r\n  switchReleaseVersion: 0\r\n  switchDisplayVersion: 1.0.0\r\n  switchStartupUserAccount: 0\r\n  switchSupportedLanguagesMask: 0\r\n  switchLogoType: 0\r\n  switchApplicationErrorCodeCategory: \r\n  switchUserAccountSaveDataSize: 0\r\n  switchUserAccountSaveDataJournalSize: 0\r\n  switchApplicationAttribute: 0\r\n  switchCardSpecSize: -1\r\n  switchCardSpecClock: -1\r\n  switchRatingsMask: 0\r\n  switchRatingsInt_0: 0\r\n  switchRatingsInt_1: 0\r\n  switchRatingsInt_2: 0\r\n  switchRatingsInt_3: 0\r\n  switchRatingsInt_4: 0\r\n  switchRatingsInt_5: 0\r\n  switchRatingsInt_6: 0\r\n  switchRatingsInt_7: 0\r\n  switchRatingsInt_8: 0\r\n  switchRatingsInt_9: 0\r\n  switchRatingsInt_10: 0\r\n  switchRatingsInt_11: 0\r\n  switchRatingsInt_12: 0\r\n  switchLocalCommunicationIds_0: \r\n  switchLocalCommunicationIds_1: \r\n  switchLocalCommunicationIds_2: \r\n  switchLocalCommunicationIds_3: \r\n  switchLocalCommunicationIds_4: \r\n  switchLocalCommunicationIds_5: \r\n  switchLocalCommunicationIds_6: \r\n  switchLocalCommunicationIds_7: \r\n  switchParentalControl: 0\r\n  switchAllowsScreenshot: 1\r\n  switchAllowsVideoCapturing: 1\r\n  switchAllowsRuntimeAddOnContentInstall: 0\r\n  switchDataLossConfirmation: 0\r\n  switchUserAccountLockEnabled: 0\r\n  switchSystemResourceMemory: 16777216\r\n  switchSupportedNpadStyles: 22\r\n  switchNativeFsCacheSize: 32\r\n  switchIsHoldTypeHorizontal: 0\r\n  switchSupportedNpadCount: 8\r\n  switchEnableTouchScreen: 1\r\n  switchSocketConfigEnabled: 0\r\n  switchTcpInitialSendBufferSize: 32\r\n  switchTcpInitialReceiveBufferSize: 64\r\n  switchTcpAutoSendBufferSizeMax: 256\r\n  switchTcpAutoReceiveBufferSizeMax: 256\r\n  switchUdpSendBufferSize: 9\r\n  switchUdpReceiveBufferSize: 42\r\n  switchSocketBufferEfficiency: 4\r\n  switchSocketInitializeEnabled: 1\r\n  switchNetworkInterfaceManagerInitializeEnabled: 1\r\n  switchUseNewStyleFilepaths: 0\r\n  switchUseLegacyFmodPriorities: 0\r\n  switchUseMicroSleepForYield: 1\r\n  switchEnableRamDiskSupport: 0\r\n  switchMicroSleepForYieldTime: 25\r\n  switchRamDiskSpaceSize: 12\r\n  ps4NPAgeRating: 12\r\n  ps4NPTitleSecret: \r\n  ps4NPTrophyPackPath: \r\n  ps4ParentalLevel: 11\r\n  ps4ContentID: ED1633-NPXX51362_00-0000000000000000\r\n  ps4Category: 0\r\n  ps4MasterVersion: 01.00\r\n  ps4AppVersion: 01.00\r\n  ps4AppType: 0\r\n  ps4ParamSfxPath: \r\n  ps4VideoOutPixelFormat: 0\r\n  ps4VideoOutInitialWidth: 1920\r\n  ps4VideoOutBaseModeInitialWidth: 1920\r\n  ps4VideoOutReprojectionRate: 60\r\n  ps4PronunciationXMLPath: \r\n  ps4PronunciationSIGPath: \r\n  ps4BackgroundImagePath: \r\n  ps4StartupImagePath: \r\n  ps4StartupImagesFolder: \r\n  ps4IconImagesFolder: \r\n  ps4SaveDataImagePath: \r\n  ps4SdkOverride: \r\n  ps4BGMPath: \r\n  ps4ShareFilePath: \r\n  ps4ShareOverlayImagePath: \r\n  ps4PrivacyGuardImagePath: \r\n  ps4ExtraSceSysFile: \r\n  ps4NPtitleDatPath: \r\n  ps4RemotePlayKeyAssignment: -1\r\n  ps4RemotePlayKeyMappingDir: \r\n  ps4PlayTogetherPlayerCount: 0\r\n  ps4EnterButtonAssignment: 2\r\n  ps4ApplicationParam1: 0\r\n  ps4ApplicationParam2: 0\r\n  ps4ApplicationParam3: 0\r\n  ps4ApplicationParam4: 0\r\n  ps4DownloadDataSize: 0\r\n  ps4GarlicHeapSize: 2048\r\n  ps4ProGarlicHeapSize: 2560\r\n  playerPrefsMaxSize: 32768\r\n  ps4Passcode: bi9UOuSpM2Tlh01vOzwvSikHFswuzleh\r\n  ps4pnSessions: 1\r\n  ps4pnPresence: 1\r\n  ps4pnFriends: 1\r\n  ps4pnGameCustomData: 1\r\n  playerPrefsSupport: 0\r\n  enableApplicationExit: 0\r\n  resetTempFolder: 1\r\n  restrictedAudioUsageRights: 0\r\n  ps4UseResolutionFallback: 0\r\n  ps4ReprojectionSupport: 0\r\n  ps4UseAudio3dBackend: 0\r\n  ps4UseLowGarlicFragmentationMode: 1\r\n  ps4SocialScreenEnabled: 0\r\n  ps4ScriptOptimizationLevel: 2\r\n  ps4Audio3dVirtualSpeakerCount: 14\r\n  ps4attribCpuUsage: 0\r\n  ps4PatchPkgPath: \r\n  ps4PatchLatestPkgPath: \r\n  ps4PatchChangeinfoPath: \r\n  ps4PatchDayOne: 0\r\n  ps4attribUserManagement: 0\r\n  ps4attribMoveSupport: 0\r\n  ps4attrib3DSupport: 0\r\n  ps4attribShareSupport: 0\r\n  ps4attribExclusiveVR: 0\r\n  ps4disableAutoHideSplash: 0\r\n  ps4videoRecordingFeaturesUsed: 0\r\n  ps4contentSearchFeaturesUsed: 0\r\n  ps4CompatibilityPS5: 0\r\n  ps4AllowPS5Detection: 0\r\n  ps4GPU800MHz: 1\r\n  ps4attribEyeToEyeDistanceSettingVR: 0\r\n  ps4IncludedModules: []\r\n  ps4attribVROutputEnabled: 0\r\n  monoEnv: \r\n  splashScreenBackgroundSourceLandscape: {fileID: 0}\r\n  splashScreenBackgroundSourcePortrait: {fileID: 0}\r\n  blurSplashScreenBackground: 1\r\n  spritePackerPolicy: \r\n  webGLMemorySize: 32\r\n  webGLExceptionSupport: 1\r\n  webGLNameFilesAsHashes: 0\r\n  webGLShowDiagnostics: 0\r\n  webGLDataCaching: 1\r\n  webGLDebugSymbols: 0\r\n  webGLEmscriptenArgs: \r\n  webGLModulesDirectory: \r\n  webGLTemplate: APPLICATION:Default\r\n  webGLAnalyzeBuildSize: 0\r\n  webGLUseEmbeddedResources: 0\r\n  webGLCompressionFormat: 0\r\n  webGLWasmArithmeticExceptions: 0\r\n  webGLLinkerTarget: 1\r\n  webGLThreadsSupport: 0\r\n  webGLDecompressionFallback: 0\r\n  webGLInitialMemorySize: 32\r\n  webGLMaximumMemorySize: 2048\r\n  webGLMemoryGrowthMode: 2\r\n  webGLMemoryLinearGrowthStep: 16\r\n  webGLMemoryGeometricGrowthStep: 0.2\r\n  webGLMemoryGeometricGrowthCap: 96\r\n  webGLPowerPreference: 2\r\n  scriptingDefineSymbols: {}\r\n  additionalCompilerArguments: {}\r\n  platformArchitecture: {}\r\n  scriptingBackend: {}\r\n  il2cppCompilerConfiguration: {}\r\n  il2cppCodeGeneration: {}\r\n  managedStrippingLevel:\r\n    EmbeddedLinux: 1\r\n    GameCoreScarlett: 1\r\n    GameCoreXboxOne: 1\r\n    Nintendo Switch: 1\r\n    PS4: 1\r\n    PS5: 1\r\n    QNX: 1\r\n    Stadia: 1\r\n    VisionOS: 1\r\n    WebGL: 1\r\n    Windows Store Apps: 1\r\n    XboxOne: 1\r\n    iPhone: 1\r\n    tvOS: 1\r\n  incrementalIl2cppBuild: {}\r\n  suppressCommonWarnings: 1\r\n  allowUnsafeCode: 0\r\n  useDeterministicCompilation: 1\r\n  additionalIl2CppArgs: \r\n  scriptingRuntimeVersion: 1\r\n  gcIncremental: 1\r\n  gcWBarrierValidation: 0\r\n  apiCompatibilityLevelPerPlatform: {}\r\n  m_RenderingPath: 1\r\n  m_MobileRenderingPath: 1\r\n  metroPackageName: TemplateProject\r\n  metroPackageVersion: \r\n  metroCertificatePath: \r\n  metroCertificatePassword: \r\n  metroCertificateSubject: \r\n  metroCertificateIssuer: \r\n  metroCertificateNotAfter: 0000000000000000\r\n  metroApplicationDescription: TemplateProject\r\n  wsaImages: {}\r\n  metroTileShortName: \r\n  metroTileShowName: 0\r\n  metroMediumTileShowName: 0\r\n  metroLargeTileShowName: 0\r\n  metroWideTileShowName: 0\r\n  metroSupportStreamingInstall: 0\r\n  metroLastRequiredScene: 0\r\n  metroDefaultTileSize: 1\r\n  metroTileForegroundText: 2\r\n  metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}\r\n  metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628, a: 1}\r\n  metroSplashScreenUseBackgroundColor: 0\r\n  syncCapabilities: 0\r\n  platformCapabilities: {}\r\n  metroTargetDeviceFamilies: {}\r\n  metroFTAName: \r\n  metroFTAFileTypes: []\r\n  metroProtocolName: \r\n  vcxProjDefaultLanguage: \r\n  XboxOneProductId: \r\n  XboxOneUpdateKey: \r\n  XboxOneSandboxId: \r\n  XboxOneContentId: \r\n  XboxOneTitleId: \r\n  XboxOneSCId: \r\n  XboxOneGameOsOverridePath: \r\n  XboxOnePackagingOverridePath: \r\n  XboxOneAppManifestOverridePath: \r\n  XboxOneVersion: 1.0.0.0\r\n  XboxOnePackageEncryption: 0\r\n  XboxOnePackageUpdateGranularity: 2\r\n  XboxOneDescription: \r\n  XboxOneLanguage:\r\n  - enus\r\n  XboxOneCapability: []\r\n  XboxOneGameRating: {}\r\n  XboxOneIsContentPackage: 0\r\n  XboxOneEnhancedXboxCompatibilityMode: 0\r\n  XboxOneEnableGPUVariability: 1\r\n  XboxOneSockets: {}\r\n  XboxOneSplashScreen: {fileID: 0}\r\n  XboxOneAllowedProductIds: []\r\n  XboxOnePersistentLocalStorageSize: 0\r\n  XboxOneXTitleMemory: 8\r\n  XboxOneOverrideIdentityName: \r\n  XboxOneOverrideIdentityPublisher: \r\n  vrEditorSettings: {}\r\n  cloudServicesEnabled: {}\r\n  luminIcon:\r\n    m_Name: \r\n    m_ModelFolderPath: \r\n    m_PortalFolderPath: \r\n  luminCert:\r\n    m_CertPath: \r\n    m_SignPackage: 1\r\n  luminIsChannelApp: 0\r\n  luminVersion:\r\n    m_VersionCode: 1\r\n    m_VersionName: \r\n  hmiPlayerDataPath: \r\n  hmiForceSRGBBlit: 1\r\n  embeddedLinuxEnableGamepadInput: 1\r\n  hmiLogStartupTiming: 0\r\n  hmiCpuConfiguration: \r\n  apiCompatibilityLevel: 6\r\n  activeInputHandler: 0\r\n  windowsGamepadBackendHint: 0\r\n  cloudProjectId: 8cf89937-d5f7-477f-ac84-262b6ee27570\r\n  framebufferDepthMemorylessMode: 0\r\n  qualitySettingsNames: []\r\n  projectName: TemplateProject\r\n  organizationId: trongthptdqh\r\n  cloudEnabled: 0\r\n  legacyClampBlendShapeWeights: 0\r\n  hmiLoadingImage: {fileID: 0}\r\n  platformRequiresReadableAssets: 0\r\n  virtualTexturingSupportEnabled: 0\r\n  insecureHttpOption: 0\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ProjectSettings/ProjectSettings.asset b/ProjectSettings/ProjectSettings.asset
+--- a/ProjectSettings/ProjectSettings.asset	(revision fba5e82632af07b549ecd5c7b2bd93eb78f8d5a1)
++++ b/ProjectSettings/ProjectSettings.asset	(date 1720322362448)
+@@ -3,7 +3,7 @@
+ --- !u!129 &1
+ PlayerSettings:
+   m_ObjectHideFlags: 0
+-  serializedVersion: 26
++  serializedVersion: 24
+   productGUID: 3accb08ae1524f44a9a5f53490b13008
+   AndroidProfiler: 0
+   AndroidFilterTouchesWhenObscured: 0
+@@ -49,15 +49,14 @@
+   m_StereoRenderingPath: 0
+   m_ActiveColorSpace: 1
+   unsupportedMSAAFallback: 0
+-  m_SpriteBatchVertexThreshold: 300
+   m_MTRendering: 1
+   mipStripping: 0
+   numberOfMipsStripped: 0
+-  numberOfMipsStrippedPerMipmapLimitGroup: {}
+   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
+   iosShowActivityIndicatorOnLoading: -1
+   androidShowActivityIndicatorOnLoading: -1
+   iosUseCustomAppBackgroundBehavior: 0
++  iosAllowHTTPDownload: 1
+   allowedAutorotateToPortrait: 1
+   allowedAutorotateToPortraitUpsideDown: 1
+   allowedAutorotateToLandscapeRight: 1
+@@ -76,7 +75,6 @@
+   androidMinimumWindowWidth: 400
+   androidMinimumWindowHeight: 300
+   androidFullscreenMode: 1
+-  androidAutoRotationBehavior: 1
+   defaultIsNativeResolution: 1
+   macRetinaSupport: 1
+   runInBackground: 0
+@@ -88,7 +86,6 @@
+   hideHomeButton: 0
+   submitAnalytics: 1
+   usePlayerLog: 1
+-  dedicatedServerOptimizations: 0
+   bakeCollisionMeshes: 0
+   forceSingleInstance: 0
+   useFlipModelSwapchain: 1
+@@ -123,11 +120,8 @@
+   switchNVNShaderPoolsGranularity: 33554432
+   switchNVNDefaultPoolsGranularity: 16777216
+   switchNVNOtherPoolsGranularity: 16777216
+-  switchGpuScratchPoolGranularity: 2097152
+-  switchAllowGpuScratchShrinking: 0
+   switchNVNMaxPublicTextureIDCount: 0
+   switchNVNMaxPublicSamplerIDCount: 0
+-  switchNVNGraphicsFirmwareMemory: 32
+   switchMaxWorkerMultiple: 8
+   stadiaPresentMode: 0
+   stadiaTargetFramerate: 0
+@@ -136,9 +130,12 @@
+   vulkanEnablePreTransform: 0
+   vulkanEnableLateAcquireNextImage: 0
+   vulkanEnableCommandBufferRecycling: 1
+-  loadStoreDebugModeEnabled: 0
+-  visionOSBundleVersion: 1.0
+-  tvOSBundleVersion: 1.0
++  m_SupportedAspectRatios:
++    4:3: 1
++    5:4: 1
++    16:10: 1
++    16:9: 1
++    Others: 1
+   bundleVersion: 1.0
+   preloadedAssets: []
+   metroInputSource: 0
+@@ -151,9 +148,8 @@
+   isWsaHolographicRemotingEnabled: 0
+   enableFrameTimingStats: 0
+   enableOpenGLProfilerGPURecorders: 1
+-  allowHDRDisplaySupport: 0
+   useHDRDisplay: 0
+-  hdrBitDepth: 0
++  D3DHDRBitDepth: 0
+   m_ColorGamuts: 00000000
+   targetPixelDensity: 30
+   resolutionScalingMode: 0
+@@ -182,15 +178,12 @@
+   APKExpansionFiles: 0
+   keepLoadedShadersAlive: 0
+   StripUnusedMeshComponents: 0
+-  strictShaderVariantMatching: 0
+   VertexChannelCompressionMask: 4054
+   iPhoneSdkVersion: 988
+   iOSTargetOSVersionString: 12.0
+   tvOSSdkVersion: 0
+   tvOSRequireExtendedGameController: 0
+   tvOSTargetOSVersionString: 12.0
+-  VisionOSSdkVersion: 0
+-  VisionOSTargetOSVersionString: 1.0
+   uIPrerenderedIcon: 0
+   uIRequiresPersistentWiFi: 0
+   uIRequiresFullScreen: 1
+@@ -233,16 +226,13 @@
+   iOSMetalForceHardShadows: 0
+   metalEditorSupport: 1
+   metalAPIValidation: 1
+-  metalCompileShaderBinary: 0
+   iOSRenderExtraFrameOnPause: 0
+   iosCopyPluginsCodeInsteadOfSymlink: 0
+   appleDeveloperTeamID: 
+   iOSManualSigningProvisioningProfileID: 
+   tvOSManualSigningProvisioningProfileID: 
+-  VisionOSManualSigningProvisioningProfileID: 
+   iOSManualSigningProvisioningProfileType: 0
+   tvOSManualSigningProvisioningProfileType: 0
+-  VisionOSManualSigningProvisioningProfileType: 0
+   appleEnableAutomaticSigning: 0
+   iOSRequireARKit: 0
+   iOSAutomaticallyDetectAndAddCapabilities: 1
+@@ -257,7 +247,6 @@
+   useCustomLauncherGradleManifest: 0
+   useCustomBaseGradleTemplate: 0
+   useCustomGradlePropertiesTemplate: 0
+-  useCustomGradleSettingsTemplate: 0
+   useCustomProguardFile: 0
+   AndroidTargetArchitectures: 1
+   AndroidTargetDevices: 0
+@@ -265,7 +254,6 @@
+   androidSplashScreen: {fileID: 0}
+   AndroidKeystoreName: 
+   AndroidKeyaliasName: 
+-  AndroidEnableArmv9SecurityFeatures: 0
+   AndroidBuildApkPerCpuArchitecture: 0
+   AndroidTVCompatibility: 0
+   AndroidIsGame: 1
+@@ -279,6 +267,7 @@
+     banner: {fileID: 0}
+   androidGamepadSupportLevel: 0
+   chromeosInputEmulation: 1
++  AndroidMinifyWithR8: 0
+   AndroidMinifyRelease: 0
+   AndroidMinifyDebug: 0
+   AndroidValidateAppBundleSize: 1
+@@ -523,9 +512,7 @@
+     iPhone: 1
+     tvOS: 1
+   m_BuildTargetGroupLightmapEncodingQuality: []
+-  m_BuildTargetGroupHDRCubemapEncodingQuality: []
+   m_BuildTargetGroupLightmapSettings: []
+-  m_BuildTargetGroupLoadStoreDebugModeSettings: []
+   m_BuildTargetNormalMapEncoding: []
+   m_BuildTargetDefaultTextureCompressionFormat:
+   - m_BuildTarget: Android
+@@ -540,7 +527,6 @@
+   locationUsageDescription: 
+   microphoneUsageDescription: 
+   bluetoothUsageDescription: 
+-  macOSTargetOSVersion: 10.13.0
+   switchNMETAOverride: 
+   switchNetLibKey: 
+   switchSocketMemoryPoolSize: 6144
+@@ -552,7 +538,6 @@
+   switchLTOSetting: 0
+   switchApplicationID: 0x01004b9000490000
+   switchNSODependencies: 
+-  switchCompilerFlags: 
+   switchTitleNames_0: 
+   switchTitleNames_1: 
+   switchTitleNames_2: 
+@@ -767,7 +752,6 @@
+   webGLMemorySize: 32
+   webGLExceptionSupport: 1
+   webGLNameFilesAsHashes: 0
+-  webGLShowDiagnostics: 0
+   webGLDataCaching: 1
+   webGLDebugSymbols: 0
+   webGLEmscriptenArgs: 
+@@ -780,19 +764,29 @@
+   webGLLinkerTarget: 1
+   webGLThreadsSupport: 0
+   webGLDecompressionFallback: 0
+-  webGLInitialMemorySize: 32
+-  webGLMaximumMemorySize: 2048
+-  webGLMemoryGrowthMode: 2
+-  webGLMemoryLinearGrowthStep: 16
+-  webGLMemoryGeometricGrowthStep: 0.2
+-  webGLMemoryGeometricGrowthCap: 96
+   webGLPowerPreference: 2
+-  scriptingDefineSymbols: {}
++  scriptingDefineSymbols:
++    Android: DOTWEEN;UNIT_DI;UNIT_ZENJECT
++    EmbeddedLinux: DOTWEEN
++    GameCoreScarlett: DOTWEEN
++    GameCoreXboxOne: DOTWEEN
++    LinuxHeadlessSimulation: DOTWEEN
++    Nintendo Switch: DOTWEEN
++    PS4: DOTWEEN
++    PS5: DOTWEEN
++    QNX: DOTWEEN
++    Stadia: DOTWEEN
++    Standalone: DOTWEEN
++    VisionOS: DOTWEEN
++    WebGL: DOTWEEN
++    Windows Store Apps: DOTWEEN
++    XboxOne: DOTWEEN
++    iPhone: DOTWEEN
++    tvOS: DOTWEEN
+   additionalCompilerArguments: {}
+   platformArchitecture: {}
+   scriptingBackend: {}
+   il2cppCompilerConfiguration: {}
+-  il2cppCodeGeneration: {}
+   managedStrippingLevel:
+     EmbeddedLinux: 1
+     GameCoreScarlett: 1
+@@ -812,9 +806,11 @@
+   suppressCommonWarnings: 1
+   allowUnsafeCode: 0
+   useDeterministicCompilation: 1
++  enableRoslynAnalyzers: 1
+   additionalIl2CppArgs: 
+   scriptingRuntimeVersion: 1
+   gcIncremental: 1
++  assemblyVersionValidation: 1
+   gcWBarrierValidation: 0
+   apiCompatibilityLevelPerPlatform: {}
+   m_RenderingPath: 1
+@@ -840,7 +836,6 @@
+   metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}
+   metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628, a: 1}
+   metroSplashScreenUseBackgroundColor: 0
+-  syncCapabilities: 0
+   platformCapabilities: {}
+   metroTargetDeviceFamilies: {}
+   metroFTAName: 
+@@ -887,11 +882,6 @@
+   luminVersion:
+     m_VersionCode: 1
+     m_VersionName: 
+-  hmiPlayerDataPath: 
+-  hmiForceSRGBBlit: 1
+-  embeddedLinuxEnableGamepadInput: 1
+-  hmiLogStartupTiming: 0
+-  hmiCpuConfiguration: 
+   apiCompatibilityLevel: 6
+   activeInputHandler: 0
+   windowsGamepadBackendHint: 0
+@@ -902,7 +892,6 @@
+   organizationId: trongthptdqh
+   cloudEnabled: 0
+   legacyClampBlendShapeWeights: 0
+-  hmiLoadingImage: {fileID: 0}
+-  platformRequiresReadableAssets: 0
++  playerDataPath: 
++  forceSRGBBlit: 1
+   virtualTexturingSupportEnabled: 0
+-  insecureHttpOption: 0
+Index: ProjectSettings/ProjectVersion.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>m_EditorVersion: 2022.3.32f1\r\nm_EditorVersionWithRevision: 2022.3.32f1 (c8300dc0a3fa)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ProjectSettings/ProjectVersion.txt b/ProjectSettings/ProjectVersion.txt
+--- a/ProjectSettings/ProjectVersion.txt	(revision fba5e82632af07b549ecd5c7b2bd93eb78f8d5a1)
++++ b/ProjectSettings/ProjectVersion.txt	(date 1720320757353)
+@@ -1,2 +1,2 @@
+-m_EditorVersion: 2022.3.32f1
+-m_EditorVersionWithRevision: 2022.3.32f1 (c8300dc0a3fa)
++m_EditorVersion: 2021.3.32f1
++m_EditorVersionWithRevision: 2021.3.32f1 (3b9dae9532f5)

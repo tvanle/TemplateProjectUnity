@@ -1,10 +1,12 @@
-﻿namespace UniData.Scripts
+﻿namespace GDK_TrongLe.UniData.Scripts
 {
     using System;
-    using UniData.Scripts.Interface;
-    using UniData.Scripts.Manager;
-    using UniData.Scripts.Signal;
-    using UniData.Scripts.UserData;
+    using GDK_TrongLe.UniCore.Extension;
+    using GDK_TrongLe.UniData.Scripts.Interface;
+    using GDK_TrongLe.UniData.Scripts.Manager;
+    using GDK_TrongLe.UniData.Scripts.Signal;
+    using GDK_TrongLe.UniData.Scripts.UserData;
+    using Zenject;
 
     public class UniDataInstaller : Installer<UniDataInstaller>
     {

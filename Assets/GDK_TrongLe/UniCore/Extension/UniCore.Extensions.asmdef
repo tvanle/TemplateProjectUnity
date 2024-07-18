@@ -2,6 +2,7 @@
   "name": "UniCore.Extensions",
   "rootNamespace": "",
   "references": [
+    "Zenject"
   ],
   "includePlatforms": [],
   "excludePlatforms": [],

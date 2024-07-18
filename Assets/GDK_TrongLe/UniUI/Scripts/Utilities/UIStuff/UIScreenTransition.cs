@@ -1,4 +1,4 @@
-﻿namespace UniUI.Scripts.Utilities.UIStuff
+﻿namespace GDK_TrongLe.UniUI.Scripts.Utilities.UIStuff
 {
     using Cysharp.Threading.Tasks;
     using UnityEngine;

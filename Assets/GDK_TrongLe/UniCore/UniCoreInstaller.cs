@@ -1,6 +1,6 @@
-﻿namespace UniCore.Installer
+﻿namespace GDK_TrongLe.UniCore
 {
-    using UniCore.AssetLibrary;
+    using GDK_TrongLe.UniCore.AssetLibrary.Scripts;
     using Zenject;
 
     public class UniCoreInstaller : Installer<UniCoreInstaller>

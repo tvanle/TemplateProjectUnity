@@ -1,12 +1,9 @@
-﻿namespace UniUI.Scripts.BaseScreen.Presenter
+﻿namespace GDK_TrongLe.UniUI.Scripts.BaseScreen.Presenter
 {
     using System;
     using Cysharp.Threading.Tasks;
+    using GDK_TrongLe.UniUI.Scripts.BaseScreen.View;
     using UnityEngine;
-    using UnityEngine.SceneManagement;
-    using UniUI.Scripts.BaseScreen.View;
-    using UniUI.Scripts.BaseUI;
-    using Zenject;
 
     public abstract class BaseScreenPresenter<TView> : IScreenPresenter where TView : IScreenView
     {

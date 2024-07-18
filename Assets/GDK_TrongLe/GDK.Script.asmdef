@@ -4,8 +4,9 @@
     "references": [
         "UniTask",
         "UniData.Script",
-        "UniUI.Script"
-        
+        "UniUI.Script",
+        "UniCore.Script",
+        "Zenject"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

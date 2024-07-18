@@ -1,16 +1,16 @@
-namespace UniUI.Scripts.Demos
+namespace GDK_TrongLe.UniUI.Scripts.Demos
 {
     using Cysharp.Threading.Tasks;
     using DG.Tweening;
+    using GDK_TrongLe.UniCore.AssetLibrary.Scripts;
+    using GDK_TrongLe.UniUI.Scripts.BaseScreen.Presenter;
+    using GDK_TrongLe.UniUI.Scripts.BaseScreen.View;
     using TMPro;
-    using UniCore.AssetLibrary;
     using UnityEngine;
     using UnityEngine.ResourceManagement.AsyncOperations;
     using UnityEngine.ResourceManagement.ResourceProviders;
     using UnityEngine.SceneManagement;
     using UnityEngine.UI;
-    using UniUI.Scripts.BaseScreen.Presenter;
-    using UniUI.Scripts.BaseScreen.View;
 
     public class UITemplateLoadingScreenView : BaseView
     {
@@ -52,6 +52,10 @@ namespace UniUI.Scripts.Demos
     [ScreenInfo(nameof(UITemplateLoadingScreenView))]
     public class UITemplateLoadingScreenPresenter : BaseScreenPresenter<UITemplateLoadingScreenView>
     {
+        private readonly IGameAssets gameAssets;
+
+        public UITemplateLoadingScreenPresenter(IGameAssets gameAssets) { this.gameAssets = gameAssets; }
+        
         protected IGameAssets GameAssets;
         private   float       loadingProgress;
         private   int         loadingSteps;
@@ -71,7 +75,6 @@ namespace UniUI.Scripts.Demos
 
         protected override async void OnViewReady()
         {
-            this.GameAssets = ObjectFactoryExtension.GetService<GameAssets>();
             base.OnViewReady();
 
             this.objectPoolContainer = new GameObject(nameof(this.objectPoolContainer));

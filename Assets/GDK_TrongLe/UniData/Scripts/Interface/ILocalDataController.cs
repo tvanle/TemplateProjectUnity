@@ -1,4 +1,4 @@
-﻿namespace UniData.Scripts.Interface
+﻿namespace GDK_TrongLe.UniData.Scripts.Interface
 {
     public interface ILocalDataController
     {

@@ -1,4 +1,4 @@
-namespace UniCore.Extension
+namespace GDK_TrongLe.UniCore.Extension
 {
     using System;
     using System.Collections.Generic;

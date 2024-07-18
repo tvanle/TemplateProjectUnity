@@ -1,4 +1,4 @@
-﻿namespace UniCore.Scripts.AssetLibrary
+﻿namespace GDK_TrongLe.UniCore.AssetLibrary.Scripts
 {
     using System;
     using System.Collections.Generic;

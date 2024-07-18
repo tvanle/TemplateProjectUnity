@@ -1,17 +1,28 @@
 {
-  "name": "UniUI.Script",
-  "rootNamespace": "",
-  "references": [
-    "UniTask",
-    "UniCore.AssetLibary"
-  ],
-  "includePlatforms": [],
-  "excludePlatforms": [],
-  "allowUnsafeCode": false,
-  "overrideReferences": false,
-  "precompiledReferences": [],
-  "autoReferenced": true,
-  "defineConstraints": [],
-  "versionDefines": [],
-  "noEngineReferences": false
+    "name": "UniUI.Script",
+    "rootNamespace": "",
+    "references": [
+        "UniTask",
+        "UniCore.AssetLibary",
+        "UniTask.Addressables",
+        "Unity.ResourceManager",
+        "Unity.TextMeshPro",
+        "Unity.Addressables",
+        "UniCore.Extensions",
+        "Dotween.Modules",
+        "Zenject",
+        "UniTask.DOTween"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "DOTween.dll",
+        "Zenject-usage.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

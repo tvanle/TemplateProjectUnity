@@ -1,4 +1,4 @@
-namespace UniUI.Scripts.Installer
+namespace GDK_TrongLe.UniUI.Scripts
 {
     using Zenject;
 

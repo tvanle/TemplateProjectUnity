@@ -1,8 +1,8 @@
-namespace UniData.Scripts.UserData
+namespace GDK_TrongLe.UniData.Scripts.UserData
 {
     using System;
     using Cysharp.Threading.Tasks;
-    using UniData.Scripts.Interface;
+    using GDK_TrongLe.UniData.Scripts.Interface;
 
     public interface IHandleUserDataServices
     {

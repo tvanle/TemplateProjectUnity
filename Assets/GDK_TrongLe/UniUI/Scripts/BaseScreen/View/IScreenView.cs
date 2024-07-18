@@ -1,9 +1,9 @@
-namespace UniUI.Scripts.BaseScreen.View
+namespace GDK_TrongLe.UniUI.Scripts.BaseScreen.View
 {
     using System;
     using Cysharp.Threading.Tasks;
+    using global::UniUI.Scripts.BaseUI;
     using UnityEngine;
-    using UniUI.Scripts.BaseUI;
 
     public interface IScreenView : IUIView
     {

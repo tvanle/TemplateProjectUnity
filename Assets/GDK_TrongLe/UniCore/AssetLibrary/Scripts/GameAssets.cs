@@ -1,4 +1,4 @@
-﻿namespace UniCore.Scripts.AssetLibrary
+﻿namespace GDK_TrongLe.UniCore.AssetLibrary.Scripts
 {
     using System;
     using System.Collections;
@@ -10,8 +10,6 @@
     using UnityEngine.ResourceManagement.AsyncOperations;
     using UnityEngine.ResourceManagement.ResourceProviders;
     using UnityEngine.SceneManagement;
-    using Object = UnityEngine.Object;
-
 
     public interface IGameAssets
     {

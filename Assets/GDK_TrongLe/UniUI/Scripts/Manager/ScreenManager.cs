@@ -1,17 +1,18 @@
-﻿namespace UniUI.Scripts.Manager
+﻿namespace GDK_TrongLe.UniUI.Scripts.Manager
 {
     using System;
+    using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
-    using System.Collections.Generic;
     using Cysharp.Threading.Tasks;
-    using UniCore.AssetLibrary;
-    using UniCore.Extension;
+    using GDK_TrongLe.UniCore.AssetLibrary.Scripts;
+    using GDK_TrongLe.UniCore.Extension;
+    using GDK_TrongLe.UniUI.Scripts.BaseScreen.Presenter;
+    using GDK_TrongLe.UniUI.Scripts.BaseScreen.View;
     using UnityEngine;
-    using UniUI.Scripts.BaseScreen.Presenter;
-    using UniUI.Scripts.BaseScreen.View;
+    using Zenject;
 
-     public interface IScreenManager
+    public interface IScreenManager
     {
         /// <summary>
         /// Get instance of a screen

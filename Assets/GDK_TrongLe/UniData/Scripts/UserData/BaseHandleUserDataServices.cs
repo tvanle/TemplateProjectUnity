@@ -1,12 +1,12 @@
-namespace UniData.Scripts.UserData
+namespace GDK_TrongLe.UniData.Scripts.UserData
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using Cysharp.Threading.Tasks;
+    using GDK_TrongLe.UniCore.Extension;
+    using GDK_TrongLe.UniData.Scripts.Interface;
     using Newtonsoft.Json;
-    using UITemplate.Scripts.Extension.Ulties;
-    using UniData.Scripts.Interface;
     using UnityEngine;
 
     public abstract class BaseHandleUserDataServices : IHandleUserDataServices

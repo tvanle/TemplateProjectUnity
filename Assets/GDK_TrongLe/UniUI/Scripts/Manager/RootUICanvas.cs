@@ -1,4 +1,4 @@
-﻿namespace UniUI.Scripts.Manager
+﻿namespace GDK_TrongLe.UniUI.Scripts.Manager
 {
     using UnityEngine;
 

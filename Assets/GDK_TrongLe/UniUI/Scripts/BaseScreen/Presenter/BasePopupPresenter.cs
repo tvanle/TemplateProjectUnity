@@ -1,10 +1,9 @@
-﻿namespace UniUI.Scripts.BaseScreen.Presenter
+﻿namespace GDK_TrongLe.UniUI.Scripts.BaseScreen.Presenter
 {
     using System;
     using Cysharp.Threading.Tasks;
+    using GDK_TrongLe.UniUI.Scripts.BaseScreen.View;
     using UnityEngine;
-    using UniUI.Scripts.BaseScreen.View;
-    using Zenject;
 
     public abstract class BasePopupPresenter<TView> : IScreenPresenter where TView : IScreenView
     {
