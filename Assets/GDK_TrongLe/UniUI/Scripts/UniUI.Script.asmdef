@@ -1,0 +1,17 @@
+{
+  "name": "UniUI.Script",
+  "rootNamespace": "",
+  "references": [
+    "UniTask",
+    "UniCore.AssetLibary"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

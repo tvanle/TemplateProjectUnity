@@ -1,0 +1,23 @@
+{
+  "name": "UniData.Script",
+  "rootNamespace": "",
+  "references": [
+    "Zenject",
+    "UniTask",
+    "Unity.TextMeshPro",
+    "Unity.ResourceManager",
+    "Unity.Addressables",
+    "UniTask.Addressables",
+    "UniCore.Script",
+    "UniCore.Extensions"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

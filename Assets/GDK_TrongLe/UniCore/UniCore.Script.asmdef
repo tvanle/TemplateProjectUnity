@@ -1,0 +1,16 @@
+{
+    "name": "UniCore.Script",
+    "rootNamespace": "",
+    "references": [
+        "UniCore.AssetLibary"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

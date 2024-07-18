@@ -1,0 +1,19 @@
+{
+    "name": "GDK.Script",
+    "rootNamespace": "",
+    "references": [
+        "UniTask",
+        "UniData.Script",
+        "UniUI.Script"
+        
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
