@@ -5,6 +5,7 @@
     using UnityEngine.EventSystems;
     using UnityEngine.Playables;
 
+    [RequireComponent(typeof(CanvasGroup))]
     public class UIScreenTransition : MonoBehaviour
     {
         [SerializeField] private PlayableDirector introAnimation;
