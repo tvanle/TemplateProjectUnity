@@ -5,54 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdea3b60-c858-424d-9249-98c6fa7d5bfd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/Dotween.Modules.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/Dotween.Modules.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/GDK.Script.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/GDK.Script.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/GDKInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/GDKInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/AssetLibrary/Scripts/GameAssets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/AssetLibrary/Scripts/GameAssets.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/AssetLibrary/Scripts/LoadAssetsByLabelOperation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/AssetLibrary/Scripts/LoadAssetsByLabelOperation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/AssetLibrary/Scripts/UniCore.AssetLibary.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/AssetLibrary/Scripts/UniCore.AssetLibary.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/DictionaryExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/DictionaryExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/EnumerableExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/EnumerableExtension.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/IterTools.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/IterTools.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/ReflectionUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/ReflectionUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/TupleExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/TupleExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/TypeExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/TypeExtension.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/UniCore.Extensions.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/UniCore.Extensions.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/ZenjectUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/ZenjectUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/UniCore.Script.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/UniCore.Script.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/UniCoreInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/UniCoreInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/Interface/ILocalData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/Interface/ILocalData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/Interface/ILocalDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/Interface/ILocalDataController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/Manager/UserDataManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/Manager/UserDataManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/Signal/UserDataLoadedSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/Signal/UserDataLoadedSignal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/UniDataInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/UniDataInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/UserData/BaseHandleUserDataServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/UserData/BaseHandleUserDataServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/UserData/HandleUserDataServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/UserData/HandleUserDataServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/UserData/IHandleUserDataServives.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/UserData/IHandleUserDataServives.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/Model/IScreenModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/Model/IScreenModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/Presenter/BasePopupPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/Presenter/BasePopupPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/Presenter/BaseScreenPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/Presenter/BaseScreenPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/Presenter/IScreenPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/Presenter/IScreenPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/Presenter/ScreenInfoAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/Presenter/ScreenInfoAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/View/BaseView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/View/BaseView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/View/IScreenView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/View/IScreenView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseUI/IUIPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseUI/IUIPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Demos/UITemplateLoadingScreenView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Demos/UITemplateLoadingScreenView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Manager/RootUICanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Manager/RootUICanvas.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Manager/ScreenManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Manager/ScreenManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/UniUI.Script.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/UniUI.Script.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/UniUIInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/UniUIInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Manager/BaseSceneInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Manager/BaseSceneInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Utilities/CameraStacker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Utilities/CameraStacker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Utilities/ScaleScreenRatio.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Utilities/ScaleScreenRatio.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Utilities/UIStuff/AnimationButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Utilities/UIStuff/AnimationButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Utilities/UIStuff/SafeArea.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/0.LoadingScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/1.MainScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GamePlay.Script.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GamePlay.Script.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes/LoadingScene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes/LoadingScene/LoadingSceneInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes/LoadingScene/LoadingSceneInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes/MainScene.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Prefabs/Base/HyperCasualRootUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Prefabs/Base/HyperCasualRootUI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Prefabs/Base/HyperCasualUIBasePopup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Prefabs/Base/HyperCasualUIBasePopup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Prefabs/Base/HyperCasualUIBaseScreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Prefabs/Base/HyperCasualUIBaseScreen.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Utilities/UIStuff/UIScreenTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Utilities/UIStuff/UIScreenTransition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.XML" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.XML.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1.MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/0.LoadingScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +93,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTaskTrackerWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/UniTask.WaitUntil.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Install/CompositeInstallerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Internal/Assert.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Zenject.asmdef" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMP_PackageUtilities.cs" root0="SKIP_HIGHLIGHTING" />
@@ -206,6 +189,7 @@
       <workItem from="1721228993007" duration="5810000" />
       <workItem from="1721261580668" duration="4855000" />
       <workItem from="1721316479441" duration="3178000" />
+      <workItem from="1721350169301" duration="474000" />
     </task>
     <task id="LOCAL-00001" summary="remove excessive folder, remove panel of dotween, add package audio git">
       <option name="closed" value="true" />
