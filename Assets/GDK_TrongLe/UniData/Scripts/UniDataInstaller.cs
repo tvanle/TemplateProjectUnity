@@ -2,6 +2,7 @@
 {
     using System;
     using GDK_TrongLe.UniCore.Extension;
+    using GDK_TrongLe.UniCore.SignalBus;
     using GDK_TrongLe.UniData.Scripts.Interface;
     using GDK_TrongLe.UniData.Scripts.Manager;
     using GDK_TrongLe.UniData.Scripts.Signal;

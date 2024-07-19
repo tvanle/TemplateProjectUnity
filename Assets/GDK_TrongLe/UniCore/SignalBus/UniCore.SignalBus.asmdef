@@ -1,16 +1,11 @@
 {
-  "name": "UniData.Script",
+  "name": "UniCore.SignalBus",
   "rootNamespace": "",
   "references": [
+    "MessagePipe",
+    "MessagePipe.Zenject",
     "Zenject",
-    "UniTask",
-    "Unity.TextMeshPro",
-    "Unity.ResourceManager",
-    "Unity.Addressables",
-    "UniTask.Addressables",
-    "UniCore.Script",
-    "UniCore.Extensions",
-    "UniCore.SignalBus"
+    "UniTask"
   ],
   "includePlatforms": [],
   "excludePlatforms": [],

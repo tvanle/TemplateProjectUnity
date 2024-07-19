@@ -7,6 +7,20 @@
       "dependencies": {},
       "hash": "6d93b0b5050443d4a9f71cd804afb0b2bbcb1386"
     },
+    "com.cysharp.messagepipe": {
+      "version": "1.8.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.cysharp.messagepipe.zenject": {
+      "version": "1.8.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.cysharp.unitask": {
       "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
       "depth": 0,

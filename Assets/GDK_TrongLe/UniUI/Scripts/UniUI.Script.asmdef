@@ -10,6 +10,7 @@
         "Unity.Addressables",
         "UniCore.Extensions",
         "Dotween.Modules",
+        "UniCore.SignalBus",
         "Zenject",
         "UniTask.DOTween"
     ],
