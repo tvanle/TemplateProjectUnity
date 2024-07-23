@@ -1,11 +1,13 @@
 namespace GDK_TrongLe.UniUI.Scripts.Manager
 {
     using System;
-    using UnityEditor;
-    using UnityEditor.SceneManagement;
     using UnityEngine;
     using UnityEngine.SceneManagement;
     using Zenject;
+#if UNITY_EDITOR
+    using UnityEditor;
+    using UnityEditor.SceneManagement;
+#endif
 
     /// <summary>
     ///     Every Mono Scene Installer will be inherited this class
@@ -17,11 +19,10 @@ namespace GDK_TrongLe.UniUI.Scripts.Manager
         /// </summary>
         [SerializeField] protected RootUICanvas rootUICanvas;
 
-        [Inject] private IScreenManager screenManager;
+        [Inject] protected IScreenManager screenManager;
 
         public override void InstallBindings()
         {
-            ///To do this should be setup automatically
             if (this.rootUICanvas == null) return;
             this.screenManager.RootUICanvas       = this.rootUICanvas;
             this.screenManager.CurrentRootScreen  = this.rootUICanvas.RootUIShowTransform;

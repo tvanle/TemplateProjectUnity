@@ -12,7 +12,7 @@ namespace GDK_TrongLe.UniUI.Scripts.Demos
     using UnityEngine.SceneManagement;
     using UnityEngine.UI;
 
-    public class UITemplateLoadingScreenView : BaseView
+    public class LoadingScreenView : BaseView
     {
         [SerializeField] private Slider          loadingSlider;
         [SerializeField] private TextMeshProUGUI loadingProgressTxt;
@@ -49,14 +49,13 @@ namespace GDK_TrongLe.UniUI.Scripts.Demos
         }
     }
 
-    [ScreenInfo(nameof(UITemplateLoadingScreenView))]
-    public class UITemplateLoadingScreenPresenter : BaseScreenPresenter<UITemplateLoadingScreenView>
+    [ScreenInfo(nameof(LoadingScreenView))]
+    public class LoadingScreenPresenter : BaseScreenPresenter<LoadingScreenView>
     {
-        private readonly IGameAssets gameAssets;
 
-        public UITemplateLoadingScreenPresenter(IGameAssets gameAssets) { this.gameAssets = gameAssets; }
-        
         protected IGameAssets GameAssets;
+        public LoadingScreenPresenter(IGameAssets gameAssets) { this.GameAssets = gameAssets; }
+        
         private   float       loadingProgress;
         private   int         loadingSteps;
         private   GameObject  objectPoolContainer;

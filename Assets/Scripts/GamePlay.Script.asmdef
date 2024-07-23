@@ -6,6 +6,10 @@
     "UniData.Script",
     "UniUI.Script",
     "UniCore.Script",
+    "UniCore.AssetLibary",
+    "UniCore.SignalBus",
+    "UniCore.Extensions",
+    "UniCore.StateMachine",
     "Zenject"
   ],
   "includePlatforms": [],

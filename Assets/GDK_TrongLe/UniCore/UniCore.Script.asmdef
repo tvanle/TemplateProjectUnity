@@ -3,7 +3,9 @@
     "rootNamespace": "",
     "references": [
         "UniCore.AssetLibary",
-        "Zenject"
+        "UniCore.SignalBus",
+        "Zenject",
+        "UniCore.Extensions"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

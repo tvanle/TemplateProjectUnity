@@ -1,7 +1,13 @@
 ﻿{
-  "name": "Dotween.Modules",
+  "name": "UniCore.ObjectPool",
   "rootNamespace": "",
   "references": [
+    "UniTask",
+    "UniTask.Addressables",
+    "Unity.ResourceManager",
+    "UniCore.Extensions",
+    "UniCore.AssetLibary",
+    "Zenject"
   ],
   "includePlatforms": [],
   "excludePlatforms": [],

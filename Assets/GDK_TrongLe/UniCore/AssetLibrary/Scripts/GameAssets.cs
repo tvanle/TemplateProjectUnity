@@ -47,6 +47,15 @@
         /// <param name="keys"></param>
         /// <returns></returns>
         List<AsyncOperationHandle<T>> PreloadAsync<T>(string targetScene = "", params object[] keys);
+
+        /// <summary>
+        /// </summary>
+        /// >
+        /// <param name="targetScene"> defaut is curren scene</param>
+        /// <param name="label">load all object is same lable</param>
+        /// >
+        /// <returns></returns>
+        UniTask PreloadAsyncByLabel<T>(string targetScene = "", string label = null);
         /// <summary>
         /// Load a single asset by key
         /// </summary>
@@ -318,7 +327,21 @@
 
             return keys.Select(o => this.LoadAssetAsync<T>(o, true, targetScene)).ToList();
         }
-        
+
+        /// <summary>
+        ///     Preload assets by label
+        ///     <param name="targetScene">default is current scene</param>
+        ///     <param name="label">load asset have same label </param>
+        ///     >
+        /// </summary>
+        public async UniTask PreloadAsyncByLabel<T>(string targetScene = "", string label = null)
+        {
+            if (string.IsNullOrEmpty(label)) throw new ArgumentNullException(nameof(label));
+
+            var keys = await this.GetAddressableKeysByLabels(label);
+
+            await UniTask.WhenAll(this.PreloadAsync<T>(targetScene, keys).Select(o => o.ToUniTask()));
+        }
 
         /// <summary>
         /// Load a single asset by key
@@ -339,6 +362,33 @@
         {
             this.CheckRuntimeKey(assetReference);
             return this.LoadAssetAsync<T>(assetReference.RuntimeKey, isAutoUnload);
+        }
+
+        /// <summary>
+        ///     Load all keys by label
+        ///     ///
+        /// </summary>
+        /// <param name="label"></param>
+        /// <returns></returns>
+        private async UniTask<string[]> GetAddressableKeysByLabels(string label)
+        {
+            var handle = Addressables
+                .LoadResourceLocationsAsync(label);
+            await handle.Task;
+
+            if (handle.Status == AsyncOperationStatus.Succeeded)
+            {
+                var locations = handle.Result;
+                var keys      = locations.Select(location => location.PrimaryKey).ToArray();
+                Addressables.Release(handle);
+
+                return keys;
+            }
+
+            Debug.LogError("Failed to load resource locations for group: " + label);
+            Addressables.Release(handle);
+
+            return Array.Empty<string>();
         }
         
         public void ReleaseAsset(object key)

@@ -1,5 +1,5 @@
 ﻿{
-  "name": "StateMachine.Script",
+  "name": "UniCore.StateMachine",
   "rootNamespace": "",
   "references": [
     "UniCore.SignalBus"
