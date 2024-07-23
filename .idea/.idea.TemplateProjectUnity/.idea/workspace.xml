@@ -5,55 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdea3b60-c858-424d-9249-98c6fa7d5bfd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/OtherExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/OtherExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/ObjectPool.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/ObjectPool/ObjectPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/ObjectPool/ObjectPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/ObjectPool/ObjectPoolExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/ObjectPool/ObjectPoolExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/ObjectPool/ObjectPoolManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/ObjectPool/ObjectPoolManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/ObjectPool/UniCore.ObjectPool.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/ObjectPool/UniCore.ObjectPool.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/Dotween.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/Dotween.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes/MainScene/MainSceneInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes/MainScene/MainSceneInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachineInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachineInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/Interface.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/Interface/IGameState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/Interface/IGameState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/States.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/States/BaseGameState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/States/BaseGameState.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/shelf/Uncommitted_changes_before_Update_at_7_12_2024_10_32_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/shelf/Uncommitted_changes_before_Update_at_7_12_2024_10_32_PM__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/DOTweenModuleExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/DOTweenModuleExtension.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/shelf/Uncommitted_changes_before_Update_at_7_12_2024_10_32_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/shelf/Uncommitted_changes_before_Update_at_7_12_2024_10_32_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/GDKInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/GDKInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/AssetLibrary/Scripts/GameAssets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/AssetLibrary/Scripts/GameAssets.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/AssetLibrary/Scripts/LoadAssetsByLabelOperation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/AssetLibrary/Scripts/LoadAssetsByLabelOperation.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/StateMachine/StateMachine.Script.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/StateMachine/UniCore.StateMachine.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/StateMachine/StateMachine.Script.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/StateMachine/UniCore.StateMachine.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/UniCore.Script.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/UniCore.Script.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/UniCoreInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/UniCoreInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Demos/UITemplateLoadingScreenView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Demos/LoadingScreenView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Demos/UITemplateLoadingScreenView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Demos/LoadingScreenView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Manager/BaseSceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Manager/BaseSceneInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/ObjectPool/UniCore.ObjectPool.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/ObjectPool/UniCore.ObjectPool.asmdef" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/UniUI.Script.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/UniUI.Script.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/UniUIInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/UniUIInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NuGet.config.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NuGet.config.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/Dotween.Modules.asmdef" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/Dotween.Modules.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/0.LoadingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/0.LoadingScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GamePlay.Script.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GamePlay.Script.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenes/LoadingScene/LoadingSceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes/LoadingScene/LoadingSceneInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
@@ -90,6 +49,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/af/a669e5f6/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/c0/1a3e9f2e/FieldInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/8a/503a5322/LoadSceneMode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82a2fd073ee449928e161903460426d72ae00/bf/f53c51a7/DOTween.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8a172039c50c4113a07e608ee3976ae2824c00/52/f01e4129/MenuItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dce28debe6614a5386ef7e0e16e9752d11400/da/a6145d37/DOTweenUtilityWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/f6083ebbe45944d79ff3178e25ed4ffe4000/bd/436ee22b/DOTweenPro.cs" root0="SKIP_HIGHLIGHTING" />
@@ -115,6 +75,8 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTask.Editor.asmdef" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTaskTrackerTreeView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTaskTrackerWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/External/DOTween/DOTweenAsyncExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/External/DOTween/UniTask.DOTween.asmdef" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/UniTask.WaitUntil.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/UniTask.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Install/CompositeInstallerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -126,7 +88,12 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/Util/DelayedActionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/Util/MonoBehaviourCallbackHooks.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ai.navigation@1.1.5/Editor/NavMeshAssetManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMP_PackageUtilities.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectColorInfo">{
@@ -161,7 +128,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -169,7 +136,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity" />
       <option name="PASS_PARENT_ENVS" value="1" />
