@@ -28,7 +28,7 @@
                 this.Container.Bind(type).FromInstance(data).AsCached();
             });
 
-            this.Container.Bind<UserDataManager>().AsCached();
+            this.Container.Bind<UserDataManager>().AsCached().NonLazy();
         }
 
         private void BindAllController()

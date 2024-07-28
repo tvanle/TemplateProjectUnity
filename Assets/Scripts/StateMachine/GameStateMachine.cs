@@ -5,7 +5,6 @@
     using GDK_TrongLe.UniCore.StateMachine.Controller;
     using GDK_TrongLe.UniCore.StateMachine.Interface;
     using StateMachine.States;
-    using UnityEngine;
     using Zenject;
 
     public class GameStateMachine : StateMachine, IInitializable
@@ -18,6 +17,6 @@
             });
         }
 
-        public void Initialize() { Debug.LogError("12"); }
+        public void Initialize() { }
     }
 }

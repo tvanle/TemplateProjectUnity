@@ -234,6 +234,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 715986244626839928, guid: b3adc4411aea510448aa235c2167cfca, type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2778682041501032736, guid: b3adc4411aea510448aa235c2167cfca, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -371,6 +375,6 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 519420032}
   - {fileID: 1117438562}
+  - {fileID: 519420032}
   - {fileID: 1417124775}

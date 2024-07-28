@@ -1,7 +1,7 @@
 ﻿namespace Scenes.LoadingScene
 {
-    using GDK_TrongLe.UniUI.Scripts.Demos;
     using GDK_TrongLe.UniUI.Scripts.Manager;
+    using UI.Loading;
 
     public class LoadingSceneInstaller : BaseSceneInstaller
     {

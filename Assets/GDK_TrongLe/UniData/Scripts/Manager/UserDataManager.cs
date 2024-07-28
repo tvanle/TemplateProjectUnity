@@ -28,14 +28,11 @@ namespace GDK_TrongLe.UniData.Scripts.Manager
         {
             var types = ReflectionUtils.GetAllDerivedTypes<ILocalData>().ToArray();
             var datas = await this.handleUserDataService.Load(types);
-            var dataCache =
-                (Dictionary<string, ILocalData>)typeof(BaseHandleUserDataServices).GetField("userDataCache", BindingFlags.Instance | BindingFlags.NonPublic)!.GetValue(this.handleUserDataService);
             IterTools.Zip(types, datas).ForEach((type, data) =>
             {
                 var boundData = this.container.Resolve(type);
 
                 data.CopyTo(boundData);
-                dataCache[BaseHandleUserDataServices.KeyOf(type)] = (ILocalData)boundData;
             });
             this.signalBus.Fire<UserDataLoadedSignal>();
         }

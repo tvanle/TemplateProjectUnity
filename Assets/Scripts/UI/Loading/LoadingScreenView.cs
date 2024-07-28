@@ -1,8 +1,9 @@
-namespace GDK_TrongLe.UniUI.Scripts.Demos
+namespace UI.Loading
 {
     using Cysharp.Threading.Tasks;
     using DG.Tweening;
     using GDK_TrongLe.UniCore.AssetLibrary.Scripts;
+    using GDK_TrongLe.UniData.Scripts.Manager;
     using GDK_TrongLe.UniUI.Scripts.BaseScreen.Presenter;
     using GDK_TrongLe.UniUI.Scripts.BaseScreen.View;
     using TMPro;
@@ -52,13 +53,20 @@ namespace GDK_TrongLe.UniUI.Scripts.Demos
     [ScreenInfo(nameof(LoadingScreenView))]
     public class LoadingScreenPresenter : BaseScreenPresenter<LoadingScreenView>
     {
+        private readonly UserDataManager userDataManager;
+        protected        IGameAssets     GameAssets;
 
-        protected IGameAssets GameAssets;
-        public LoadingScreenPresenter(IGameAssets gameAssets) { this.GameAssets = gameAssets; }
-        
-        private   float       loadingProgress;
-        private   int         loadingSteps;
-        private   GameObject  objectPoolContainer;
+        public LoadingScreenPresenter(
+            UserDataManager userDataManager,
+            IGameAssets gameAssets)
+        {
+            this.userDataManager = userDataManager;
+            this.GameAssets      = gameAssets;
+        }
+
+        private float      loadingProgress;
+        private int        loadingSteps;
+        private GameObject objectPoolContainer;
 
         protected virtual string NextSceneName => "1.MainScene";
 
@@ -101,11 +109,7 @@ namespace GDK_TrongLe.UniUI.Scripts.Demos
 
         protected virtual AsyncOperationHandle<SceneInstance> LoadSceneAsync() { return this.GameAssets.LoadSceneAsync(this.NextSceneName, LoadSceneMode.Single, false); }
 
-        private UniTask LoadUserData()
-        {
-            return UniTask.CompletedTask;
-            // return this.TrackProgress(this.userDataManager.LoadUserData());
-        }
+        private UniTask LoadUserData() { return this.TrackProgress(this.userDataManager.LoadUserData()); }
 
         protected virtual UniTask OnBlueprintLoaded() { return UniTask.CompletedTask; }
 

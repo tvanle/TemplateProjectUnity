@@ -2,6 +2,8 @@
   "name": "GamePlay.Script",
   "rootNamespace": "",
   "references": [
+    "Unity.TextMeshPro",
+    "Unity.Addressables",
     "UniTask",
     "UniData.Script",
     "UniUI.Script",
@@ -10,6 +12,9 @@
     "UniCore.SignalBus",
     "UniCore.Extensions",
     "UniCore.StateMachine",
+    "UniTask.Addressables",
+    "Unity.ResourceManager",
+    "UniTask.DOTween",
     "Zenject"
   ],
   "includePlatforms": [],
