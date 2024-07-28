@@ -4,13 +4,13 @@ namespace Data
 
     public class UserLocalData : ILocalData
     {
-        public int    Id   { get; set; }
-        public string Name { get; set; }
+        public int    Id;
+        public string Name;
 
         public void Init()
         {
-            this.Id   = 1;
-            this.Name = "Trong Le";
+            this.Id   = 5;
+            this.Name = "User";
         }
     }
 }

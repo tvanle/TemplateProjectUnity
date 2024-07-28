@@ -1,19 +1,23 @@
-namespace Data
+﻿namespace Data
 {
+    using Cysharp.Threading.Tasks;
     using GDK_TrongLe.UniData.Scripts.UserData;
+    using Unity.Plastic.Newtonsoft.Json;
     using UnityEngine;
     using Zenject;
 
     public class Test : MonoBehaviour
     {
-        [Inject] private UserLocalData           userLocalData;
+        [Inject] private DiContainer             diContainer;
         [Inject] private IHandleUserDataServices handleUserDataServices;
 
-        private void Awake()
+        private async void Awake()
         {
-            var x = this.userLocalData.Id;
-            var y = this.userLocalData.Name;
-            Debug.Log($"Id: {x}, Name: {y}");
+            var userLocalData = this.diContainer.Resolve<UserLocalData>();
+            await UniTask.Delay(1000);
+            Debug.Log(JsonConvert.SerializeObject(userLocalData));
+            var tmp = this.handleUserDataServices as HandleUserDataServices;
+            Debug.Log(tmp.UserDataCache);
         }
     }
 }

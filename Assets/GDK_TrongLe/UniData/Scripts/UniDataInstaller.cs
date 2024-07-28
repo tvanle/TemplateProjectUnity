@@ -13,7 +13,7 @@
     {
         public override void InstallBindings()
         {
-            this.Container.Bind<IHandleUserDataServices>().To<HandleLocalUserDataServices>().AsCached();
+            this.Container.Bind<IHandleUserDataServices>().To<HandleUserDataServices>().AsCached();
             this.Container.DeclareSignal<UserDataLoadedSignal>();
 
             this.BindLocalData();
