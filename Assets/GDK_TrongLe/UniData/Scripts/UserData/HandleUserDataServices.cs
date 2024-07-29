@@ -21,13 +21,13 @@ namespace GDK_TrongLe.UniData.Scripts.UserData
             ReferenceLoopHandling = ReferenceLoopHandling.Ignore
         };
 
-        public Dictionary<string, ILocalData> UserDataCache { get; } = new();
+        private readonly Dictionary<string, ILocalData> userDataCache = new();
 
         public async UniTask Save<T>(T data, bool force = false) where T : class, ILocalData
         {
             var key = KeyOf(typeof(T));
 
-            this.UserDataCache.TryAdd(key, data);
+            this.userDataCache.TryAdd(key, data);
 
             if (!force) return;
 
@@ -48,7 +48,7 @@ namespace GDK_TrongLe.UniData.Scripts.UserData
 
         private ILocalData InternalLoad(string key, string json, Type type)
         {
-            return this.UserDataCache.GetOrAdd(key, () =>
+            return this.userDataCache.GetOrAdd(key, () =>
             {
                 var result = string.IsNullOrEmpty(json)
                     ? Activator.CreateInstance(type)
@@ -75,7 +75,7 @@ namespace GDK_TrongLe.UniData.Scripts.UserData
 
         public async UniTask SaveAll()
         {
-            await this.SaveJsons(this.UserDataCache.Select(value =>
+            await this.SaveJsons(this.userDataCache.Select(value =>
             {
                 Debug.Log($"Saved {value.Key} {JsonConvert.SerializeObject(value.Value, JsonSetting)}");
 
