@@ -1,0 +1,53 @@
+﻿namespace GDK_TrongLe.UniCore.Extension
+{
+    using System.Collections.Generic;
+    using System.Linq;
+    using UnityEngine;
+
+    public static class ListExtension
+    {
+        public static T PopFirst<T>(this IList<T> t)
+        {
+            T element = t[0];
+            t.RemoveAt(0);
+
+            return element;
+        }
+
+        public static void PushFirst<T>(this IList<T> t, T element) { t.Insert(0, element); }
+
+        public static T PopLast<T>(this IList<T> t)
+        {
+            T element = t[t.Count - 1];
+            t.RemoveAt(t.Count - 1);
+
+            return element;
+        }
+
+        public static void PushLast<T>(this IList<T> t, T element) { t.Add(element); }
+
+        public static T PickRandom<T>(this IEnumerable<T> ie)
+        {
+            List<T> t = ie as List<T> ?? ie.ToList();
+            if (t.Count == 0)
+            {
+                Debug.LogError("Range is zero!");
+
+                return default(T);
+            }
+
+            return t[Random.Range(0, t.Count)];
+        }
+
+        public static bool TryAadd<T>(this IList<T> t, T element)
+        {
+            if(t.Contains(element))
+            {
+                return false;
+            }
+            t.Add(element);
+
+            return true;
+        }
+    }
+}
