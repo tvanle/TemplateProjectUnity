@@ -3,7 +3,7 @@
     "rootNamespace": "",
     "references": [
         "UniTask",
-        "UniData.Script",
+        "UniData.Scripts",
         "UniUI.Script",
         "UniCore.Script",
         "Zenject"

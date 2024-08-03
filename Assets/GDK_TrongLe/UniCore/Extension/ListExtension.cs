@@ -1,8 +1,10 @@
 ﻿namespace GDK_TrongLe.UniCore.Extension
 {
+    using System;
     using System.Collections.Generic;
     using System.Linq;
     using UnityEngine;
+    using Random = UnityEngine.Random;
 
     public static class ListExtension
     {
@@ -39,7 +41,7 @@
             return t[Random.Range(0, t.Count)];
         }
 
-        public static bool TryAadd<T>(this IList<T> t, T element)
+        public static bool TryAdd<T>(this IList<T> t, T element)
         {
             if(t.Contains(element))
             {
@@ -48,6 +50,13 @@
             t.Add(element);
 
             return true;
+        }
+
+        public static T TryAdd<T, TU>(this IList<T> t, Func<T> valueFunc)
+        {
+            TryAdd(t, valueFunc());
+
+            return t.Last();
         }
     }
 }

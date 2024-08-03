@@ -1,7 +1,7 @@
 ﻿namespace GDK_TrongLe
 {
     using GDK_TrongLe.UniCore;
-    using GDK_TrongLe.UniData.Scripts;
+    using GDK_TrongLe.UniData.Scripts.LocalData;
     using GDK_TrongLe.UniUI.Scripts;
     using UnityEngine.EventSystems;
     using Zenject;
