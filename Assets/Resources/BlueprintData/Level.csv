@@ -1,0 +1,14 @@
+ID,GameType,GameTypeLevelId
+1,HospitalGame,1
+2,FindInsectGame,2
+3,KillInsectGame,3
+4,FixDecayedToothGame,4
+5,KillBacteriaGame,5
+6,WashEarGame,6
+7,AttractCoinGame,7
+8,InterviewGame,8
+9,HairTreatmentGame,9
+10,PourBloodGame,10
+11,PullOutNailGame,11
+13,SignNameGame,13
+12,SurgeryGame,12

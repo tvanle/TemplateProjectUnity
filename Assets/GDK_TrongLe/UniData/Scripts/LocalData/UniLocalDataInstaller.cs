@@ -9,7 +9,7 @@
     using GDK_TrongLe.UniData.Scripts.LocalData.UserData;
     using Zenject;
 
-    public class UniDataInstaller : Installer<UniDataInstaller>
+    public class UniLocalDataInstaller : Installer<UniLocalDataInstaller>
     {
         public override void InstallBindings()
         {

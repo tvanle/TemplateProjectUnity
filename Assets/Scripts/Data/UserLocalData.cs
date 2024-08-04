@@ -1,6 +1,6 @@
 namespace Data
 {
-    using GDK_TrongLe.UniData.Scripts.Interface;
+    using GDK_TrongLe.UniData.Scripts.LocalData.Interface;
 
     public class UserLocalData : ILocalData
     {

@@ -6,24 +6,12 @@ namespace GDK_TrongLe.UniData.Scripts.Blueprint.BlueprintReader
     [AttributeUsage(AttributeTargets.Class, Inherited = false)]
     public class BlueprintReaderAttribute : Attribute
     {
-        public BlueprintReaderAttribute(string dataPath, bool isLoadFromResource = false,
-            BlueprintScope blueprintScope = BlueprintScope.Both)
+        public BlueprintReaderAttribute(string dataPath)
         {
             this.DataPath           = dataPath;
-            this.IsLoadFromResource = isLoadFromResource;
-            this.BlueprintScope     = blueprintScope;
         }
 
         public string         DataPath           { get; }
-        public bool           IsLoadFromResource { get; }
-        public BlueprintScope BlueprintScope     { get; }
     }
-
-    public enum BlueprintScope
-    {
-        Client,
-        Server,
-        Both,
-        CLI
-    }
+    
 }

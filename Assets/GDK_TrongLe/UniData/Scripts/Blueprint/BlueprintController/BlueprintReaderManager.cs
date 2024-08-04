@@ -8,7 +8,6 @@ namespace GDK_TrongLe.UniData.Scripts.Blueprint.BlueprintController
     using GDK_TrongLe.UniCore.Extension;
     using GDK_TrongLe.UniCore.SignalBus;
     using GDK_TrongLe.UniData.Scripts.Blueprint.BlueprintReader;
-    using GDK_TrongLe.UniData.Scripts.LocalData.UserData;
     using UnityEngine;
     using Zenject;
 
@@ -26,7 +25,7 @@ namespace GDK_TrongLe.UniData.Scripts.Blueprint.BlueprintController
 
         private readonly ReadBlueprintProgressSignal readBlueprintProgressSignal = new();
 
-        public BlueprintReaderManager(SignalBus signalBus, DiContainer diContainer, IHandleUserDataServices handleLocalDataServices)
+        public BlueprintReaderManager(SignalBus signalBus, DiContainer diContainer)
         {
             this.signalBus   = signalBus;
             this.diContainer = diContainer;
@@ -35,15 +34,12 @@ namespace GDK_TrongLe.UniData.Scripts.Blueprint.BlueprintController
         public virtual async UniTask LoadBlueprint()
         {
             Debug.Log("[BlueprintReader] Start loading");
-            Dictionary<string, string> listRawBlueprints = null;
-
-            listRawBlueprints = new Dictionary<string, string>();
             this.signalBus.Fire(new LoadBlueprintDataProgressSignal { Percent = 1f });
 
             //Load all blueprints to instances
             try
             {
-                await this.ReadAllBlueprint(listRawBlueprints);
+                await this.ReadAllBlueprint();
             }
             catch (Exception e)
             {
@@ -55,18 +51,19 @@ namespace GDK_TrongLe.UniData.Scripts.Blueprint.BlueprintController
             this.signalBus.Fire<LoadBlueprintDataSucceedSignal>();
         }
 
-        private UniTask ReadAllBlueprint(Dictionary<string, string> listRawBlueprints)
+        private UniTask ReadAllBlueprint()
         {
             var listReadTask    = new List<UniTask>();
             var allDerivedTypes = ReflectionUtils.GetAllDerivedTypes<IGenericBlueprintReader>();
-            this.readBlueprintProgressSignal.MaxBlueprint    = allDerivedTypes.Count();
+            var blueprintTypes  = allDerivedTypes as Type[] ?? allDerivedTypes.ToArray();
+            this.readBlueprintProgressSignal.MaxBlueprint    = blueprintTypes.Count();
             this.readBlueprintProgressSignal.CurrentProgress = 0;
             this.signalBus.Fire(this.readBlueprintProgressSignal); // Inform that we just start reading blueprint
-            foreach (var blueprintType in allDerivedTypes)
+            foreach (var blueprintType in blueprintTypes)
             {
                 var blueprintInstance = (IGenericBlueprintReader)this.diContainer.Resolve(blueprintType);
                 if (blueprintInstance != null)
-                    listReadTask.Add(UniTask.RunOnThreadPool(() => this.OpenReadBlueprint(blueprintInstance, listRawBlueprints)));
+                    listReadTask.Add(UniTask.RunOnThreadPool(() => this.OpenReadBlueprint(blueprintInstance)));
                 else
                     Debug.Log($"Can not resolve blueprint {blueprintType.Name}");
             }
@@ -74,27 +71,13 @@ namespace GDK_TrongLe.UniData.Scripts.Blueprint.BlueprintController
             return UniTask.WhenAll(listReadTask);
         }
 
-        private async UniTask OpenReadBlueprint(IGenericBlueprintReader blueprintReader, Dictionary<string, string> listRawBlueprints)
+        private async UniTask OpenReadBlueprint(IGenericBlueprintReader blueprintReader)
         {
             var bpAttribute = blueprintReader.GetCustomAttribute<BlueprintReaderAttribute>();
             if (bpAttribute != null)
             {
-                if (bpAttribute.BlueprintScope == BlueprintScope.Server) return;
-
                 // Try to load a raw blueprint file from local or resource folder
-                string rawCsv;
-                if (bpAttribute.IsLoadFromResource)
-                {
-                    rawCsv = await LoadRawCsvFromResourceFolder();
-                }
-                else
-                {
-                    if (!listRawBlueprints.TryGetValue(bpAttribute.DataPath + BlueprintConfig.BlueprintFileType, out rawCsv))
-                    {
-                        Debug.LogWarning($"[BlueprintReader] Blueprint {bpAttribute.DataPath} is not exists at the local folder, try to load from resource folder");
-                        rawCsv = await LoadRawCsvFromResourceFolder();
-                    }
-                }
+                var rawCsv = await LoadRawCsvFromResourceFolder();
 
                 async UniTask<string> LoadRawCsvFromResourceFolder()
                 {
@@ -102,17 +85,15 @@ namespace GDK_TrongLe.UniData.Scripts.Blueprint.BlueprintController
                     var result = string.Empty;
                     try
                     {
-                        result = ((TextAsset)await Resources.LoadAsync<TextAsset>(BlueprintConfig.ResourceBlueprintPath + bpAttribute.DataPath)).text;
+                        result = ((TextAsset)await Resources.LoadAsync<TextAsset>("BlueprintData/" + bpAttribute.DataPath)).text;
                     }
                     catch (Exception e)
                     {
                         Debug.LogError($"Load {bpAttribute.DataPath} blueprint error!!!");
                         Debug.LogException(e);
                     }
-
-#if !UNITY_WEBGL
+                    
                     await UniTask.SwitchToThreadPool();
-#endif
                     return result;
                 }
 
@@ -129,7 +110,7 @@ namespace GDK_TrongLe.UniData.Scripts.Blueprint.BlueprintController
                 }
                 else
                 {
-                    Debug.LogWarning($"[BlueprintReader] Unable to load {bpAttribute.DataPath} from {(bpAttribute.IsLoadFromResource ? "resource folder" : "local folder")}!!!");
+                    Debug.LogWarning($"[BlueprintReader] Unable to load {bpAttribute.DataPath} from resource folder !!");
                 }
             }
             else

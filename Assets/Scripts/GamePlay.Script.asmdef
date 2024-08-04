@@ -5,7 +5,7 @@
     "Unity.TextMeshPro",
     "Unity.Addressables",
     "UniTask",
-    "UniData.Script",
+    "UniData.Scripts",
     "UniUI.Script",
     "UniCore.Script",
     "UniCore.AssetLibary",

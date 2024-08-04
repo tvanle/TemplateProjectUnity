@@ -14,10 +14,9 @@ namespace GDK_TrongLe.UniData.Scripts.Blueprint.BlueprintController
         public override void InstallBindings()
         {
             //BindBlueprint reader for mobile
-            this.Container.Bind<PreProcessBlueprintMobile>().AsCached().NonLazy();
             this.Container.Bind<BlueprintReaderManager>().AsCached();
 
-            this.Container.BindAllTypeDriveFrom<IGenericBlueprintReader>();
+            this.Container.BindAllDerivedTypes<IGenericBlueprintReader>(true);
 
             this.Container.DeclareSignal<LoadBlueprintDataSucceedSignal>();
             this.Container.DeclareSignal<LoadBlueprintDataProgressSignal>();

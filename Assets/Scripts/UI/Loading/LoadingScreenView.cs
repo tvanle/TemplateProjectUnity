@@ -3,7 +3,9 @@ namespace UI.Loading
     using Cysharp.Threading.Tasks;
     using DG.Tweening;
     using GDK_TrongLe.UniCore.AssetLibrary.Scripts;
-    using GDK_TrongLe.UniData.Scripts.Manager;
+    using GDK_TrongLe.UniCore.Extension.Unity;
+    using GDK_TrongLe.UniData.Scripts.Blueprint.BlueprintController;
+    using GDK_TrongLe.UniData.Scripts.LocalData.Manager;
     using GDK_TrongLe.UniUI.Scripts.BaseScreen.Presenter;
     using GDK_TrongLe.UniUI.Scripts.BaseScreen.View;
     using TMPro;
@@ -53,15 +55,18 @@ namespace UI.Loading
     [ScreenInfo(nameof(LoadingScreenView))]
     public class LoadingScreenPresenter : BaseScreenPresenter<LoadingScreenView>
     {
-        private readonly UserDataManager userDataManager;
-        protected        IGameAssets     GameAssets;
+        protected readonly BlueprintReaderManager blueprintManager;
+        protected readonly UserDataManager        userDataManager;
+        protected readonly IGameAssets            GameAssets;
 
         public LoadingScreenPresenter(
+            BlueprintReaderManager blueprintManager,
             UserDataManager userDataManager,
             IGameAssets gameAssets)
         {
-            this.userDataManager = userDataManager;
-            this.GameAssets      = gameAssets;
+            this.blueprintManager = blueprintManager;
+            this.userDataManager  = userDataManager;
+            this.GameAssets       = gameAssets;
         }
 
         private float      loadingProgress;
@@ -93,6 +98,7 @@ namespace UI.Loading
             await UniTask.WhenAll(
                 this.Preload(),
                 UniTask.WhenAll(
+                    this.LoadBlueprint().ContinueWith(this.OnBlueprintLoaded),
                     this.LoadUserData().ContinueWith(this.OnUserDataLoaded)
                 ).ContinueWith(this.OnBlueprintAndUserDataLoaded)
             ).ContinueWith(this.OnLoadingCompleted).ContinueWith(this.LoadNextScene);
@@ -109,7 +115,8 @@ namespace UI.Loading
 
         protected virtual AsyncOperationHandle<SceneInstance> LoadSceneAsync() { return this.GameAssets.LoadSceneAsync(this.NextSceneName, LoadSceneMode.Single, false); }
 
-        private UniTask LoadUserData() { return this.TrackProgress(this.userDataManager.LoadUserData()); }
+        private UniTask LoadUserData()  { return this.TrackProgress(this.userDataManager.LoadUserData()); }
+        private UniTask LoadBlueprint() { return this.blueprintManager.LoadBlueprint(); }
 
         protected virtual UniTask OnBlueprintLoaded() { return UniTask.CompletedTask; }
 
