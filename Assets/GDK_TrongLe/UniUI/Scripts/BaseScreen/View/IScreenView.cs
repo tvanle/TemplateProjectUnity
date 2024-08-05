@@ -2,7 +2,7 @@ namespace GDK_TrongLe.UniUI.Scripts.BaseScreen.View
 {
     using System;
     using Cysharp.Threading.Tasks;
-    using global::UniUI.Scripts.BaseUI;
+    using GDK_TrongLe.UniUI.Scripts.BaseUI;
     using UnityEngine;
 
     public interface IScreenView : IUIView

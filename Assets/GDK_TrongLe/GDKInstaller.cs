@@ -7,7 +7,7 @@
     using UnityEngine.EventSystems;
     using Zenject;
 
-    public class GDKInstaller : MonoInstaller<GDKInstaller>
+    public class GdkInstaller : MonoInstaller<GdkInstaller>
     {
         public override void InstallBindings()
         {
