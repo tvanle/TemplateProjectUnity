@@ -2,6 +2,7 @@ namespace DataManager.Blueprint.BlueprintReader.Converter.TypeConversion
 {
     using System;
     using System.Runtime.CompilerServices;
+    using GDK_TrongLe.UniData.Scripts.Csv.CsvReader.Converter;
 
     public class Tuple3GenericConverter : DefaultTypeConverter
     {

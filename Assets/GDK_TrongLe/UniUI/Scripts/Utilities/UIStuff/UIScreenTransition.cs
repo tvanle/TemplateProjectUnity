@@ -14,7 +14,7 @@
         [Tooltip("if lockInput = true, disable event system while anim is running and otherwise.")] [SerializeField]
         private bool lockInput = true;
 
-        public DirectorUpdateMode DirectorUpdateMode = DirectorUpdateMode.UnscaledGameTime;
+        [SerializeField] private DirectorUpdateMode directorUpdateMode = DirectorUpdateMode.UnscaledGameTime;
 
         private EventSystem             eventSystem;
         private UniTaskCompletionSource animationTask;
@@ -25,8 +25,8 @@
         private void Awake()
         {
             this.eventSystem                   = EventSystem.current;
-            this.introAnimation.timeUpdateMode = this.DirectorUpdateMode;
-            this.outroAnimation.timeUpdateMode = this.DirectorUpdateMode;
+            this.introAnimation.timeUpdateMode = this.directorUpdateMode;
+            this.outroAnimation.timeUpdateMode = this.directorUpdateMode;
             if (!this.introAnimation.playableAsset)
             {
                 Debug.LogWarning($"Intro Animation for {this.gameObject.name} is not available", this);
@@ -57,7 +57,7 @@
             if (!anim.playableAsset || this.animationTask?.Task.Status == UniTaskStatus.Pending) return UniTask.CompletedTask;
 
             this.animationTask = new UniTaskCompletionSource();
-            this.SetLookInput(false);
+            this.SetLockInput(true);
 
             anim.Play();
 
@@ -67,12 +67,12 @@
         private void OnAnimComplete(PlayableDirector obj)
         {
             this.animationTask.TrySetResult();
-            this.SetLookInput(true);
+            this.SetLockInput(false);
         }
 
-        private void SetLookInput(bool value)
+        private void SetLockInput(bool value)
         {
-            if (this.lockInput && this.eventSystem != null) this.eventSystem.enabled = value;
+            if (this.lockInput && this.eventSystem != null) this.eventSystem.enabled = !value;
         }
     }
 }

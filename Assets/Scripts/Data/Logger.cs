@@ -1,5 +1,6 @@
 ﻿namespace Data
 {
+    using System;
     using System.IO;
     using Data.Blueprint;
     using GDK_TrongLe.UniCore.Extension;
@@ -9,13 +10,15 @@
 
     public class Logger : MonoBehaviour
     {
-        [Inject] private DiContainer    diContainer;
-        [Inject] private LevelBlueprint levelBlueprint;
+        [Inject] private DiContainer diContainer;
+        [Inject] private LevelCsv    levelCsv;
 
-        private void Start()
+        private void Awake() { Debug.Log(DateTime.UtcNow); }
+
+        private async void Start()
         {
             // Tải tệp CSV từ Resources
-            var csvFile = Resources.Load<TextAsset>("BlueprintData/Level"); // "data" không cần phần mở rộng .csv
+            var csvFile = Resources.Load<TextAsset>("CsvData/Level"); // "data" không cần phần mở rộng .csv
             Debug.Log(csvFile.text);
             if (csvFile != null)
                 // Tạo một MemoryStream từ nội dung của TextAsset
@@ -24,11 +27,14 @@
                 {
                     // Tạo đối tượng CsvDataReader từ nội dung của StreamReader
                     var opts = new CsvDataReaderOptions();
-                    using (var csv = CsvDataReader.Create(reader, opts))
+                    using (var csv = await CsvDataReader.CreateAsync(reader, opts))
                     {
+                        var i = 1;
                         while (csv.Read())
                         {
-                            // Debug.Log(csv);
+                            Debug.Log(i);
+                            Debug.Log(csv);
+                            i++;
                         }
                     }
                 }
@@ -43,8 +49,8 @@
 
         private async void Check()
         {
-            Debug.Log(this.levelBlueprint.GetDataById(1).ID);
-            this.levelBlueprint.Values.ForEach(x => { Debug.Log(x.ID + " " + x.GameType + " " + x.GameTypeLevelId); });
+            Debug.Log(this.levelCsv.Values.Count);
+            this.levelCsv.Values.ForEach(x => { Debug.Log($"{x.GameType} {x.BoolBlueprint.Count} {x.BoolBlueprint.GetDataById(1)}"); });
         }
     }
 }

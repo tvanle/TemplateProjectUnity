@@ -55,18 +55,18 @@ namespace UI.Loading
     [ScreenInfo(nameof(LoadingScreenView))]
     public class LoadingScreenPresenter : BaseScreenPresenter<LoadingScreenView>
     {
-        protected readonly BlueprintReaderManager blueprintManager;
-        protected readonly UserDataManager        userDataManager;
-        protected readonly IGameAssets            GameAssets;
+        protected readonly CsvReaderManager CsvManager;
+        protected readonly UserDataManager  userDataManager;
+        protected readonly IGameAssets      GameAssets;
 
         public LoadingScreenPresenter(
-            BlueprintReaderManager blueprintManager,
+            CsvReaderManager csvManager,
             UserDataManager userDataManager,
             IGameAssets gameAssets)
         {
-            this.blueprintManager = blueprintManager;
-            this.userDataManager  = userDataManager;
-            this.GameAssets       = gameAssets;
+            this.CsvManager      = csvManager;
+            this.userDataManager = userDataManager;
+            this.GameAssets      = gameAssets;
         }
 
         private float      loadingProgress;
@@ -116,7 +116,7 @@ namespace UI.Loading
         protected virtual AsyncOperationHandle<SceneInstance> LoadSceneAsync() { return this.GameAssets.LoadSceneAsync(this.NextSceneName, LoadSceneMode.Single, false); }
 
         private UniTask LoadUserData()  { return this.TrackProgress(this.userDataManager.LoadUserData()); }
-        private UniTask LoadBlueprint() { return this.blueprintManager.LoadBlueprint(); }
+        private UniTask LoadBlueprint() { return this.CsvManager.LoadCsvData(); }
 
         protected virtual UniTask OnBlueprintLoaded() { return UniTask.CompletedTask; }
 

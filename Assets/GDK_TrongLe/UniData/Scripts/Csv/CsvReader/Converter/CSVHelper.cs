@@ -1,4 +1,4 @@
-namespace DataManager.Blueprint.BlueprintReader.Converter
+namespace GDK_TrongLe.UniData.Scripts.Csv.CsvReader.Converter
 {
     using System;
     using System.Collections.Generic;
@@ -9,8 +9,7 @@ namespace DataManager.Blueprint.BlueprintReader.Converter
 
     public static class CsvHelper
     {
-        public static readonly  TypeConverterCache                 TypeConverterCache = new();
-        private static readonly Dictionary<Type, List<MemberInfo>> MemberInfosCache   = new();
+        public static readonly TypeConverterCache TypeConverterCache = new();
 
         public static readonly CsvDataReaderOptions CsvDataReaderOptions = new()
         {
@@ -60,15 +59,14 @@ namespace DataManager.Blueprint.BlueprintReader.Converter
         /// <returns></returns>
         public static List<MemberInfo> GetAllFieldAndProperties(this Type typeInfo)
         {
-            if (MemberInfosCache.TryGetValue(typeInfo, out var results)) return results;
-
-            //add fields
-            results = typeInfo.GetFields().Select(fieldInfo => new MemberInfo
-            {
-                MemberName = fieldInfo.Name, MemberType   = fieldInfo.FieldType,
-                SetValue   = fieldInfo.SetValue, GetValue = fieldInfo.GetValue,
-                IsDefined  = type => fieldInfo.IsDefined(type, false)
-            }).ToList();
+            var results =
+                //add fields
+                typeInfo.GetFields().Select(fieldInfo => new MemberInfo
+                {
+                    MemberName = fieldInfo.Name, MemberType   = fieldInfo.FieldType,
+                    SetValue   = fieldInfo.SetValue, GetValue = fieldInfo.GetValue,
+                    IsDefined  = type => fieldInfo.IsDefined(type, false)
+                }).ToList();
 
             // add properties
             results.AddRange(typeInfo.GetProperties().Select(propertyInfo => new MemberInfo

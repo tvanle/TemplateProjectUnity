@@ -15,7 +15,7 @@
             UniCoreInstaller.Install(this.Container);
             UniUIInstaller.Install(this.Container);
             UniLocalDataInstaller.Install(this.Container);
-            BlueprintServicesInstaller.Install(this.Container);
+            CsvDataInstaller.Install(this.Container);
             
             this.Container.Bind<EventSystem>().FromComponentInNewPrefabResource("EventSystem").AsCached().NonLazy();
         }

@@ -1,4 +1,4 @@
-namespace GDK_TrongLe.UniData.Scripts.Blueprint.BlueprintReader
+namespace GDK_TrongLe.UniData.Scripts.Csv.CsvReader
 {
     using System;
 

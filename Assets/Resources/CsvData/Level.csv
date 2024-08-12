@@ -1,0 +1,17 @@
+ID,GameType,GameTypeLevelId,Boolean,BoolId
+1,HospitalGame,1,TRUE,1
+,,,TRUE,2
+2,FindInsectGame,2,TRUE,1
+3,KillInsectGame,3,TRUE,1
+4,FixDecayedToothGame,4,TRUE,1
+5,KillBacteriaGame,5,TRUE,1
+6,WashEarGame,6,TRUE,1
+,,,TRUE,2
+7,AttractCoinGame,7,TRUE,1
+8,InterviewGame,8,TRUE,1
+9,HairTreatmentGame,9,TRUE,1
+,,,TRUE,2
+10,PourBloodGame,10,TRUE,1
+11,PullOutNailGame,11,TRUE,1
+13,SignNameGame,13,TRUE,1
+12,SurgeryGame,12,TRUE,1
