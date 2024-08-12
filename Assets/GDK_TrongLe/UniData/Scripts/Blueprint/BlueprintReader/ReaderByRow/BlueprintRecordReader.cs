@@ -2,7 +2,6 @@ namespace GDK_TrongLe.UniData.Scripts.Blueprint.BlueprintReader.ReaderByRow
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
     using System.Reflection;
     using DataManager.Blueprint.BlueprintReader.Converter;
     using Sylvan.Data.Csv;
@@ -125,45 +124,45 @@ namespace GDK_TrongLe.UniData.Scripts.Blueprint.BlueprintReader.ReaderByRow
             return record;
         }
 
-        public List<List<string>> ToRawData(object inputObject, bool containHeader = false)
-        {
-            var result                  = new List<List<string>>();
-            var notCollectionFieldCount = this.fieldAndProperties.Count;
-            if (containHeader) result.Add(this.fieldAndProperties.Select(memberInfo => memberInfo.MemberName).ToList());
-
-            var newRow = new List<string>();
-            result.Add(newRow);
-            foreach (var memberInfo in this.fieldAndProperties)
-            {
-                var converter = CsvHelper.TypeConverterCache.GetConverter(memberInfo.MemberType);
-                newRow.Add(converter.ConvertToString(memberInfo.GetValue(inputObject), memberInfo.MemberType));
-            }
-
-            if (this.nestedMemberInfoToRecordReader != null)
-                foreach (var (nestedMemberInfo, recordReader) in this.nestedMemberInfoToRecordReader)
-                {
-                    notCollectionFieldCount += recordReader.fieldAndProperties.Count;
-                    var nestedObj              = nestedMemberInfo.GetValue(inputObject);
-                    var nestedBlueprintRawData = recordReader.ToRawData(nestedObj, containHeader);
-                    for (var i = 0; i < nestedBlueprintRawData.Count; i++) result[i].AddRange(nestedBlueprintRawData[i]);
-                }
-
-            if (this.blueprintCollectionMemberInfos != null)
-                foreach (var subBlueprintMemberInfo in this.blueprintCollectionMemberInfos)
-                {
-                    var subBlueprintData    = (IBlueprintCollection)subBlueprintMemberInfo.GetValue(inputObject);
-                    var subBlueprintRawData = subBlueprintData.ToRawData(containHeader);
-                    for (var index = 0; index < subBlueprintRawData.Count; index++)
-                    {
-                        if (index > result.Count - 1)
-                            result.Add(Enumerable.Repeat(string.Empty, notCollectionFieldCount).ToList());
-
-                        result[index].AddRange(subBlueprintRawData[index]);
-                    }
-                }
-
-            return result;
-        }
+        // public List<List<string>> ToRawData(object inputObject, bool containHeader = false)
+        // {
+        //     var result                  = new List<List<string>>();
+        //     var notCollectionFieldCount = this.fieldAndProperties.Count;
+        //     if (containHeader) result.Add(this.fieldAndProperties.Select(memberInfo => memberInfo.MemberName).ToList());
+        //
+        //     var newRow = new List<string>();
+        //     result.Add(newRow);
+        //     foreach (var memberInfo in this.fieldAndProperties)
+        //     {
+        //         var converter = CsvHelper.TypeConverterCache.GetConverter(memberInfo.MemberType);
+        //         newRow.Add(converter.ConvertToString(memberInfo.GetValue(inputObject), memberInfo.MemberType));
+        //     }
+        //
+        //     if (this.nestedMemberInfoToRecordReader != null)
+        //         foreach (var (nestedMemberInfo, recordReader) in this.nestedMemberInfoToRecordReader)
+        //         {
+        //             notCollectionFieldCount += recordReader.fieldAndProperties.Count;
+        //             var nestedObj              = nestedMemberInfo.GetValue(inputObject);
+        //             var nestedBlueprintRawData = recordReader.ToRawData(nestedObj, containHeader);
+        //             for (var i = 0; i < nestedBlueprintRawData.Count; i++) result[i].AddRange(nestedBlueprintRawData[i]);
+        //         }
+        //
+        //     if (this.blueprintCollectionMemberInfos != null)
+        //         foreach (var subBlueprintMemberInfo in this.blueprintCollectionMemberInfos)
+        //         {
+        //             var subBlueprintData    = (IBlueprintCollection)subBlueprintMemberInfo.GetValue(inputObject);
+        //             var subBlueprintRawData = subBlueprintData.ToRawData(containHeader);
+        //             for (var index = 0; index < subBlueprintRawData.Count; index++)
+        //             {
+        //                 if (index > result.Count - 1)
+        //                     result.Add(Enumerable.Repeat(string.Empty, notCollectionFieldCount).ToList());
+        //
+        //                 result[index].AddRange(subBlueprintRawData[index]);
+        //             }
+        //         }
+        //
+        //     return result;
+        // }
 
         private bool IsBlueprintCollection(Type type)
         {

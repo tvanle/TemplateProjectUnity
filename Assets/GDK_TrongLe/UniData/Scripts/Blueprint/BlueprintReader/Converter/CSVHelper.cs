@@ -54,12 +54,15 @@ namespace DataManager.Blueprint.BlueprintReader.Converter
         }
 
         /// <summary>
-        ///     Utility to get all member infos from a class map
+        /// Utility to get all member infos from a class map
         /// </summary>
+        /// <param name="typeInfo">type to get all fields and properties</param>
+        /// <returns></returns>
         public static List<MemberInfo> GetAllFieldAndProperties(this Type typeInfo)
         {
             if (MemberInfosCache.TryGetValue(typeInfo, out var results)) return results;
 
+            //add fields
             results = typeInfo.GetFields().Select(fieldInfo => new MemberInfo
             {
                 MemberName = fieldInfo.Name, MemberType   = fieldInfo.FieldType,
@@ -67,6 +70,7 @@ namespace DataManager.Blueprint.BlueprintReader.Converter
                 IsDefined  = type => fieldInfo.IsDefined(type, false)
             }).ToList();
 
+            // add properties
             results.AddRange(typeInfo.GetProperties().Select(propertyInfo => new MemberInfo
             {
                 MemberName = propertyInfo.Name, MemberType   = propertyInfo.PropertyType,

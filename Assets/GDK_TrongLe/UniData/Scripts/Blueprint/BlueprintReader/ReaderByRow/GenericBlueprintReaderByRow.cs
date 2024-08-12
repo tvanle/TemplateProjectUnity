@@ -21,14 +21,6 @@ namespace GDK_TrongLe.UniData.Scripts.Blueprint.BlueprintReader.ReaderByRow
                 await CsvDataReader.CreateAsync(new StringReader(rawCsv), CsvHelper.CsvDataReaderOptions);
             while (await csv.ReadAsync()) this.Add(csv);
         }
-
-        public T2 GetDataById(T1 id)
-        {
-            if (this.TryGetValue(id, out var result))
-                return result;
-
-            throw new InvalidDataException($"Blueprint {this.GetType().Name} doesn't contain Id {id}");
-        }
     }
 
     /// <summary>
@@ -48,52 +40,52 @@ namespace GDK_TrongLe.UniData.Scripts.Blueprint.BlueprintReader.ReaderByRow
             if (hasValue) this.Add(inputCsv.GetField<TKey>(this.blueprintRecordReader.RequireKey), record);
         }
 
-        public List<List<string>> ToRawData(bool containHeader = false)
-        {
-            var result    = new List<List<string>>();
-            var addHeader = containHeader;
-            foreach (var record in this)
-            {
-                result.AddRange(this.blueprintRecordReader.ToRawData(record.Value, addHeader));
-                addHeader = false;
-            }
-
-            return result;
-        }
+        // public List<List<string>> ToRawData(bool containHeader = false)
+        // {
+        //     var result    = new List<List<string>>();
+        //     var addHeader = containHeader;
+        //     foreach (var record in this)
+        //     {
+        //         result.AddRange(this.blueprintRecordReader.ToRawData(record.Value, addHeader));
+        //         addHeader = false;
+        //     }
+        //
+        //     return result;
+        // }
 
         public void CleanUp() { this.Clear(); }
     }
 
     // Need to be public due to reflection construction
-    [Serializable]
-    public class BlueprintByRow<TRecord> : List<TRecord>, IBlueprintCollection
-    {
-        private readonly BlueprintRecordReader<TRecord> blueprintRecordReader;
-
-        // Need to be public due to reflection construction
-        public BlueprintByRow() { this.blueprintRecordReader = new BlueprintRecordReader<TRecord>(this.GetType()); }
-
-        public void Add(CsvDataReader inputCsv)
-        {
-            var (hasValue, value) = this.blueprintRecordReader.GetRecord(inputCsv);
-            if (hasValue) this.Add(value);
-        }
-
-        public List<List<string>> ToRawData(bool containHeader = false)
-        {
-            var result    = new List<List<string>>();
-            var addHeader = containHeader;
-            foreach (var record in this)
-            {
-                result.AddRange(this.blueprintRecordReader.ToRawData(record, addHeader));
-                addHeader = false;
-            }
-
-            return result;
-        }
-
-        public void CleanUp() { this.Clear(); }
-    }
+    // [Serializable]
+    // public class BlueprintByRow<TRecord> : List<TRecord>, IBlueprintCollection
+    // {
+    //     private readonly BlueprintRecordReader<TRecord> blueprintRecordReader;
+    //
+    //     // Need to be public due to reflection construction
+    //     public BlueprintByRow() { this.blueprintRecordReader = new BlueprintRecordReader<TRecord>(this.GetType()); }
+    //
+    //     public void Add(CsvDataReader inputCsv)
+    //     {
+    //         var (hasValue, value) = this.blueprintRecordReader.GetRecord(inputCsv);
+    //         if (hasValue) this.Add(value);
+    //     }
+    //
+    //     public List<List<string>> ToRawData(bool containHeader = false)
+    //     {
+    //         var result    = new List<List<string>>();
+    //         var addHeader = containHeader;
+    //         foreach (var record in this)
+    //         {
+    //             result.AddRange(this.blueprintRecordReader.ToRawData(record, addHeader));
+    //             addHeader = false;
+    //         }
+    //
+    //         return result;
+    //     }
+    //
+    //     public void CleanUp() { this.Clear(); }
+    // }
 
     public class BlueprintRecordReader<TRecord> : BlueprintRecordReader
     {

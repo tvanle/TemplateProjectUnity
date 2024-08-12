@@ -13,7 +13,7 @@
     {
         #region inject
 
-        protected readonly SignalBus                signalBus;
+        protected readonly SignalBus                SignalBus;
         protected readonly Dictionary<Type, IState> TypeToState;
 
         #endregion
@@ -23,7 +23,7 @@
             SignalBus signalBus
         )
         {
-            this.signalBus   = signalBus;
+            this.SignalBus   = signalBus;
             this.TypeToState = listState.ToDictionary(state => state.GetType(), state => state);
         }
 
@@ -55,20 +55,19 @@
             if (this.CurrentState != null)
             {
                 this.CurrentState.Exit();
-                this.signalBus.Fire(new OnStateExitSignal(this.CurrentState));
+                this.SignalBus.Fire(new OnStateExitSignal(this.CurrentState));
                 Debug.Log($"Exit {this.CurrentState.GetType().Name} State!!!");
             }
 
             this.CurrentState = nextState;
-            this.signalBus.Fire(new OnStateEnterSignal(this.CurrentState));
+            this.SignalBus.Fire(new OnStateEnterSignal(this.CurrentState));
             Debug.Log($"Enter {nextState.GetType().Name} State!!!");
             nextState.Enter();
         }
 
         public void Tick()
         {
-            if (this.CurrentState is not ITickable tickableState) return;
-            tickableState.Tick();
+            (this.CurrentState as ITickable)?.Tick();
         }
     }
 }

@@ -23,7 +23,7 @@ namespace GDK_TrongLe.UniCore.Extension
 
             while (e1.MoveNext() && e2.MoveNext() && e3.MoveNext()) yield return resultSelector(e1.Current, e2.Current, e3.Current);
         }
-
+        
         public static IEnumerable<(TFirst, TSecond)> Zip<TFirst, TSecond>(IEnumerable<TFirst> first, IEnumerable<TSecond> second) { return Zip(first, second, (i1, i2) => (i1, i2)); }
 
         public static IEnumerable<(TFirst, TSecond, TThird)> Zip<TFirst, TSecond, TThird>(IEnumerable<TFirst> first, IEnumerable<TSecond> second, IEnumerable<TThird> third)
