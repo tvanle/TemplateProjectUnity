@@ -64,7 +64,7 @@ namespace GDK_TrongLe.UniUI.Scripts.BaseScreen.View
 
         public virtual async UniTask Open()
         {
-            this.UpdateAlpha(1f);
+            this.Show();
             await this.ScreenTransition.PlayIntroAnim();
             Debug.Log($"open screen view {this.name}");
             this.ViewDidOpen?.Invoke();
@@ -74,7 +74,7 @@ namespace GDK_TrongLe.UniUI.Scripts.BaseScreen.View
         {
             await this.ScreenTransition.PlayOutroAnim();
             Debug.Log($"Close screen view {this.name}");
-            this.UpdateAlpha(0);
+            this.Hide();
             this.ViewDidClose?.Invoke();
         }
 

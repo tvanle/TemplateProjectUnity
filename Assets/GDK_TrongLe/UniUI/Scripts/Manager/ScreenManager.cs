@@ -8,7 +8,6 @@
     using GDK_TrongLe.UniCore.AssetLibrary.Scripts;
     using GDK_TrongLe.UniCore.Extension;
     using GDK_TrongLe.UniCore.Extension.Unity;
-    using GDK_TrongLe.UniCore.SignalBus;
     using GDK_TrongLe.UniUI.Scripts.BaseScreen.Presenter;
     using GDK_TrongLe.UniUI.Scripts.BaseScreen.View;
     using UnityEngine;
@@ -81,7 +80,6 @@
         private Dictionary<Type, IScreenPresenter>       typeToLoadedScreenPresenter;
         private Dictionary<Type, Task<IScreenPresenter>> typeToPendingScreen;
 
-        private SignalBus    signalBus;
         private RootUICanvas rootUICanvas;
         private IGameAssets  gameAssets;
         private bool         enableBackToClose = false;
@@ -89,9 +87,8 @@
         #endregion
 
         [Inject]
-        public void Init(SignalBus signalBusParam, IGameAssets gameAssetsParam)
+        public void Init(IGameAssets gameAssetsParam)
         {
-            this.signalBus  = signalBusParam;
             this.gameAssets = gameAssetsParam;
 
             this.activeScreens               = new List<IScreenPresenter>();
