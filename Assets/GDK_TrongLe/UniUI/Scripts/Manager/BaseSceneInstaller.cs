@@ -19,13 +19,16 @@ namespace GDK_TrongLe.UniUI.Scripts.Manager
         /// </summary>
         [SerializeField] protected RootUICanvas rootUICanvas;
 
-        [Inject] protected IScreenManager screenManager;
+        protected IScreenManager screenManager;
+
+        [Inject]
+        public void Construct(IScreenManager screenManager) { this.screenManager = screenManager; }
 
         public override void InstallBindings()
         {
             if (this.rootUICanvas == null) return;
             this.screenManager.RootUICanvas       = this.rootUICanvas;
-            this.screenManager.CurrentRootScreen  = this.rootUICanvas.RootUIShowTransform;
+            this.screenManager.CurrentRootScreen  = this.rootUICanvas.RootUIScreenTransform;
             this.screenManager.CurrentHiddenRoot  = this.rootUICanvas.RootUIClosedTransform;
             this.screenManager.CurrentOverlayRoot = this.rootUICanvas.RootUIOverlayTransform;
         }

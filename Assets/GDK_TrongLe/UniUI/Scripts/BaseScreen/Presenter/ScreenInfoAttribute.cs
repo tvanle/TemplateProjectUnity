@@ -14,16 +14,12 @@
     [AttributeUsage(AttributeTargets.Class, Inherited = false)]
     public class PopupInfoAttribute : ScreenInfoAttribute
     {
-        public bool IsEnableBlur          { get; }
-        public bool IsCloseWhenTapOutside { get; }
-        public bool IsOverlay             { get; }
+        public bool IsOverlay { get; }
 
-        public PopupInfoAttribute(string addressableScreenPath, bool isEnableBlur = true, bool isCloseWhenTapOutside = true,
-            bool isOverlay = false) : base(addressableScreenPath)
+        public PopupInfoAttribute(string addressableScreenPath, bool isOverlay = false) :
+            base(addressableScreenPath)
         {
-            this.IsEnableBlur          = isEnableBlur;
-            this.IsCloseWhenTapOutside = isCloseWhenTapOutside;
-            this.IsOverlay             = isOverlay;
+            this.IsOverlay = isOverlay;
         }
     }
 }

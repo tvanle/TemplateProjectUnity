@@ -30,21 +30,6 @@
         public UniTask<TPresenter> OpenScreen<TPresenter, TModel>(TModel model) where TPresenter : IScreenPresenter<TModel>;
 
         /// <summary>
-        /// Close a screen on top
-        /// </summary>
-        public UniTask CloseCurrentScreen();
-
-        /// <summary>
-        /// Close all screen on current scene
-        /// </summary>
-        public void CloseAllScreen();
-
-        /// <summary>
-        /// Close all screen on current scene async
-        /// </summary>
-        public UniTask CloseAllScreenAsync();
-
-        /// <summary>
         /// Get root transform of all screen, used as the parent transform of each screen
         /// </summary>
         public Transform CurrentRootScreen { get; set; }
@@ -179,40 +164,6 @@
                 return (T)screenPresenter;
             }
         }
-
-        public async UniTask CloseCurrentScreen()
-        {
-            if (this.activeScreens.Count > 0)
-                await this.activeScreens.Last().CloseViewAsync();
-        }
-
-        public void CloseAllScreen()
-        {
-            var cacheActiveScreens = this.activeScreens.ToList();
-            this.activeScreens.Clear();
-
-            foreach (var screen in cacheActiveScreens)
-            {
-                screen.CloseViewAsync();
-            }
-        }
-
-        public async UniTask CloseAllScreenAsync()
-        {
-            var tasks              = new List<UniTask>();
-            var cacheActiveScreens = this.activeScreens.ToList();
-            this.activeScreens.Clear();
-
-            foreach (var screen in cacheActiveScreens)
-            {
-                tasks.Add(screen.CloseViewAsync());
-            }
-
-            this.previousActiveScreen      = null;
-
-            await UniTask.WhenAll(tasks);
-        }
-        
 
         #endregion
         

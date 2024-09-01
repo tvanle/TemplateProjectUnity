@@ -53,7 +53,7 @@ namespace UI.Loading
     }
 
     [ScreenInfo(nameof(LoadingScreenView))]
-    public class LoadingScreenPresenter : BaseScreenPresenter<LoadingScreenView>
+    public class LoadingScreenPresenter : BaseScreenNormalPresenter<LoadingScreenView>
     {
         protected readonly CsvReaderManager CsvManager;
         protected readonly UserDataManager  userDataManager;
@@ -133,12 +133,6 @@ namespace UI.Loading
             return UniTask.WhenAll(this.GameAssets.PreloadAsync<T>(this.NextSceneName, keys)
                 .Select(this.TrackProgress));
         }
-
-        // protected virtual UniTask CreateObjectPool(string prefabName, int initialPoolSize = 1)
-        // {
-        //     return this.TrackProgress(
-        //         ObjectPoolManager.Instance.CreatePool(prefabName, initialPoolSize, this.objectPoolContainer));
-        // }
 
         protected virtual UniTask TrackProgress(UniTask task)
         {

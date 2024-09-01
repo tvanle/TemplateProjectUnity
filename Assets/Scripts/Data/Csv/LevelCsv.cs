@@ -1,4 +1,4 @@
-﻿namespace Data.Blueprint
+﻿namespace Data.Csv
 {
     using GDK_TrongLe.UniData.Scripts.Csv.CsvReader;
 
