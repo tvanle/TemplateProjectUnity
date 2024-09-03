@@ -1,7 +1,7 @@
 ﻿namespace Scenes.MainScene
 {
-    using GDK_TrongLe.UniUI.Scripts.Manager;
     using StateMachine;
+    using tvan.uni.foundation.UniUI.Scripts.Manager;
 
     public class MainSceneInstaller : BaseSceneInstaller
     {

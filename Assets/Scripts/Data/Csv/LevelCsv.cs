@@ -1,6 +1,6 @@
 ﻿namespace Data.Csv
 {
-    using GDK_TrongLe.UniData.Scripts.Csv.CsvReader;
+    using tvan.uni.foundation.UniData.Scripts.Csv.CsvReader;
 
     [CsvInfo("Level")]
     public class LevelCsv : GenericCsvReader<int, LevelRecord>

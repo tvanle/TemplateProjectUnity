@@ -1,6 +1,6 @@
 ﻿namespace StateMachine.Interface
 {
-    using GDK_TrongLe.UniCore.StateMachine.Interface;
+    using tvan.uni.foundation.UniCore.StateMachine.Interface;
 
     public interface IGameState : IState
     {

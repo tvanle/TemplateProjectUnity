@@ -1,10 +1,10 @@
 ﻿namespace StateMachine
 {
     using System.Collections.Generic;
-    using GDK_TrongLe.UniCore.SignalBus;
-    using GDK_TrongLe.UniCore.StateMachine.Controller;
-    using GDK_TrongLe.UniCore.StateMachine.Interface;
     using StateMachine.States;
+    using tvan.uni.foundation.UniCore.SignalBus;
+    using tvan.uni.foundation.UniCore.StateMachine.Controller;
+    using tvan.uni.foundation.UniCore.StateMachine.Interface;
     using Zenject;
 
     public class GameStateMachine : StateMachine, IInitializable
