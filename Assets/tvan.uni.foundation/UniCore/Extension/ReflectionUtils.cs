@@ -7,13 +7,6 @@
 
     public static class ReflectionUtils
     {
-        /// <summary>Get all types dives from T or Implement interface T that are not abstract. Note: only same assembly</summary>
-        [Obsolete("Use GetAllDerivedTypes instead")]
-        public static IEnumerable<Type> GetAllDriveType<T>()
-        {
-            return Assembly.GetAssembly(typeof(T)).GetTypes().Where(type => type.IsClass && !type.IsAbstract && typeof(T).IsAssignableFrom(type));
-        }
-
         /// <summary>
         /// Get all type that derive from <typeparamref name="T"/>
         /// </summary>
@@ -21,6 +14,7 @@
         {
             var baseType = typeof(T);
             var baseAsm  = Assembly.GetAssembly(baseType);
+
             return AppDomain.CurrentDomain.GetAssemblies()
                             .Where(asm => !asm.IsDynamic && (!sameAssembly || asm == baseAsm))
                             .SelectMany(GetTypesSafely)
