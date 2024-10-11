@@ -5,19 +5,18 @@
     using tvan.uni.foundation.UniCore.SignalBus;
     using tvan.uni.foundation.UniData.Scripts.LocalData.Interface;
     using tvan.uni.foundation.UniData.Scripts.LocalData.Manager;
+    using tvan.uni.foundation.UniData.Scripts.LocalData.Service;
     using tvan.uni.foundation.UniData.Scripts.LocalData.Signal;
-    using tvan.uni.foundation.UniData.Scripts.LocalData.UserData;
     using Zenject;
 
     public class UniLocalDataInstaller : Installer<UniLocalDataInstaller>
     {
         public override void InstallBindings()
         {
-            this.Container.Bind<IHandleUserDataServices>().To<HandleUserDataServices>().AsCached();
-            this.Container.DeclareSignal<UserDataLoadedSignal>();
+            this.Container.Bind<ILocalDataServices>().To<LocalLocalDataServices>().AsCached();
+            this.Container.DeclareSignal<LocalDataLoadedSignal>();
 
             this.BindLocalData();
-            this.BindAllController();
         }
 
         private void BindLocalData()
@@ -26,16 +25,24 @@
             {
                 var data = Activator.CreateInstance(type);
                 this.Container.Bind(type).FromInstance(data).AsCached();
+                var controllerType = ((ILocalData)data).ControllerType;
+                this.Container.BindInterfacesAndSelfTo(controllerType).AsCached();
+                var controller = this.Container.Resolve(controllerType) as ILocalDataController;
+                controller?.Initialize((ILocalData)data);
             });
 
-            this.Container.Bind<UserDataManager>().AsCached().NonLazy();
+            this.Container.Bind<LocalDataManager>().AsCached().NonLazy();
         }
 
         private void BindAllController()
         {
             var listController = ReflectionUtils.GetAllDerivedTypes<ILocalDataController>();
 
-            foreach (var controller in listController) this.Container.BindInterfacesAndSelfTo(controller).AsCached();
+            foreach (var type in listController)
+            {
+                var controller = Activator.CreateInstance(type);
+                this.Container.Bind(type).FromInstance(controller).AsCached();
+            }
         }
     }
 }

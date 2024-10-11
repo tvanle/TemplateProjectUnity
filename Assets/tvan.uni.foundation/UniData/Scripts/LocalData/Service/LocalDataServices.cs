@@ -1,4 +1,4 @@
-namespace tvan.uni.foundation.UniData.Scripts.LocalData.UserData
+namespace tvan.uni.foundation.UniData.Scripts.LocalData.Service
 {
     using System;
     using System.Collections.Generic;
@@ -8,9 +8,18 @@ namespace tvan.uni.foundation.UniData.Scripts.LocalData.UserData
     using tvan.uni.foundation.UniCore.Extension;
     using tvan.uni.foundation.UniData.Scripts.LocalData.Interface;
     using UnityEngine;
+    using Zenject;
 
-    public class HandleUserDataServices : IHandleUserDataServices
+    public class LocalLocalDataServices : ILocalDataServices
     {
+        #region Inject
+
+        private readonly DiContainer diContainer;
+
+        public LocalLocalDataServices(DiContainer diContainer) { this.diContainer = diContainer; }
+
+        #endregion
+
         public const string UserDataPrefix = "LD-";
 
         public static string KeyOf(Type type) { return UserDataPrefix + type.Name; }
@@ -56,15 +65,17 @@ namespace tvan.uni.foundation.UniData.Scripts.LocalData.UserData
 
                 if (result is not ILocalData data)
                 {
-                    Debug.LogError($"Failed to load data {key}");
+                    Debug.LogError($"Failed to load data {key}, {type.Name} is not ILocalData!");
 
                     return null;
                 }
 
                 if (string.IsNullOrEmpty(json))
                 {
-                    Debug.Log($"Init data {key}");
-                    data.Init();
+                    Debug.Log($"FirstTimeOneLoad data {key} in controller !");
+
+                    if (this.diContainer.Resolve(data.ControllerType) is ILocalDataController localDataController)
+                        localDataController.FirstTimeOneLoad();
                 }
 
                 Debug.Log($"Loaded {key}");

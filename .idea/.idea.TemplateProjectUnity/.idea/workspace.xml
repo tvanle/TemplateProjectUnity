@@ -5,17 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdea3b60-c858-424d-9249-98c6fa7d5bfd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/DOTweenModuleExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/DOTweenModuleExtension.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/shelf/Uncommitted_changes_before_Update_at_7_12_2024_10_32_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/shelf/Uncommitted_changes_before_Update_at_7_12_2024_10_32_PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/Signal.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/Signal/CsvSignal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/Signal/CsvSignal.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Controller/BaseLocalDataController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Controller/BaseLocalDataController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/MinimizeAppService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/MinimizeAppService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/ApplicationPauseSignal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/ApplicationPauseSignal.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/UpdateTimeAfterFocusSignal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/UpdateTimeAfterFocusSignal.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Test.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/shelf/Uncommitted_changes_before_Update_at_7_12_2024_10_32_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/shelf/Uncommitted_changes_before_Update_at_7_17_2024_8_24_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/shelf/Uncommitted_changes_before_Update_at_7_17_2024_8_24_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/ObjectPool/UniCore.ObjectPool.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/ObjectPool/UniCore.ObjectPool.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/UniUI.Script.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/UniUI.Script.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/Dotween.Modules.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/Dotween.Modules.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/LoadingScreenView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/LoadingScreenView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController/CsvDataInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController/CsvDataInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController/CsvReaderManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController/CsvReaderManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Interface/ILocalData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Interface/ILocalData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Interface/ILocalDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Interface/ILocalDataController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Manager/UserDataManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Manager/LocalDataManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Manager/UserDataManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Manager/LocalDataManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/UserDataLoadedSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/LocalDataLoadedSignal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/UserDataLoadedSignal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/LocalDataLoadedSignal.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/UniLocalDataInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/UniLocalDataInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/UserData.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/UserData/HandleUserDataServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/LocalDataServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/UserData/HandleUserDataServices.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/LocalDataServices.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/UserData/IHandleUserDataServives.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/IDataServives.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/UserData/IHandleUserDataServives.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/IDataServives.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,60 +77,104 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/012ca6023c754e6384f20d14e09f256e5789b8/fc/243f967f/MemberInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2a84356f8824484c9583dc8d10bc30d515a00/75/db7b848e/CsvDataReaderOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2a84356f8824484c9583dc8d10bc30d515a00/dd/cb79d9f2/CsvDataReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/30adf90198bc4c4b83910c6fb1877998174000/63/a37ad8ad/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/30adf90198bc4c4b83910c6fb1877998174000/a4/3d3410db/Scene.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/310ecb94d109456a9a1d5a1a082aa3065600/0c/747a4749/IInitializable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/310ecb94d109456a9a1d5a1a082aa3065600/c4/23417143/InjectAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53aac14d88ba4477acc998b039cfd73a15ae00/04/cb6f9c6e/Resources.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53aac14d88ba4477acc998b039cfd73a15ae00/1a/4657cf82/DirectorUpdateMode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53aac14d88ba4477acc998b039cfd73a15ae00/64/f959d0a8/ScriptableObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/27/b4026bba/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/4e/1c1b64d0/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/51/4c839b3a/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/58/c37e2286/Attribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/59/e546e01c/Activator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/69/2b011494/Array.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/6b/234f6020/CustomAttributeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/6b/af7757fb/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/83/81ea9ae8/Type.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/84/e05e20e9/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/af/a669e5f6/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/b4/393a8c0f/Action.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/bd/64559c4e/StreamReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/c0/1a3e9f2e/FieldInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/e9/671249af/BindingFlags.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/f9/84197920/ValueTuple`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/8a/503a5322/LoadSceneMode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82a2fd073ee449928e161903460426d72ae00/bf/f53c51a7/DOTween.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8a172039c50c4113a07e608ee3976ae2824c00/52/f01e4129/MenuItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a3b02d6f9b494355b946095ea1f25c5446ac00/80/eab0adf5/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dce28debe6614a5386ef7e0e16e9752d11400/da/a6145d37/DOTweenUtilityWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/f6083ebbe45944d79ff3178e25ed4ffe4000/bd/436ee22b/DOTweenPro.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/GDKInstaller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/AssetLibrary/Scripts/GameAssets.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/DictionaryExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/IterTools.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/TupleExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/Extension/ZenjectUtils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/UniCore/UniCoreInstaller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/UserData/BaseHandleUserDataServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/UniData/Scripts/UserData/HandleUserDataServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/Model/IScreenModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/Presenter/BasePopupPresenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/Presenter/BaseScreenPresenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/Presenter/IScreenPresenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/BaseScreen/Presenter/ScreenInfoAttribute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Manager/RootUICanvas.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/Manager/ScreenManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GDK_TrongLe/UniUI/Scripts/UniUIInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/AnyRPGCore-master/Assets/AnyRPG/Core/System/Scripts/Camera/AnyRPGCameraController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/AnyRPGCore-master/Assets/AnyRPG/UMA/Scripts/GameManager/ResourceProfiles/UMAEquipmentModelProperties.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CharacterEditorPackage/Code/Camera/BasicCameraTracker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/GDKInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/AudioExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/GameObjectExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/AssetLibrary/Scripts/GameAssets.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/DictionaryExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/IterTools.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/ListExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/TupleExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/Unity/ZenjectUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/UniCoreInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController/CsvReaderManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/CsvInfoAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/LocalDataServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Test/Scripts/DataManager/UserData/BaseDataManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Model/IScreenModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/BasePopupPresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/BaseScreenPresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/IPopupPresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/IScreenNormalPresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/IScreenPresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/ScreenInfoAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Manager/RootUICanvas.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Manager/ScreenManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/UniUIInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe.zenject@1.8.1/Runtime/DiContainerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe.zenject@1.8.1/Runtime/MessagePipe.Zenject.asmdef" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe.zenject@1.8.1/Runtime/TypeProxy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe@1.8.1/Runtime/EventFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe@1.8.1/Runtime/IPublisherSubscriber.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe@1.8.1/Runtime/SubscriberExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/SplitterGUILayout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTask.Editor.asmdef" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTaskTrackerTreeView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTaskTrackerWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/External/DOTween/DOTweenAsyncExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/External/DOTween/UniTask.DOTween.asmdef" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/Progress.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/UniTask.WaitUntil.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/UniTask.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Binding/Binders/FromBinders/FromBinder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Binding/Binders/FromBinders/FromBinderGeneric.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Binding/Binders/FromBinders/FromBinderNonGeneric.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Binding/Binders/ScopeConcreteIdArgConditionCopyNonLazyBinder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Install/CompositeInstallerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Install/Contexts/SceneContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Install/Installer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Internal/Assert.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Main/DiContainer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Util/ReflectionUtil.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Zenject.asmdef" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/AsyncOperations/AsyncOperationBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/AsyncOperations/AsyncOperationHandle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/AsyncOperations/AsyncOperationStatus.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/AsyncOperations/ChainOperation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/Diagnostics/DiagnosticEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/Diagnostics/DiagnosticEventCollector.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/ResourceProviders/ISceneProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/Util/DelayedActionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/Util/MonoBehaviourCallbackHooks.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ai.navigation@1.1.5/Editor/NavMeshAssetManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMP_PackageUtilities.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectColorInfo">{
@@ -115,7 +196,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -192,6 +273,60 @@
       <workItem from="1721610373530" duration="658000" />
       <workItem from="1721658884653" duration="7116000" />
       <workItem from="1721690984764" duration="4576000" />
+      <workItem from="1721756185289" duration="68000" />
+      <workItem from="1721833434576" duration="1243000" />
+      <workItem from="1721923644104" duration="1184000" />
+      <workItem from="1722007802669" duration="599000" />
+      <workItem from="1722041893768" duration="3964000" />
+      <workItem from="1722046748463" duration="12495000" />
+      <workItem from="1722148682384" duration="7424000" />
+      <workItem from="1722164561390" duration="15042000" />
+      <workItem from="1722262066345" duration="2910000" />
+      <workItem from="1722300562194" duration="1680000" />
+      <workItem from="1722349373786" duration="1267000" />
+      <workItem from="1722384908502" duration="803000" />
+      <workItem from="1722442809874" duration="1230000" />
+      <workItem from="1722471713394" duration="2240000" />
+      <workItem from="1722522269645" duration="2380000" />
+      <workItem from="1722611111042" duration="3964000" />
+      <workItem from="1722648670276" duration="9634000" />
+      <workItem from="1722681294127" duration="12697000" />
+      <workItem from="1722729759907" duration="13077000" />
+      <workItem from="1722759605226" duration="11007000" />
+      <workItem from="1722959009005" duration="2679000" />
+      <workItem from="1722963644848" duration="539000" />
+      <workItem from="1722992318825" duration="1520000" />
+      <workItem from="1723041875848" duration="6971000" />
+      <workItem from="1723126986243" duration="1817000" />
+      <workItem from="1723163744258" duration="2801000" />
+      <workItem from="1723254407548" duration="11110000" />
+      <workItem from="1723298591857" duration="6670000" />
+      <workItem from="1723338869277" duration="10973000" />
+      <workItem from="1723370628950" duration="3209000" />
+      <workItem from="1723385833204" duration="8994000" />
+      <workItem from="1723428186150" duration="6989000" />
+      <workItem from="1723443271354" duration="6811000" />
+      <workItem from="1723461374159" duration="15184000" />
+      <workItem from="1723557892069" duration="6574000" />
+      <workItem from="1723597725415" duration="944000" />
+      <workItem from="1723654562590" duration="2372000" />
+      <workItem from="1723688515130" duration="1562000" />
+      <workItem from="1723701227378" duration="5904000" />
+      <workItem from="1723823837447" duration="606000" />
+      <workItem from="1724334396173" duration="2494000" />
+      <workItem from="1724373039641" duration="2178000" />
+      <workItem from="1724459044746" duration="1586000" />
+      <workItem from="1724655393223" duration="1361000" />
+      <workItem from="1724857506658" duration="1564000" />
+      <workItem from="1724898615044" duration="990000" />
+      <workItem from="1725190680997" duration="1583000" />
+      <workItem from="1725385518038" duration="906000" />
+      <workItem from="1725704186980" duration="545000" />
+      <workItem from="1725707366960" duration="1875000" />
+      <workItem from="1728542991492" duration="7097000" />
+      <workItem from="1728557022031" duration="926000" />
+      <workItem from="1728574207874" duration="2097000" />
+      <workItem from="1728605642089" duration="3624000" />
     </task>
     <task id="LOCAL-00001" summary="remove excessive folder, remove panel of dotween, add package audio git">
       <option name="closed" value="true" />
@@ -265,7 +400,111 @@
       <option name="project" value="LOCAL" />
       <updated>1721351739883</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix missing asm dotween">
+      <option name="closed" value="true" />
+      <created>1721756245567</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721756245567</updated>
+    </task>
+    <task id="LOCAL-00011" summary="dictionary extension">
+      <option name="closed" value="true" />
+      <created>1722050669037</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722050669037</updated>
+    </task>
+    <task id="LOCAL-00012" summary="debug data">
+      <option name="closed" value="true" />
+      <created>1722158142652</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722158142652</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix data">
+      <option name="closed" value="true" />
+      <created>1722273601919</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722273601919</updated>
+    </task>
+    <task id="LOCAL-00014" summary="blueprint and refactor code">
+      <option name="closed" value="true" />
+      <created>1722706943380</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722706943380</updated>
+    </task>
+    <task id="LOCAL-00015" summary="reformat code and minimalism view blueprint">
+      <option name="closed" value="true" />
+      <created>1722789469946</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722789469946</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add audio libary external">
+      <option name="closed" value="true" />
+      <created>1722993700917</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722993700917</updated>
+    </task>
+    <task id="LOCAL-00017" summary="refactor blueprint">
+      <option name="closed" value="true" />
+      <created>1723435968908</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723435968908</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Refactor Csv">
+      <option name="closed" value="true" />
+      <created>1723482264269</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723482264269</updated>
+    </task>
+    <task id="LOCAL-00019" summary="refactor UI code">
+      <option name="closed" value="true" />
+      <created>1723598079120</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723598079120</updated>
+    </task>
+    <task id="LOCAL-00020" summary="init game feature">
+      <option name="closed" value="true" />
+      <created>1725190855047</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1725190855047</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update name package">
+      <option name="closed" value="true" />
+      <created>1725386403298</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1725386403298</updated>
+    </task>
+    <task id="LOCAL-00022" summary="remove obselete function">
+      <option name="closed" value="true" />
+      <created>1728545390663</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1728545390663</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,13 +536,26 @@
     <MESSAGE value="Update asm" />
     <MESSAGE value="Finish scene" />
     <MESSAGE value="remove mapping direction" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove mapping direction" />
+    <MESSAGE value="fix missing asm dotween" />
+    <MESSAGE value="dictionary extension" />
+    <MESSAGE value="debug data" />
+    <MESSAGE value="fix data" />
+    <MESSAGE value="blueprint and refactor code" />
+    <MESSAGE value="reformat code and minimalism view blueprint" />
+    <MESSAGE value="Add audio libary external" />
+    <MESSAGE value="refactor blueprint" />
+    <MESSAGE value="Refactor Csv" />
+    <MESSAGE value="refactor UI code" />
+    <MESSAGE value="init game feature" />
+    <MESSAGE value="update name package" />
+    <MESSAGE value="remove obselete function" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove obselete function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/GDK_TrongLe/TEst1/PeopleBlueprintController.cs</url>
+          <url>file://$PROJECT_DIR$/Assets/tvan.uni.foundation/TEst1/PeopleBlueprintController.cs</url>
           <line>63</line>
           <properties documentPath="C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity\Assets\Scripts\TEst1\ScriptableObjectController.cs" initialLine="55" containingFunctionPresentation="Method 'Awake'" />
           <option name="timeStamp" value="2" />

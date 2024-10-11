@@ -56,17 +56,16 @@ namespace UI.Loading
     public class LoadingScreenPresenter : BaseScreenNormalPresenter<LoadingScreenView>
     {
         protected readonly CsvReaderManager CsvManager;
-        protected readonly UserDataManager  userDataManager;
+        protected readonly LocalDataManager LocalDataManager;
         protected readonly IGameAssets      GameAssets;
 
-        public LoadingScreenPresenter(
-            CsvReaderManager csvManager,
-            UserDataManager userDataManager,
-            IGameAssets gameAssets)
+        public LoadingScreenPresenter(CsvReaderManager csvManager,
+                                      LocalDataManager localDataManager,
+                                      IGameAssets gameAssets)
         {
-            this.CsvManager      = csvManager;
-            this.userDataManager = userDataManager;
-            this.GameAssets      = gameAssets;
+            this.CsvManager       = csvManager;
+            this.LocalDataManager = localDataManager;
+            this.GameAssets       = gameAssets;
         }
 
         private float      loadingProgress;
@@ -115,7 +114,8 @@ namespace UI.Loading
 
         protected virtual AsyncOperationHandle<SceneInstance> LoadSceneAsync() { return this.GameAssets.LoadSceneAsync(this.NextSceneName, LoadSceneMode.Single, false); }
 
-        private UniTask LoadUserData()  { return this.TrackProgress(this.userDataManager.LoadUserData()); }
+        private UniTask LoadUserData() { return this.TrackProgress(this.LocalDataManager.LoadUserData()); }
+
         private UniTask LoadBlueprint() { return this.CsvManager.LoadCsvData(); }
 
         protected virtual UniTask OnBlueprintLoaded() { return UniTask.CompletedTask; }
@@ -131,7 +131,7 @@ namespace UI.Loading
         protected virtual UniTask PreloadAssets<T>(params object[] keys)
         {
             return UniTask.WhenAll(this.GameAssets.PreloadAsync<T>(this.NextSceneName, keys)
-                .Select(this.TrackProgress));
+                                       .Select(this.TrackProgress));
         }
 
         protected virtual UniTask TrackProgress(UniTask task)
@@ -153,12 +153,12 @@ namespace UI.Loading
             }
 
             return aoh.ToUniTask(Progress.CreateOnlyValueChanged<float>(UpdateProgress))
-                .ContinueWith(result =>
-                {
-                    UpdateProgress(1f);
+                      .ContinueWith(result =>
+                      {
+                          UpdateProgress(1f);
 
-                    return result;
-                });
+                          return result;
+                      });
         }
     }
 }
