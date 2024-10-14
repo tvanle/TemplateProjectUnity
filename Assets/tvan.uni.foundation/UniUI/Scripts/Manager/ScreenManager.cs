@@ -10,79 +10,55 @@
     using tvan.uni.foundation.UniUI.Scripts.BaseScreen.Presenter;
     using tvan.uni.foundation.UniUI.Scripts.BaseScreen.View;
     using UnityEngine;
-    using Zenject;
+    using Object = UnityEngine.Object;
 
     public interface IScreenManager
     {
-        /// <summary>
-        /// Get instance of a screen
-        /// </summary>
-        /// <typeparam name="T">Type of screen presenter</typeparam>
         public UniTask<T> GetScreen<T>() where T : IScreenPresenter;
 
-        /// <summary>
-        /// Open a screen by type
-        /// </summary>
-        /// <typeparam name="T">Type of screen presenter</typeparam>
         public UniTask<T> OpenScreen<T>() where T : IScreenPresenter;
 
         public UniTask<TPresenter> OpenScreen<TPresenter, TModel>(TModel model) where TPresenter : IScreenPresenter<TModel>;
 
-        /// <summary>
-        /// Get root transform of all screen, used as the parent transform of each screen
-        /// </summary>
         public Transform CurrentRootScreen { get; set; }
 
-        public Transform CurrentHiddenRoot { get; set; }
-
-        /// <summary>
-        /// Get overlay transform
-        /// </summary>
+        public Transform CurrentHiddenRoot  { get; set; }
         public Transform CurrentOverlayRoot { get; set; }
 
-        /// <summary>
-        /// Get root canvas of all screen, use to disable UI for creative purpose
-        /// </summary>
         public RootUICanvas RootUICanvas { get; set; }
-        
     }
 
-    public class ScreenManager : MonoBehaviour, IScreenManager, IDisposable
+    public class ScreenManager : IScreenManager, IDisposable
     {
-        #region Properties
+        #region Inject
 
-        /// <summary>
-        /// List of active screens
-        /// </summary>
-        [SerializeField] private List<IScreenPresenter> activeScreens;
+        private readonly IGameAssets gameAssets;
 
-        /// <summary>
-        /// Current screen shown on top.
-        /// </summary>
-        private IScreenPresenter previousActiveScreen;
-
-        private Dictionary<Type, IScreenPresenter>       typeToLoadedScreenPresenter;
-        private Dictionary<Type, Task<IScreenPresenter>> typeToPendingScreen;
-
-        private RootUICanvas rootUICanvas;
-        private IGameAssets  gameAssets;
-        private bool         enableBackToClose = false;
-
-        #endregion
-
-        [Inject]
-        public void Init(IGameAssets gameAssetsParam)
+        public ScreenManager(IGameAssets gameAssets)
         {
-            this.gameAssets = gameAssetsParam;
+            this.gameAssets = gameAssets;
 
             this.activeScreens               = new List<IScreenPresenter>();
             this.typeToLoadedScreenPresenter = new Dictionary<Type, IScreenPresenter>();
             this.typeToPendingScreen         = new Dictionary<Type, Task<IScreenPresenter>>();
         }
 
-        public void Dispose()
-        {
-        }
+        #endregion
+
+        #region Properties
+
+        [SerializeField] private List<IScreenPresenter> activeScreens;
+        private                  IScreenPresenter       previousActiveScreen;
+
+        private Dictionary<Type, IScreenPresenter>       typeToLoadedScreenPresenter;
+        private Dictionary<Type, Task<IScreenPresenter>> typeToPendingScreen;
+
+        private RootUICanvas rootUICanvas;
+        private bool         enableBackToClose = false;
+
+        #endregion
+
+        public void Dispose() { }
 
         public void EnableBackToClose(bool enable) { this.enableBackToClose = enable; }
 
@@ -154,7 +130,7 @@
                 screenPresenter = this.GetCurrentContainer().Instantiate<T>();
                 var screenInfo = screenPresenter.GetCustomAttribute<ScreenInfoAttribute>();
 
-                var viewObject = Instantiate(await this.gameAssets.LoadAssetAsync<GameObject>(screenInfo.AddressableScreenPath),
+                var viewObject = Object.Instantiate(await this.gameAssets.LoadAssetAsync<GameObject>(screenInfo.AddressableScreenPath),
                     this.CheckPopupIsOverlay(screenPresenter) ? this.CurrentOverlayRoot : this.CurrentRootScreen).GetComponent<IScreenView>();
 
                 screenPresenter.SetView(viewObject);
@@ -165,7 +141,7 @@
         }
 
         #endregion
-        
+
         #region Check Overlay Popup
 
         private bool CheckScreenIsPopup(IScreenPresenter screenPresenter) { return screenPresenter.GetType().IsSubclassOfRawGeneric(typeof(BasePopupPresenter<>)); }
@@ -173,6 +149,5 @@
         private bool CheckPopupIsOverlay(IScreenPresenter screenPresenter) { return this.CheckScreenIsPopup(screenPresenter) && screenPresenter.GetCustomAttribute<PopupInfoAttribute>().IsOverlay; }
 
         #endregion
-        }
-    
+    }
 }

@@ -1,7 +1,7 @@
 namespace tvan.uni.foundation.UniData.Scripts.Csv.CsvController
 {
-    using GDK_TrongLe.UniCore.Extension.Unity;
     using tvan.uni.foundation.UniData.Scripts.Csv.CsvReader;
+    using tvan.uni.foundation.UniData.Scripts.Csv.Signal;
     using Zenject;
 
     public class CsvDataInstaller : Installer<CsvDataInstaller>
@@ -10,6 +10,8 @@ namespace tvan.uni.foundation.UniData.Scripts.Csv.CsvController
         {
             this.Container.Bind<CsvReaderManager>().AsCached();
             this.Container.BindAllDerivedTypes<IGenericCsvReader>(true);
+
+            this.Container.DeclareSignal<OnLoadCsvSucceedSignal>();
         }
     }
 }

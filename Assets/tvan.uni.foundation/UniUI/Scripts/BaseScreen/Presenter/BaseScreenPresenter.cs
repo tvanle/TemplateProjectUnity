@@ -7,16 +7,13 @@
 
     public abstract class BaseScreenPresenter<TView> : IScreenPresenter where TView : IScreenView
     {
-        public ScreenStatus             ScreenStatus { get; protected set; } = ScreenStatus.Closed;
-        public Action<IScreenPresenter> OnCloseView  { get; set; }
+        public ScreenStatus ScreenStatus { get; protected set; } = ScreenStatus.Closed;
 
         public TView View;
 
-        public async void SetView(IScreenView viewInstance, Action<IScreenPresenter> onClose = null)
+        public async void SetView(IScreenView viewInstance)
         {
-            this.View        = (TView)viewInstance;
-            this.OnCloseView = onClose;
-
+            this.View = (TView)viewInstance;
             await UniTask.WaitUntil(() => this.View.IsReadyToUse);
             this.OnViewReady();
         }
@@ -56,7 +53,6 @@
             if (this.ScreenStatus == ScreenStatus.Closed) return;
             this.ScreenStatus = ScreenStatus.Closed;
             await this.View.Close();
-            this.OnCloseView?.Invoke(this);
             this.Dispose();
         }
 
@@ -81,6 +77,8 @@
             this.Dispose();
             this.View.DestroySelf();
         }
+
+        public void SetView(IScreenView viewInstance, Action<IScreenPresenter> onClose = null) { throw new NotImplementedException(); }
     }
 
     public abstract class BaseScreenPresenter<TView, TModel> : BaseScreenPresenter<TView>, IScreenPresenter<TModel> where TView : IScreenView

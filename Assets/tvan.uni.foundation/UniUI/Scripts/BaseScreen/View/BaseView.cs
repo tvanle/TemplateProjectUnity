@@ -18,8 +18,6 @@ namespace tvan.uni.foundation.UniUI.Scripts.BaseScreen.View
         protected virtual CanvasGroup        ViewRoot         { get => this.viewRoot; set => this.viewRoot = value; }
         public            RectTransform      RectTransform    { get;                  private set; }
 
-        #region Unity3D Event
-
         private void Awake()
         {
             // This will allow to set the view in the inspector if we want to
@@ -35,30 +33,15 @@ namespace tvan.uni.foundation.UniUI.Scripts.BaseScreen.View
             // invisible. When the show method is called
             // the view will be made visible using a transition.
             this.UpdateAlpha(0);
-
-            this.AwakeUnityEvent();
             this.IsReadyToUse = true;
         }
 
-        private void Start() { this.StartUnityEvent(); }
+        private void Start() { }
 
         private void OnDestroy()
         {
-            this.OnDestroyUnityEvent();
             this.ViewDidDestroy?.Invoke();
         }
-
-        #endregion
-
-        #region Unity3D Messages propagation
-
-        protected virtual void AwakeUnityEvent() { }
-
-        protected virtual void StartUnityEvent() { }
-
-        protected virtual void OnDestroyUnityEvent() { }
-
-        #endregion
 
         public bool IsReadyToUse { get; private set; }
 
@@ -79,6 +62,7 @@ namespace tvan.uni.foundation.UniUI.Scripts.BaseScreen.View
         }
 
         public void Hide() { this.UpdateAlpha(0); }
+
         public void Show() { this.UpdateAlpha(1); }
 
         public void DestroySelf() { Destroy(this.gameObject); }

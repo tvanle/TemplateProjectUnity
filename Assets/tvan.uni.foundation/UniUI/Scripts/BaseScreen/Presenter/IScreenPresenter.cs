@@ -1,6 +1,5 @@
 ﻿namespace tvan.uni.foundation.UniUI.Scripts.BaseScreen.Presenter
 {
-    using System;
     using Cysharp.Threading.Tasks;
     using tvan.uni.foundation.UniUI.Scripts.BaseScreen.View;
     using UnityEngine;
@@ -8,8 +7,6 @@
     public interface IScreenPresenter
     {
         public ScreenStatus             ScreenStatus { get; }
-        public Action<IScreenPresenter> OnCloseView  { get; set; }
-
         public void SetViewParent(Transform parent);
 
         public Transform GetViewParent();
@@ -28,7 +25,7 @@
 
         public void DestroyView();
 
-        public void SetView(IScreenView viewInstance, Action<IScreenPresenter> onClose = null);
+        public void SetView(IScreenView viewInstance);
     }
 
     public interface IScreenPresenter<in TModel> : IScreenPresenter

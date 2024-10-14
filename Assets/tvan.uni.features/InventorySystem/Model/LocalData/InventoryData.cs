@@ -1,6 +1,8 @@
 namespace tvan.uni.features.InventorySystem.Model.LocalData
 {
+    using System;
     using System.Collections.Generic;
+    using tvan.uni.features.InventorySystem.Model.Controller;
     using tvan.uni.features.InventorySystem.Model.Element;
     using tvan.uni.foundation.UniData.Scripts.LocalData.Interface;
 
@@ -10,5 +12,7 @@ namespace tvan.uni.features.InventorySystem.Model.LocalData
         public Dictionary<string, ItemData> IdToItemData             = new();
 
         public void Init() { }
+
+        public Type ControllerType { get; } = typeof(InventoryDataController);
     }
 }

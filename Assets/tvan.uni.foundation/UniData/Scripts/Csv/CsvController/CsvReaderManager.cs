@@ -7,6 +7,7 @@ namespace tvan.uni.foundation.UniData.Scripts.Csv.CsvController
     using tvan.uni.foundation.UniCore.Extension;
     using tvan.uni.foundation.UniCore.SignalBus;
     using tvan.uni.foundation.UniData.Scripts.Csv.CsvReader;
+    using tvan.uni.foundation.UniData.Scripts.Csv.Signal;
     using UnityEngine;
     using Zenject;
 
@@ -20,13 +21,13 @@ namespace tvan.uni.foundation.UniData.Scripts.Csv.CsvController
         private readonly SignalBus   signalBus;
         private readonly DiContainer diContainer;
 
-        #endregion
-
         public CsvReaderManager(SignalBus signalBus, DiContainer diContainer)
         {
             this.signalBus   = signalBus;
             this.diContainer = diContainer;
         }
+
+        #endregion
 
         public virtual async UniTask LoadCsvData()
         {
@@ -42,6 +43,7 @@ namespace tvan.uni.foundation.UniData.Scripts.Csv.CsvController
             }
 
             Debug.Log("[BlueprintReader] All blueprint are loaded");
+            this.signalBus.Fire<OnLoadCsvSucceedSignal>();
         }
 
         private UniTask ReadAllBlueprint()
@@ -82,8 +84,9 @@ namespace tvan.uni.foundation.UniData.Scripts.Csv.CsvController
                         Debug.LogError($"Load {bpAttribute.DataPath} blueprint error!!!");
                         Debug.LogException(e);
                     }
-                    
+
                     await UniTask.SwitchToThreadPool();
+
                     return result;
                 }
 
