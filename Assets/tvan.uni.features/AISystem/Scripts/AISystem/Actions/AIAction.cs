@@ -1,5 +1,7 @@
-namespace UtilityAI
+namespace tvan.uni.features.AISystem.Scripts.AISystem.Actions
 {
+    using tvan.uni.features.AISystem.Scripts.AISystem.Brain;
+    using tvan.uni.features.AISystem.Scripts.AISystem.Considerations;
     using UnityEngine;
 
     public abstract class AIAction : ScriptableObject

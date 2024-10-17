@@ -1,4 +1,4 @@
-namespace UtilityAI
+namespace tvan.uni.features.AISystem.Scripts.AISystem.Brain
 {
     using UnityEngine;
 

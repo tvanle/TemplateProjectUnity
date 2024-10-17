@@ -1,6 +1,6 @@
-namespace UtilityAI
+namespace tvan.uni.features.AISystem.Scripts.AISystem
 {
-    using Renge.PPB;
+    using tvan.uni.features.AISystem.Scripts.AISystem.Ultils;
     using UnityEngine;
     using UnityEngine.UI;
 

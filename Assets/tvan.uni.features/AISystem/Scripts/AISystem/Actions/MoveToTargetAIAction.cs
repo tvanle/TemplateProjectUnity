@@ -1,5 +1,7 @@
-namespace UtilityAI
+namespace tvan.uni.features.AISystem.Scripts.AISystem.Actions
 {
+    using tvan.uni.features.AISystem.Scripts.AISystem.Brain;
+    using tvan.uni.foundation.UniCore.Extension.Unity;
     using UnityEngine;
 
     [CreateAssetMenu(menuName = "UtilityAI/Actions/MoveToTargetAction")]
@@ -11,7 +13,7 @@ namespace UtilityAI
         {
             var target = context.sensor.GetClosestTarget(this.targetTag);
 
-            if (target == null) return;
+            if (target.IsNull()) return;
 
             context.target = target;
 

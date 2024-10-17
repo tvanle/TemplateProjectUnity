@@ -1,5 +1,8 @@
-namespace UtilityAI
+namespace tvan.uni.features.AISystem.Scripts.AISystem.Editor
 {
+    using tvan.uni.features.AISystem.Scripts.AISystem.Actions;
+    using tvan.uni.features.AISystem.Scripts.AISystem.Brain;
+    using tvan.uni.features.AISystem.Scripts.AISystem.Considerations;
     using UnityEditor;
     using UnityEngine;
 

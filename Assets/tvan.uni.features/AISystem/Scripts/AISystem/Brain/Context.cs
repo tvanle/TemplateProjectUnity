@@ -1,10 +1,9 @@
-namespace UtilityAI
+namespace tvan.uni.features.AISystem.Scripts.AISystem.Brain
 {
     using System.Collections.Generic;
     using AudioSystem;
     using UnityEngine;
     using UnityEngine.AI;
-    using UnityUtils;
 
     public class Context
     {

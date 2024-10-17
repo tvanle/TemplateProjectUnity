@@ -1,5 +1,6 @@
-namespace UtilityAI
+namespace tvan.uni.features.AISystem.Scripts.AISystem.Actions
 {
+    using tvan.uni.features.AISystem.Scripts.AISystem.Brain;
     using UnityEngine;
 
     [CreateAssetMenu(menuName = "UtilityAI/Actions/IdleAction")]

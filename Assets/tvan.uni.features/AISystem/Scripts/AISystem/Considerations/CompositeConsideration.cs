@@ -1,6 +1,7 @@
-namespace UtilityAI
+namespace tvan.uni.features.AISystem.Scripts.AISystem.Considerations
 {
     using System.Collections.Generic;
+    using tvan.uni.features.AISystem.Scripts.AISystem.Brain;
     using UnityEngine;
 
     [CreateAssetMenu(menuName = "UtilityAI/Considerations/CompositeConsideration")]

@@ -1,5 +1,6 @@
-namespace UtilityAI
+namespace tvan.uni.features.AISystem.Scripts.AISystem.Considerations
 {
+    using tvan.uni.features.AISystem.Scripts.AISystem.Brain;
     using tvan.uni.foundation.UniCore.Extension.Unity;
     using UnityEngine;
 

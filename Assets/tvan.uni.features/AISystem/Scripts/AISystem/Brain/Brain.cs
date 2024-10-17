@@ -1,6 +1,7 @@
-namespace UtilityAI
+namespace tvan.uni.features.AISystem.Scripts.AISystem.Brain
 {
     using System.Collections.Generic;
+    using tvan.uni.features.AISystem.Scripts.AISystem.Actions;
     using UnityEngine;
     using UnityEngine.AI;
 
