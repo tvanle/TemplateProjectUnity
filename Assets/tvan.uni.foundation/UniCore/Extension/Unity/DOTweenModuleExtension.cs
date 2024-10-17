@@ -8,7 +8,7 @@
 //#endif
 
 #pragma warning disable 1591
-namespace GDK_TrongLe.UniCore.Extension.Unity
+namespace tvan.uni.foundation.UniCore.Extension.Unity
 {
     using System.Threading.Tasks;
     using DG.Tweening;

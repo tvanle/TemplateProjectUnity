@@ -1,4 +1,4 @@
-namespace GDK_TrongLe.UniCore.Extension.Unity
+namespace tvan.uni.foundation.UniCore.Extension.Unity
 {
     using UnityEngine;
 
