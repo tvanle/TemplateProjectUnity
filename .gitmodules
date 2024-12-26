@@ -1,0 +1,6 @@
+[submodule "Assets/Packages/Tvan/Foundation"]
+	path = Assets/Packages/Tvan/Foundation
+	url = https://github.com/tvanle/tvan.uni.foundation.git
+[submodule "Assets/Packages/Tvan/Features"]
+	path = Assets/Packages/Tvan/Features
+	url = https://github.com/tvanle/tvan.uni.features.git

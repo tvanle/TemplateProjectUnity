@@ -4,55 +4,500 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdea3b60-c858-424d-9249-98c6fa7d5bfd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/Signal.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/Signal/CsvSignal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/Signal/CsvSignal.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Controller/BaseLocalDataController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Controller/BaseLocalDataController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/MinimizeAppService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/MinimizeAppService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/ApplicationPauseSignal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/ApplicationPauseSignal.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/UpdateTimeAfterFocusSignal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/UpdateTimeAfterFocusSignal.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Test.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/shelf/Uncommitted_changes_before_Update_at_7_12_2024_10_32_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/shelf/Uncommitted_changes_before_Update_at_7_17_2024_8_24_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/shelf/Uncommitted_changes_before_Update_at_7_17_2024_8_24_AM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="cdea3b60-c858-424d-9249-98c6fa7d5bfd" name="Changes" comment="init features commit">
+      <change afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/LoadingScreenView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/LoadingScreenView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController/CsvDataInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController/CsvDataInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController/CsvReaderManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController/CsvReaderManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Interface/ILocalData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Interface/ILocalData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Interface/ILocalDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Interface/ILocalDataController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Manager/UserDataManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Manager/LocalDataManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Manager/UserDataManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Manager/LocalDataManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/UserDataLoadedSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/LocalDataLoadedSignal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/UserDataLoadedSignal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/LocalDataLoadedSignal.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/UniLocalDataInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/UniLocalDataInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/UserData.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/UserData/HandleUserDataServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/LocalDataServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/UserData/HandleUserDataServices.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/LocalDataServices.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/UserData/IHandleUserDataServives.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/IDataServives.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/UserData/IHandleUserDataServives.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/IDataServives.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/GDK.Script.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/GDK.Script.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/GDKInstaller.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/GDKInstaller.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Prefabs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Prefabs/SoundEmitter.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Prefabs/SoundEmitter.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem/AudioExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem/AudioExtensions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem/GameObjectExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem/GameObjectExtensions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem/MusicManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem/MusicManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem/PersistentSingleton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem/PersistentSingleton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem/SoundBuilder.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem/SoundBuilder.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem/SoundData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem/SoundData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem/SoundEmitter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem/SoundEmitter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem/SoundManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Scripts/AudioSystem/SoundManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Settings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Settings.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Settings/Master.mixer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniAudio/Settings/Master.mixer.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/AssetLibrary.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/AssetLibrary.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/AssetLibrary/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/AssetLibrary/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/AssetLibrary/Scripts/GameAssets.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/AssetLibrary/Scripts/GameAssets.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/AssetLibrary/Scripts/UniCore.AssetLibary.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/AssetLibrary/Scripts/UniCore.AssetLibary.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/DictionaryExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/DictionaryExtensions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/EnumerableExtension.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/EnumerableExtension.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Item.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Item.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/IterTools.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/IterTools.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/ListExtension.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/ListExtension.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/OtherExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/OtherExtensions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/ReflectionUtils.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/ReflectionUtils.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/TupleExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/TupleExtensions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/TypeExtension.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/TypeExtension.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/UniCore.Extensions.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/UniCore.Extensions.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/DOTweenModuleExtension.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/DOTweenModuleExtension.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/GameObjectExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/GameObjectExtensions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/TransformExtension.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/TransformExtension.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/ZenjectUtils.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/ZenjectUtils.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/Agent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/Agent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/AgentMediator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/AgentMediator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/IVisitor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/IVisitor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/Mediatior.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/Mediatior.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/Payload.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/Payload.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/ObjectPool.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/ObjectPool.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/ObjectPoolExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/ObjectPoolExtensions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/ObjectPoolManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/ObjectPoolManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/UniCore.ObjectPool.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/UniCore.ObjectPool.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/SignalBus.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/SignalBus.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/SignalBusInstaller.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/SignalBusInstaller.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/SignalExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/SignalExtensions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/UniCore.SignalBus.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/UniCore.SignalBus.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Controller/StateMachine.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Controller/StateMachine.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Interface.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Interface.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Interface/IState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Interface/IState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Interface/IStateMachine.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Interface/IStateMachine.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Signal.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Signal.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Signal/OnStateEnterSignal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Signal/OnStateEnterSignal.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Signal/OnStateExitSignal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Signal/OnStateExitSignal.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/UniCore.StateMachine.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/UniCore.StateMachine.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/UniCore.Script.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/UniCore.Script.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/UniCoreInstaller.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/UniCoreInstaller.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvController.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvController.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvController/CsvDataInstaller.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvController/CsvDataInstaller.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvController/CsvReaderManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvController/CsvReaderManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/CSVHelper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/CSVHelper.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/CustomTypeConverterAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/CustomTypeConverterAttribute.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ArrayGenericConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ArrayGenericConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/BooleanConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/BooleanConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ByteArrayConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ByteArrayConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ByteArrayConverterOptions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ByteArrayConverterOptions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ByteConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ByteConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/CharConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/CharConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/CsvHelpExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/CsvHelpExtensions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DateConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DateConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DateTimeOffsetConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DateTimeOffsetConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DecimalConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DecimalConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DefaultTypeConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DefaultTypeConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DictionaryGenericConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DictionaryGenericConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DoubleConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DoubleConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/EnumConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/EnumConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/EnumerableConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/EnumerableConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/GuidConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/GuidConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ITypeConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ITypeConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/Int16Converter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/Int16Converter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/Int32Converter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/Int32Converter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/Int64Converter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/Int64Converter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/JsonConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/JsonConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ListGenericConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ListGenericConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/NullableConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/NullableConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/PairGenericConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/PairGenericConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ReadonlyCollectionConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ReadonlyCollectionConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/SByteConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/SByteConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/SingleConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/SingleConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/StringConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/StringConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/Tuple3GenericConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/Tuple3GenericConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UInt16Converter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UInt16Converter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UInt32Converter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UInt32Converter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UInt64Converter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UInt64Converter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UnityVector2Converter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UnityVector2Converter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UnityVector3Converter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UnityVector3Converter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UriConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UriConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConverterCache.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConverterCache.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/CsvInfoAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/CsvInfoAttribute.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/CsvRecordReader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/CsvRecordReader.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Exceptions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/Exceptions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/GenericCsvReader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/GenericCsvReader.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/IGenericCsvReader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvReader/IGenericCsvReader.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/Signal.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/Signal.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/Signal/CsvSignal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/Signal/CsvSignal.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Controller/BaseLocalDataController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Controller/BaseLocalDataController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Interface.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Interface.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Interface/ILocalData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Interface/ILocalData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Interface/ILocalDataController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Interface/ILocalDataController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Manager.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Manager.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Manager/LocalDataManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Manager/LocalDataManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Service.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Service.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Service/IDataServives.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Service/IDataServives.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Service/LocalDataServices.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Service/LocalDataServices.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Service/MinimizeAppService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Service/MinimizeAppService.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Signal.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Signal.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Signal/ApplicationPauseSignal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Signal/ApplicationPauseSignal.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Signal/LocalDataLoadedSignal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Signal/LocalDataLoadedSignal.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Signal/UpdateTimeAfterFocusSignal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Signal/UpdateTimeAfterFocusSignal.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/UniLocalDataInstaller.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/UniLocalDataInstaller.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/UniData.Scripts.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniData/UniData.Scripts.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Base.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Base.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Base/HyperCasualRootUI.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Base/HyperCasualRootUI.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Base/HyperCasualUIBasePopup.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Base/HyperCasualUIBasePopup.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Base/HyperCasualUIBaseScreen.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Base/HyperCasualUIBaseScreen.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Screen.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Screen.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Screen/LoadingScreenView.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Screen/LoadingScreenView.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Model.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Model.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Model/IScreenModel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Model/IScreenModel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/BasePopupPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/BasePopupPresenter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/BaseScreenNormalPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/BaseScreenNormalPresenter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/BaseScreenPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/BaseScreenPresenter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/IPopupPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/IPopupPresenter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/IScreenNormalPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/IScreenNormalPresenter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/IScreenPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/IScreenPresenter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/ScreenInfoAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/ScreenInfoAttribute.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/View.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/View.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/View/BaseView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/View/BaseView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/View/IScreenView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/View/IScreenView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseUI.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseUI.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseUI/IUIPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseUI/IUIPresenter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseUI/IUIView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseUI/IUIView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/BaseSceneInstaller.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/BaseSceneInstaller.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/RootUICanvas.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/RootUICanvas.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/ScreenManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/ScreenManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/UniUI.Script.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/UniUI.Script.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/UniUIInstaller.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/UniUIInstaller.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/CameraStacker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/CameraStacker.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/ScaleScreenRatio.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/ScaleScreenRatio.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/UIStuff.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/UIStuff.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/UIStuff/AnimationButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/UIStuff/AnimationButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/UIStuff/SafeArea.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/UIStuff/SafeArea.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/UIStuff/UIScreenTransition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/UIStuff/UIScreenTransition.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/GDK.Script.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/GDK.Script.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/GDKInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/GDKInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Prefabs/SoundEmitter.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Prefabs/SoundEmitter.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/AudioExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/AudioExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/GameObjectExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/GameObjectExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/MusicManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/MusicManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/PersistentSingleton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/PersistentSingleton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/SoundBuilder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/SoundBuilder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/SoundData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/SoundData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/SoundEmitter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/SoundEmitter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/SoundManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/SoundManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Settings/Master.mixer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Settings/Master.mixer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/AssetLibrary.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/AssetLibrary/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/AssetLibrary/Scripts/GameAssets.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/AssetLibrary/Scripts/GameAssets.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/AssetLibrary/Scripts/UniCore.AssetLibary.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/AssetLibrary/Scripts/UniCore.AssetLibary.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/DictionaryExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/DictionaryExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/EnumerableExtension.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/EnumerableExtension.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/Item.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/Item.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/IterTools.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/IterTools.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/ListExtension.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/ListExtension.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/OtherExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/OtherExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/ReflectionUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/ReflectionUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/TupleExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/TupleExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/TypeExtension.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/TypeExtension.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/UniCore.Extensions.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/UniCore.Extensions.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/Unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/Unity/DOTweenModuleExtension.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/Unity/DOTweenModuleExtension.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/Unity/GameObjectExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/Unity/GameObjectExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/Unity/TransformExtension.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/Unity/TransformExtension.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/Unity/ZenjectUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/Unity/ZenjectUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Mediator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Mediator/Agent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Mediator/Agent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Mediator/AgentMediator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Mediator/AgentMediator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Mediator/IVisitor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Mediator/IVisitor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Mediator/Mediatior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Mediator/Mediatior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Mediator/Payload.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Mediator/Payload.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/ObjectPool.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/ObjectPool/ObjectPool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/ObjectPool/ObjectPool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/ObjectPool/ObjectPoolExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/ObjectPool/ObjectPoolExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/ObjectPool/ObjectPoolManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/ObjectPool/ObjectPoolManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/ObjectPool/UniCore.ObjectPool.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/ObjectPool/UniCore.ObjectPool.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/SignalBus.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/SignalBus/SignalBus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/SignalBus/SignalBus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/SignalBus/SignalBusInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/SignalBus/SignalBusInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/SignalBus/SignalExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/SignalBus/SignalExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/SignalBus/UniCore.SignalBus.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/SignalBus/UniCore.SignalBus.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/StateMachine.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/StateMachine/Controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/StateMachine/Controller/StateMachine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/StateMachine/Controller/StateMachine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/StateMachine/Interface.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/StateMachine/Interface/IState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/StateMachine/Interface/IState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/StateMachine/Interface/IStateMachine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/StateMachine/Interface/IStateMachine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/StateMachine/Signal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/StateMachine/Signal/OnStateEnterSignal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/StateMachine/Signal/OnStateEnterSignal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/StateMachine/Signal/OnStateExitSignal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/StateMachine/Signal/OnStateExitSignal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/StateMachine/UniCore.StateMachine.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/StateMachine/UniCore.StateMachine.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/UniCore.Script.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/UniCore.Script.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/UniCoreInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/UniCoreInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController/CsvDataInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController/CsvDataInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController/CsvReaderManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController/CsvReaderManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/CSVHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/CSVHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/CustomTypeConverterAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/CustomTypeConverterAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ArrayGenericConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ArrayGenericConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/BooleanConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/BooleanConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ByteArrayConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ByteArrayConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ByteArrayConverterOptions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ByteArrayConverterOptions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ByteConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ByteConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/CharConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/CharConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/CsvHelpExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/CsvHelpExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DateConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DateConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DateTimeOffsetConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DateTimeOffsetConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DecimalConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DecimalConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DefaultTypeConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DefaultTypeConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DictionaryGenericConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DictionaryGenericConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DoubleConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/DoubleConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/EnumConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/EnumConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/EnumerableConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/EnumerableConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/GuidConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/GuidConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ITypeConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ITypeConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/Int16Converter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/Int16Converter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/Int32Converter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/Int32Converter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/Int64Converter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/Int64Converter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/JsonConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/JsonConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ListGenericConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ListGenericConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/NullableConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/NullableConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/PairGenericConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/PairGenericConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ReadonlyCollectionConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/ReadonlyCollectionConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/SByteConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/SByteConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/SingleConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/SingleConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/StringConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/StringConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/Tuple3GenericConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/Tuple3GenericConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UInt16Converter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UInt16Converter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UInt32Converter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UInt32Converter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UInt64Converter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UInt64Converter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UnityVector2Converter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UnityVector2Converter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UnityVector3Converter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UnityVector3Converter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UriConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConversion/UriConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConverterCache.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Converter/TypeConverterCache.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/CsvInfoAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/CsvInfoAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/CsvRecordReader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/CsvRecordReader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Exceptions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/Exceptions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/GenericCsvReader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/GenericCsvReader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/IGenericCsvReader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/IGenericCsvReader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/Signal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/Signal/CsvSignal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/Signal/CsvSignal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Controller/BaseLocalDataController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Controller/BaseLocalDataController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Interface.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Interface/ILocalData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Interface/ILocalData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Interface/ILocalDataController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Interface/ILocalDataController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Manager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Manager/LocalDataManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Manager/LocalDataManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/IDataServives.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/IDataServives.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/LocalDataServices.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/LocalDataServices.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/MinimizeAppService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/MinimizeAppService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/ApplicationPauseSignal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/ApplicationPauseSignal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/LocalDataLoadedSignal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/LocalDataLoadedSignal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/UpdateTimeAfterFocusSignal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Signal/UpdateTimeAfterFocusSignal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/UniLocalDataInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/UniLocalDataInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/UniData.Scripts.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/UniData.Scripts.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Prefabs/Base.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Prefabs/Base/HyperCasualRootUI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Prefabs/Base/HyperCasualRootUI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Prefabs/Base/HyperCasualUIBasePopup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Prefabs/Base/HyperCasualUIBasePopup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Prefabs/Base/HyperCasualUIBaseScreen.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Prefabs/Base/HyperCasualUIBaseScreen.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Prefabs/Screen.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Prefabs/Screen/LoadingScreenView.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Prefabs/Screen/LoadingScreenView.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Model.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Model/IScreenModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Model/IScreenModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/BasePopupPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/BasePopupPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/BaseScreenNormalPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/BaseScreenNormalPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/BaseScreenPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/BaseScreenPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/IPopupPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/IPopupPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/IScreenNormalPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/IScreenNormalPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/IScreenPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/IScreenPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/ScreenInfoAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/ScreenInfoAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/View.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/View/BaseView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/View/BaseView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/View/IScreenView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/View/IScreenView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseUI/IUIPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseUI/IUIPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseUI/IUIView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseUI/IUIView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Manager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Manager/BaseSceneInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Manager/BaseSceneInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Manager/RootUICanvas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Manager/RootUICanvas.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Manager/ScreenManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Manager/ScreenManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/UniUI.Script.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/UniUI.Script.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/UniUIInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/UniUIInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Utilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Utilities/CameraStacker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Utilities/CameraStacker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Utilities/ScaleScreenRatio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Utilities/ScaleScreenRatio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Utilities/UIStuff.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Utilities/UIStuff/AnimationButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Utilities/UIStuff/AnimationButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Utilities/UIStuff/SafeArea.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Utilities/UIStuff/SafeArea.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Utilities/UIStuff/UIScreenTransition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Utilities/UIStuff/UIScreenTransition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +514,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$/Assets/tvan.uni.foundation" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,104 +523,56 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/012ca6023c754e6384f20d14e09f256e5789b8/fc/243f967f/MemberInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2a84356f8824484c9583dc8d10bc30d515a00/75/db7b848e/CsvDataReaderOptions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2a84356f8824484c9583dc8d10bc30d515a00/dd/cb79d9f2/CsvDataReader.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/30adf90198bc4c4b83910c6fb1877998174000/63/a37ad8ad/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/30adf90198bc4c4b83910c6fb1877998174000/a4/3d3410db/Scene.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/310ecb94d109456a9a1d5a1a082aa3065600/0c/747a4749/IInitializable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/310ecb94d109456a9a1d5a1a082aa3065600/c4/23417143/InjectAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53aac14d88ba4477acc998b039cfd73a15ae00/04/cb6f9c6e/Resources.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53aac14d88ba4477acc998b039cfd73a15ae00/1a/4657cf82/DirectorUpdateMode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53aac14d88ba4477acc998b039cfd73a15ae00/64/f959d0a8/ScriptableObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/27/b4026bba/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/4e/1c1b64d0/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/51/4c839b3a/String.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/58/c37e2286/Attribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/59/e546e01c/Activator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/69/2b011494/Array.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/6b/234f6020/CustomAttributeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/6b/af7757fb/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/83/81ea9ae8/Type.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/84/e05e20e9/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/af/a669e5f6/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/b4/393a8c0f/Action.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/bd/64559c4e/StreamReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/c0/1a3e9f2e/FieldInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/e9/671249af/BindingFlags.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/f9/84197920/ValueTuple`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/8a/503a5322/LoadSceneMode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82a2fd073ee449928e161903460426d72ae00/bf/f53c51a7/DOTween.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8a172039c50c4113a07e608ee3976ae2824c00/52/f01e4129/MenuItem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a3b02d6f9b494355b946095ea1f25c5446ac00/80/eab0adf5/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dce28debe6614a5386ef7e0e16e9752d11400/da/a6145d37/DOTweenUtilityWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/f6083ebbe45944d79ff3178e25ed4ffe4000/bd/436ee22b/DOTweenPro.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Downloads/AnyRPGCore-master/Assets/AnyRPG/Core/System/Scripts/Camera/AnyRPGCameraController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Downloads/AnyRPGCore-master/Assets/AnyRPG/UMA/Scripts/GameManager/ResourceProfiles/UMAEquipmentModelProperties.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CharacterEditorPackage/Code/Camera/BasicCameraTracker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/GDKInstaller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/AudioExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/GameObjectExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniAudio/Scripts/AudioSystem/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/AssetLibrary/Scripts/GameAssets.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/DictionaryExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/IterTools.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/ListExtension.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/TupleExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/Extension/Unity/ZenjectUtils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniCore/UniCoreInstaller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController/CsvReaderManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvReader/CsvInfoAttribute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Scripts/LocalData/Service/LocalDataServices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniData/Test/Scripts/DataManager/UserData/BaseDataManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Model/IScreenModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/BasePopupPresenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/BaseScreenPresenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/IPopupPresenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/IScreenNormalPresenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/IScreenPresenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/BaseScreen/Presenter/ScreenInfoAttribute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Manager/RootUICanvas.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/Manager/ScreenManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.foundation/UniUI/Scripts/UniUIInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Scripts/UI/Loading/LoadingScreenView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Scripts/UI/Loading/LoadingScreenView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.features/AISystem/Scripts/AISystem/Actions/AIAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.features/AISystem/Scripts/AISystem/Actions/IdleAIAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.features/AISystem/Scripts/AISystem/Actions/MoveToTargetAIAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.features/AISystem/Scripts/AISystem/Brain/AnimationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.features/AISystem/Scripts/AISystem/Considerations/Consideration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.features/AISystem/Scripts/AISystem/Considerations/ConstantConsideration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.features/AISystem/Scripts/AISystem/Considerations/CurveConsideration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.features/AISystem/Scripts/AISystem/HealthUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.features/AISystem/Scripts/AISystem/Ultils/ProceduralProgressBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tvan.uni.features/AISystem/Scripts/Preconditions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController/CsvDataInstaller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/tvan.uni.foundation/UniData/Scripts/Csv/CsvController/CsvDataInstaller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe.zenject@1.8.1/Runtime/DiContainerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe.zenject@1.8.1/Runtime/MessagePipe.Zenject.asmdef" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe.zenject@1.8.1/Runtime/TypeProxy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe@1.8.1/Runtime/EventFactory.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe@1.8.1/Runtime/IPublisherSubscriber.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe@1.8.1/Runtime/SubscriberExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/SplitterGUILayout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTask.Editor.asmdef" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTaskTrackerTreeView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTaskTrackerWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/External/DOTween/DOTweenAsyncExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/External/DOTween/UniTask.DOTween.asmdef" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/Progress.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/UniTask.WaitUntil.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/UniTask.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Binding/Binders/FromBinders/FromBinder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Binding/Binders/FromBinders/FromBinderGeneric.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Binding/Binders/FromBinders/FromBinderNonGeneric.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Binding/Binders/ScopeConcreteIdArgConditionCopyNonLazyBinder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Install/CompositeInstallerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Install/Contexts/SceneContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Install/Installer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Internal/Assert.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Main/DiContainer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Util/ReflectionUtil.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Zenject.asmdef" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/AsyncOperations/AsyncOperationBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/AsyncOperations/AsyncOperationHandle.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/AsyncOperations/AsyncOperationStatus.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/AsyncOperations/ChainOperation.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/Diagnostics/DiagnosticEvent.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/Diagnostics/DiagnosticEventCollector.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/ResourceProviders/ISceneProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/Util/DelayedActionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/Util/MonoBehaviourCallbackHooks.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ai.navigation@1.1.5/Editor/NavMeshAssetManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMP_PackageUtilities.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/ProjectSettings/AudioManager.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/ProjectSettings/AudioManager.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/ProjectSettings/AudioManager.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectColorInfo">{
@@ -186,30 +584,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "develop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\Admin\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\Admin\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\Admin\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\Admin\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Admin\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\Admin\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -217,7 +616,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -273,60 +672,16 @@
       <workItem from="1721610373530" duration="658000" />
       <workItem from="1721658884653" duration="7116000" />
       <workItem from="1721690984764" duration="4576000" />
-      <workItem from="1721756185289" duration="68000" />
-      <workItem from="1721833434576" duration="1243000" />
-      <workItem from="1721923644104" duration="1184000" />
-      <workItem from="1722007802669" duration="599000" />
-      <workItem from="1722041893768" duration="3964000" />
-      <workItem from="1722046748463" duration="12495000" />
-      <workItem from="1722148682384" duration="7424000" />
-      <workItem from="1722164561390" duration="15042000" />
-      <workItem from="1722262066345" duration="2910000" />
-      <workItem from="1722300562194" duration="1680000" />
-      <workItem from="1722349373786" duration="1267000" />
-      <workItem from="1722384908502" duration="803000" />
-      <workItem from="1722442809874" duration="1230000" />
-      <workItem from="1722471713394" duration="2240000" />
-      <workItem from="1722522269645" duration="2380000" />
-      <workItem from="1722611111042" duration="3964000" />
-      <workItem from="1722648670276" duration="9634000" />
-      <workItem from="1722681294127" duration="12697000" />
-      <workItem from="1722729759907" duration="13077000" />
-      <workItem from="1722759605226" duration="11007000" />
-      <workItem from="1722959009005" duration="2679000" />
-      <workItem from="1722963644848" duration="539000" />
-      <workItem from="1722992318825" duration="1520000" />
-      <workItem from="1723041875848" duration="6971000" />
-      <workItem from="1723126986243" duration="1817000" />
-      <workItem from="1723163744258" duration="2801000" />
-      <workItem from="1723254407548" duration="11110000" />
-      <workItem from="1723298591857" duration="6670000" />
-      <workItem from="1723338869277" duration="10973000" />
-      <workItem from="1723370628950" duration="3209000" />
-      <workItem from="1723385833204" duration="8994000" />
-      <workItem from="1723428186150" duration="6989000" />
-      <workItem from="1723443271354" duration="6811000" />
-      <workItem from="1723461374159" duration="15184000" />
-      <workItem from="1723557892069" duration="6574000" />
-      <workItem from="1723597725415" duration="944000" />
-      <workItem from="1723654562590" duration="2372000" />
-      <workItem from="1723688515130" duration="1562000" />
-      <workItem from="1723701227378" duration="5904000" />
-      <workItem from="1723823837447" duration="606000" />
-      <workItem from="1724334396173" duration="2494000" />
-      <workItem from="1724373039641" duration="2178000" />
-      <workItem from="1724459044746" duration="1586000" />
-      <workItem from="1724655393223" duration="1361000" />
-      <workItem from="1724857506658" duration="1564000" />
-      <workItem from="1724898615044" duration="990000" />
-      <workItem from="1725190680997" duration="1583000" />
-      <workItem from="1725385518038" duration="906000" />
-      <workItem from="1725704186980" duration="545000" />
-      <workItem from="1725707366960" duration="1875000" />
-      <workItem from="1728542991492" duration="7097000" />
-      <workItem from="1728557022031" duration="926000" />
-      <workItem from="1728574207874" duration="2097000" />
-      <workItem from="1728605642089" duration="3624000" />
+      <workItem from="1728693742591" duration="1914000" />
+      <workItem from="1728863663098" duration="816000" />
+      <workItem from="1729006402220" duration="1991000" />
+      <workItem from="1729147267114" duration="4490000" />
+      <workItem from="1729248021156" duration="4119000" />
+      <workItem from="1729306587407" duration="693000" />
+      <workItem from="1731216322936" duration="35000" />
+      <workItem from="1732417036834" duration="110000" />
+      <workItem from="1732417173275" duration="682000" />
+      <workItem from="1735227613765" duration="4280000" />
     </task>
     <task id="LOCAL-00001" summary="remove excessive folder, remove panel of dotween, add package audio git">
       <option name="closed" value="true" />
@@ -400,111 +755,63 @@
       <option name="project" value="LOCAL" />
       <updated>1721351739883</updated>
     </task>
-    <task id="LOCAL-00010" summary="fix missing asm dotween">
+    <task id="LOCAL-00010" summary="Update script local project">
       <option name="closed" value="true" />
-      <created>1721756245567</created>
+      <created>1728864189909</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1721756245567</updated>
+      <updated>1728864189909</updated>
     </task>
-    <task id="LOCAL-00011" summary="dictionary extension">
+    <task id="LOCAL-00011" summary="reverst ProjectSettings">
       <option name="closed" value="true" />
-      <created>1722050669037</created>
+      <created>1728864305153</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1722050669037</updated>
+      <updated>1728864305153</updated>
     </task>
-    <task id="LOCAL-00012" summary="debug data">
+    <task id="LOCAL-00012" summary="change namespace">
       <option name="closed" value="true" />
-      <created>1722158142652</created>
+      <created>1729148340691</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1722158142652</updated>
+      <updated>1729148340691</updated>
     </task>
-    <task id="LOCAL-00013" summary="fix data">
+    <task id="LOCAL-00013" summary="Update Ultity AI">
       <option name="closed" value="true" />
-      <created>1722273601919</created>
+      <created>1729148384293</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1722273601919</updated>
+      <updated>1729148384293</updated>
     </task>
-    <task id="LOCAL-00014" summary="blueprint and refactor code">
+    <task id="LOCAL-00014" summary="Update AI System namespace">
       <option name="closed" value="true" />
-      <created>1722706943380</created>
+      <created>1729150907437</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1722706943380</updated>
+      <updated>1729150907437</updated>
     </task>
-    <task id="LOCAL-00015" summary="reformat code and minimalism view blueprint">
+    <task id="LOCAL-00015" summary="Update version">
       <option name="closed" value="true" />
-      <created>1722789469946</created>
+      <created>1735229204150</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1722789469946</updated>
+      <updated>1735229204150</updated>
     </task>
-    <task id="LOCAL-00016" summary="Add audio libary external">
+    <task id="LOCAL-00016" summary="init features commit">
       <option name="closed" value="true" />
-      <created>1722993700917</created>
+      <created>1735235664252</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1722993700917</updated>
+      <updated>1735235664252</updated>
     </task>
-    <task id="LOCAL-00017" summary="refactor blueprint">
-      <option name="closed" value="true" />
-      <created>1723435968908</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1723435968908</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Refactor Csv">
-      <option name="closed" value="true" />
-      <created>1723482264269</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1723482264269</updated>
-    </task>
-    <task id="LOCAL-00019" summary="refactor UI code">
-      <option name="closed" value="true" />
-      <created>1723598079120</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1723598079120</updated>
-    </task>
-    <task id="LOCAL-00020" summary="init game feature">
-      <option name="closed" value="true" />
-      <created>1725190855047</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1725190855047</updated>
-    </task>
-    <task id="LOCAL-00021" summary="update name package">
-      <option name="closed" value="true" />
-      <created>1725386403298</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1725386403298</updated>
-    </task>
-    <task id="LOCAL-00022" summary="remove obselete function">
-      <option name="closed" value="true" />
-      <created>1728545390663</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1728545390663</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,26 +843,20 @@
     <MESSAGE value="Update asm" />
     <MESSAGE value="Finish scene" />
     <MESSAGE value="remove mapping direction" />
-    <MESSAGE value="fix missing asm dotween" />
-    <MESSAGE value="dictionary extension" />
-    <MESSAGE value="debug data" />
-    <MESSAGE value="fix data" />
-    <MESSAGE value="blueprint and refactor code" />
-    <MESSAGE value="reformat code and minimalism view blueprint" />
-    <MESSAGE value="Add audio libary external" />
-    <MESSAGE value="refactor blueprint" />
-    <MESSAGE value="Refactor Csv" />
-    <MESSAGE value="refactor UI code" />
-    <MESSAGE value="init game feature" />
-    <MESSAGE value="update name package" />
-    <MESSAGE value="remove obselete function" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove obselete function" />
+    <MESSAGE value="Update script local project" />
+    <MESSAGE value="reverst ProjectSettings" />
+    <MESSAGE value="change namespace" />
+    <MESSAGE value="Update Ultity AI" />
+    <MESSAGE value="Update AI System namespace" />
+    <MESSAGE value="Update version" />
+    <MESSAGE value="init features commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init features commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/tvan.uni.foundation/TEst1/PeopleBlueprintController.cs</url>
+          <url>file://$PROJECT_DIR$/Assets/GDK_TrongLe/TEst1/PeopleBlueprintController.cs</url>
           <line>63</line>
           <properties documentPath="C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity\Assets\Scripts\TEst1\ScriptableObjectController.cs" initialLine="55" containingFunctionPresentation="Method 'Awake'" />
           <option name="timeStamp" value="2" />
