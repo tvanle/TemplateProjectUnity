@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4264105858931333858}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6073822271932863019
 MonoBehaviour:
@@ -49,19 +49,15 @@ MonoBehaviour:
   _monoInstallers:
   - {fileID: 904125829313922856}
   _installerPrefabs: []
+  _findSiblingMonoInstallers: 0
   _parentNewObjectsUnderContext: 1
-  _editorReflectionBakingCoverageMode: 0
-  _buildsReflectionBakingCoverageMode: 0
+  _autoInjectInHierarchy: 0
   _settings:
     _ensureDeterministicDestructionOrderOnApplicationQuit: 0
     _displayWarningWhenResolvingDuringInstall: 1
     _validationRootResolveMethod: 0
     _validationErrorResponse: 0
-    _signalSettings:
-      _defaultSyncMode: 0
-      _missingHandlerDefaultResponse: 2
-      _requireStrictUnsubscribe: 0
-      _defaultAsyncTickPriority: 1
+    _constructorChoiceStrategy: 0
 --- !u!114 &904125829313922856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71,6 +67,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4264105858931333858}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a53e19e0f2bf488ba6014f9569c2bc38, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e5be304c05fbcf438ae9615b427e550, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

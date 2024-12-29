@@ -1,6 +1,6 @@
 ﻿namespace Scenes.LoadingScene
 {
-    using tvan.uni.foundation.UniUI.Scripts.Manager;
+    using Packages.Tvan.Foundation.UniUI.Scripts.Manager;
     using UI.Loading;
 
     public class LoadingSceneInstaller : BaseSceneInstaller
