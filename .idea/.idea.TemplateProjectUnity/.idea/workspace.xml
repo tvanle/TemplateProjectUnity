@@ -4,48 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdea3b60-c858-424d-9249-98c6fa7d5bfd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Screen.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Screen.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/GDKInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/GDKInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Base.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Base/HyperCasualRootUI.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Base/HyperCasualRootUI.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Base/HyperCasualUIBasePopup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Base/HyperCasualUIBasePopup.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Base/HyperCasualUIBaseScreen.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Base/HyperCasualUIBaseScreen.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Screen/LoadingScreenView.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Screen/LoadingScreenView.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Screen/LoadingScreenView.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Screen/LoadingScreenView.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Model/IScreenModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Model/IScreenModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/BasePopupPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/BasePopupPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/BaseScreenNormalPresenter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/BaseScreenNormalPresenter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/BaseScreenPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/BaseScreenPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/IPopupPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/IPopupPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/IScreenNormalPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/IScreenNormalPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/IScreenPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/IScreenPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/ScreenInfoAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/ScreenInfoAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/View/BaseView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/View/BaseView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/View/IScreenView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/View/IScreenView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseUI/IUIPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseUI/IUIPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseUI/IUIView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseUI/IUIView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/BaseSceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/BaseSceneInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/RootUICanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/RootUICanvas.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/ScreenManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/ScreenManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/UniUIInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/UniUIInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/CameraStacker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/CameraStacker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/ScaleScreenRatio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/ScaleScreenRatio.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/UIStuff/AnimationButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/UIStuff/AnimationButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/UIStuff/SafeArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/UIStuff/SafeArea.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/UIStuff/UIScreenTransition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Utilities/UIStuff/UIScreenTransition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/0.LoadingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/0.LoadingScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1.MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1.MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenes/LoadingScene/LoadingSceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes/LoadingScene/LoadingSceneInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenes/MainScene/MainSceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes/MainScene/MainSceneInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/LoadingScreenView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/LoadingScreenView.cs" afterDir="false" />
+    <list default="true" id="cdea3b60-c858-424d-9249-98c6fa7d5bfd" name="Changes" comment="Refactor ScreenManager">
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Csv/ItemCsv.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Csv/ItemCsv.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Csv/ShopCsv.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Csv/ShopCsv.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Model/Element/ItemData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Model/Element/ItemData.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +27,7 @@
         <entry key="$PROJECT_DIR$/Assets/tvan.uni.foundation" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Assets/Packages/Tvan/Features" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -219,7 +181,7 @@
       <workItem from="1735313845611" duration="5789000" />
       <workItem from="1735353146976" duration="592000" />
       <workItem from="1735379932990" duration="4866000" />
-      <workItem from="1735481793012" duration="1997000" />
+      <workItem from="1735481793012" duration="2324000" />
     </task>
     <task id="LOCAL-00001" summary="remove excessive folder, remove panel of dotween, add package audio git">
       <option name="closed" value="true" />
@@ -365,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735236202378</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Refactor ScreenManager">
+      <option name="closed" value="true" />
+      <created>1735487175529</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1735487175529</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,7 +380,8 @@
     <MESSAGE value="move to submodule package" />
     <MESSAGE value="Uupdate head" />
     <MESSAGE value="Update head" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update head" />
+    <MESSAGE value="Refactor ScreenManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor ScreenManager" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
