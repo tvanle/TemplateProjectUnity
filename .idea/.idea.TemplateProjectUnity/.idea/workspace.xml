@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdea3b60-c858-424d-9249-98c6fa7d5bfd" name="Changes" comment="Refactor ScreenManager">
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Csv/ItemCsv.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Csv/ItemCsv.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Csv/ShopCsv.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Csv/ShopCsv.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Model/Element/ItemData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Model/Element/ItemData.cs" afterDir="false" />
-    </list>
+    <list default="true" id="cdea3b60-c858-424d-9249-98c6fa7d5bfd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +23,7 @@
         <entry key="$PROJECT_DIR$/Assets/tvan.uni.foundation" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Assets/Packages/Tvan/Features" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -46,6 +42,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8a172039c50c4113a07e608ee3976ae2824c00/52/f01e4129/MenuItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dce28debe6614a5386ef7e0e16e9752d11400/da/a6145d37/DOTweenUtilityWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/f6083ebbe45944d79ff3178e25ed4ffe4000/bd/436ee22b/DOTweenPro.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/UniCoreInstaller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe.zenject@1.8.1/Runtime/DiContainerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/SplitterGUILayout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTask.Editor.asmdef" root0="SKIP_HIGHLIGHTING" />
@@ -181,7 +178,7 @@
       <workItem from="1735313845611" duration="5789000" />
       <workItem from="1735353146976" duration="592000" />
       <workItem from="1735379932990" duration="4866000" />
-      <workItem from="1735481793012" duration="2324000" />
+      <workItem from="1735481793012" duration="3826000" />
     </task>
     <task id="LOCAL-00001" summary="remove excessive folder, remove panel of dotween, add package audio git">
       <option name="closed" value="true" />
@@ -335,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735487175529</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Update installer object pool">
+      <option name="closed" value="true" />
+      <created>1735492558638</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1735492558638</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +386,8 @@
     <MESSAGE value="Uupdate head" />
     <MESSAGE value="Update head" />
     <MESSAGE value="Refactor ScreenManager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor ScreenManager" />
+    <MESSAGE value="Update installer object pool" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update installer object pool" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
