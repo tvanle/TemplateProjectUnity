@@ -7,6 +7,7 @@ namespace UI.Loading
     using TMPro;
     using tvan.uni.foundation.UniCore.AssetLibrary.Scripts;
     using tvan.uni.foundation.UniCore.Extension.Unity;
+    using tvan.uni.foundation.UniCore.SignalBus;
     using tvan.uni.foundation.UniData.Scripts.Csv.CsvController;
     using tvan.uni.foundation.UniData.Scripts.LocalData.Manager;
     using UnityEngine;
@@ -52,8 +53,12 @@ namespace UI.Loading
         }
     }
 
+    public class LoadingScreenModel
+    {
+    }
+
     [ScreenInfo(nameof(LoadingScreenView))]
-    public class LoadingScreenPresenter : BaseScreenPresenter<LoadingScreenView>
+    public class LoadingScreenPresenter : BaseScreenPresenter<LoadingScreenView, LoadingScreenModel>
     {
         protected readonly CsvReaderManager CsvManager;
         protected readonly LocalDataManager LocalDataManager;
@@ -61,7 +66,9 @@ namespace UI.Loading
 
         public LoadingScreenPresenter(CsvReaderManager csvManager,
                                       LocalDataManager localDataManager,
-                                      IGameAssets gameAssets)
+                                      IGameAssets gameAssets,
+                                      SignalBus signalBus)
+            : base(signalBus)
         {
             this.CsvManager       = csvManager;
             this.LocalDataManager = localDataManager;

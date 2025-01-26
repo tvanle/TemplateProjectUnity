@@ -8,7 +8,7 @@
         public override void InstallBindings()
         {
             base.InstallBindings();
-            this.screenManager.OpenScreen<LoadingScreenPresenter>();
+            this.screenManager.OpenScreen<LoadingScreenPresenter, LoadingScreenModel>(new LoadingScreenModel());
         }
     }
 }
