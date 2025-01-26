@@ -22,6 +22,36 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a67fa329551f4748970562bca4c0050
+    m_Address: WinScreenView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9afc7f5dc141944d9617624a08a2225
+    m_Address: GamePlayScreenView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc796664613db0b4e9232032f1ff51d1
+    m_Address: LoseScreenView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18ec55f16d553d6439e11fa9b64b244c
+    m_Address: Popup1View
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b33070f089036bc4c9d748416ac379ac
+    m_Address: Popup2View
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4c73fa0de85cde43b7eb9921810f0c5
+    m_Address: Popup3View
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b6fa4c5ae7ec01c48840ba00aa15f8ac, type: 2}
   m_SchemaSet:
