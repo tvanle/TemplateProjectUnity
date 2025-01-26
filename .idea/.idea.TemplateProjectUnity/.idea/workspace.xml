@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdea3b60-c858-424d-9249-98c6fa7d5bfd" name="Changes" comment="" />
+    <list default="true" id="cdea3b60-c858-424d-9249-98c6fa7d5bfd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/WinScreenView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/WinScreenView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Screen/WinScreenView.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Screen/WinScreenView.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/ScreenManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/ScreenManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/0.LoadingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/0.LoadingScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1.MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1.MainScene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +50,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8a172039c50c4113a07e608ee3976ae2824c00/52/f01e4129/MenuItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dce28debe6614a5386ef7e0e16e9752d11400/da/a6145d37/DOTweenUtilityWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/f6083ebbe45944d79ff3178e25ed4ffe4000/bd/436ee22b/DOTweenPro.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/UniCoreInstaller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/ScreenInfoAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TestScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe.zenject@1.8.1/Runtime/DiContainerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/SplitterGUILayout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTask.Editor.asmdef" root0="SKIP_HIGHLIGHTING" />
@@ -126,10 +135,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="11096">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="11096" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -179,6 +188,11 @@
       <workItem from="1735353146976" duration="592000" />
       <workItem from="1735379932990" duration="4866000" />
       <workItem from="1735481793012" duration="3826000" />
+      <workItem from="1735520333098" duration="1383000" />
+      <workItem from="1735569411832" duration="2634000" />
+      <workItem from="1737816213380" duration="6446000" />
+      <workItem from="1737854186370" duration="6067000" />
+      <workItem from="1737862106934" duration="1914000" />
     </task>
     <task id="LOCAL-00001" summary="remove excessive folder, remove panel of dotween, add package audio git">
       <option name="closed" value="true" />
@@ -340,7 +354,55 @@
       <option name="project" value="LOCAL" />
       <updated>1735492558638</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update head">
+      <option name="closed" value="true" />
+      <created>1735522542827</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1735522542827</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Update screen">
+      <option name="closed" value="true" />
+      <created>1737857211747</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1737857211747</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Update editor and screen">
+      <option name="closed" value="true" />
+      <created>1737859865070</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1737859865070</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Update util">
+      <option name="closed" value="true" />
+      <created>1737861624108</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1737861624108</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Update screen for test">
+      <option name="closed" value="true" />
+      <created>1737861696048</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1737861696048</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Update for test">
+      <option name="closed" value="true" />
+      <created>1737861728343</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1737861728343</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,8 +428,6 @@
       <path value="$PROJECT_DIR$/Assets/tvan.uni.features" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="remove excessive folder, remove panel of dotween, add package audio git" />
-    <MESSAGE value="add package audio git" />
     <MESSAGE value="sorry , code returned :)) not change" />
     <MESSAGE value="build template continue" />
     <MESSAGE value="Loading Template" />
@@ -387,7 +447,13 @@
     <MESSAGE value="Update head" />
     <MESSAGE value="Refactor ScreenManager" />
     <MESSAGE value="Update installer object pool" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update installer object pool" />
+    <MESSAGE value="update head" />
+    <MESSAGE value="Update screen" />
+    <MESSAGE value="Update editor and screen" />
+    <MESSAGE value="Update util" />
+    <MESSAGE value="Update screen for test" />
+    <MESSAGE value="Update for test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update for test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -397,6 +463,19 @@
           <line>63</line>
           <properties documentPath="C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity\Assets\Scripts\TEst1\ScriptableObjectController.cs" initialLine="55" containingFunctionPresentation="Method 'Awake'" />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/ScreenManager.cs</url>
+          <line>122</line>
+          <properties documentPath="C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity\Assets\Packages\Tvan\Foundation\UniUI\Scripts\Manager\ScreenManager.cs" initialLine="122" containingFunctionPresentation="Local function 'InstantiateScreen'">
+            <startOffsets>
+              <option value="4533" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4675" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -159,8 +159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 298, y: -747}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 298, y: -646}
+  m_SizeDelta: {x: 217.8, y: 78.84}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &97686098
 MonoBehaviour:
@@ -205,7 +205,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 97686099}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408857596}
+        m_TargetAssemblyTypeName: TestScreen, GamePlay.Script
+        m_MethodName: OpenWin
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &97686099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,8 +292,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -330, y: -844}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -330, y: -743}
+  m_SizeDelta: {x: 217.8, y: 78.84}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &142254876
 MonoBehaviour:
@@ -326,7 +338,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 142254877}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408857596}
+        m_TargetAssemblyTypeName: TestScreen, GamePlay.Script
+        m_MethodName: OpenPopup1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &142254877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -511,6 +535,7 @@ GameObject:
   - component: {fileID: 408857594}
   - component: {fileID: 408857593}
   - component: {fileID: 408857592}
+  - component: {fileID: 408857596}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -606,6 +631,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &408857596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408857591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8be845cf80ce3ff4fb38eb8209e4363e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -870,8 +907,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5, y: -860}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -5, y: -759}
+  m_SizeDelta: {x: 217.8, y: 78.84}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &868393780
 MonoBehaviour:
@@ -916,7 +953,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 868393781}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408857596}
+        m_TargetAssemblyTypeName: TestScreen, GamePlay.Script
+        m_MethodName: OpenPopup2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &868393781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -991,8 +1040,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 296, y: -859}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 296, y: -758}
+  m_SizeDelta: {x: 217.8, y: 78.84}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &919611120
 MonoBehaviour:
@@ -1037,7 +1086,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 919611121}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408857596}
+        m_TargetAssemblyTypeName: TestScreen, GamePlay.Script
+        m_MethodName: OpenPopup3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &919611121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1112,8 +1173,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: -744}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -8, y: -643}
+  m_SizeDelta: {x: 217.8, y: 78.84}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &922887088
 MonoBehaviour:
@@ -1158,7 +1219,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 922887089}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408857596}
+        m_TargetAssemblyTypeName: TestScreen, GamePlay.Script
+        m_MethodName: OpenLose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &922887089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1914,8 +1987,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -330, y: -740}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -330, y: -639}
+  m_SizeDelta: {x: 217.8, y: 78.84}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2127952520
 MonoBehaviour:
@@ -1960,7 +2033,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2127952521}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 408857596}
+        m_TargetAssemblyTypeName: TestScreen, GamePlay.Script
+        m_MethodName: OpenGamePlay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2127952521
 MonoBehaviour:
   m_ObjectHideFlags: 0
