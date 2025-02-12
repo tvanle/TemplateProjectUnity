@@ -15,7 +15,9 @@
     "UniTask.Addressables",
     "Unity.ResourceManager",
     "UniTask.DOTween",
-    "Zenject"
+    "DOTween.modules",
+    "Zenject",
+    "UniCore.ObjectPool"
   ],
   "includePlatforms": [],
   "excludePlatforms": [],
