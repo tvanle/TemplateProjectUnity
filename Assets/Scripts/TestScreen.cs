@@ -20,7 +20,7 @@ public class TestScreen : MonoBehaviour
 
     public void OpenGamePlay() { this.ScreenManager.OpenScreen<GamePlayScreenPresenter, GamePlayModel>(new GamePlayModel()); }
 
-    public void OpenLose() { this.ScreenManager.OpenScreen<WinScreenPresenter, WinScreenModel>(new WinScreenModel()); }
+    public void OpenLose() { this.ScreenManager.OpenScreen<LoseScreenPresenter, LoseModel>(new LoseModel()); }
 
     public void OpenWin() { this.ScreenManager.OpenScreen<WinScreenPresenter, WinScreenModel>(new WinScreenModel()); }
 

@@ -1,5 +1,6 @@
 ﻿namespace Scenes.MainScene
 {
+    using GameFoundation.Scripts.UIModule.Utilities.LoadImage;
     using Packages.Tvan.Foundation.UniUI.Scripts.Manager;
     using StateMachine;
 
@@ -9,6 +10,7 @@
         {
             base.InstallBindings();
             GameStateMachineInstaller.Install(this.Container);
+            this.Container.Bind<LoadImageHelper>().AsSingle();
         }
     }
 }
