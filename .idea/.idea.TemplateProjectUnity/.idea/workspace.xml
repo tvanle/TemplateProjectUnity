@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdea3b60-c858-424d-9249-98c6fa7d5bfd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/WinScreenView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/WinScreenView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Screen/WinScreenView.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Prefabs/Screen/WinScreenView.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/ScreenManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/ScreenManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/0.LoadingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/0.LoadingScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1.MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1.MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,34 +24,48 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation" source="develop" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="develop" />
         <entry key="$PROJECT_DIR$/Assets/tvan.uni.foundation" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Assets/Packages/Tvan/Features" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/012ca6023c754e6384f20d14e09f256e5789b8/fc/243f967f/MemberInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/310ecb94d109456a9a1d5a1a082aa3065600/c4/23417143/InjectAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53aac14d88ba4477acc998b039cfd73a15ae00/04/cb6f9c6e/Resources.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53aac14d88ba4477acc998b039cfd73a15ae00/1a/4657cf82/DirectorUpdateMode.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53aac14d88ba4477acc998b039cfd73a15ae00/64/f959d0a8/ScriptableObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/4e/1c1b64d0/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/69/2b011494/Array.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/af/a669e5f6/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/c0/1a3e9f2e/FieldInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/8a/503a5322/LoadSceneMode.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82a2fd073ee449928e161903460426d72ae00/bf/f53c51a7/DOTween.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8a172039c50c4113a07e608ee3976ae2824c00/52/f01e4129/MenuItem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dce28debe6614a5386ef7e0e16e9752d11400/da/a6145d37/DOTweenUtilityWindow.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/f6083ebbe45944d79ff3178e25ed4ffe4000/bd/436ee22b/DOTweenPro.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/864e15c542c5454281585a958cc3a2ce17200/56/7dd19bef/VContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../MyProjects/__The One/Screw3D/UnityScrew3D/Assets/TheOne.FTUE/Sources/Common/Scripts/UIElement/UnlockPopupView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/DOTweenModuleExtension.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/DOTweenModuleExtension.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/ObjectPoolManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/UniCore.ObjectPool.asmdef" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/UniCore.ObjectPool.asmdef" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/SignalBus.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Manager/LocalDataManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/UniLocalDataInstaller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/UniLocalDataInstaller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/ScreenInfoAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Scripts/Data/Logger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TestLoadImage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TestScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe.zenject@1.8.1/Runtime/DiContainerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe.zenject@1.8.1/Runtime/TypeProxy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe@1.8.1/Runtime/MessagePipeOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/SplitterGUILayout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTask.Editor.asmdef" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTaskTrackerTreeView.cs" root0="SKIP_HIGHLIGHTING" />
@@ -61,26 +74,42 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/External/DOTween/UniTask.DOTween.asmdef" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/UniTask.WaitUntil.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/UniTask.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Install/CompositeInstallerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Install/Contexts/ProjectContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Install/Contexts/SceneContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Install/Installer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Internal/Assert.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Main/DiContainer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Zenject.asmdef" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/UniTaskExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/UniTaskScheduler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Install/InstallerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/Util/DelayedActionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/Util/MonoBehaviourCallbackHooks.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ai.navigation@1.1.5/Editor/NavMeshAssetManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@2.4.3/Editor/PlasticSCM/UI/ScreenResolution.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMP_PackageUtilities.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/AwaitableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/IAsyncStartable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/IFixedTickable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/IInitializable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/ILateTickable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/IPostFixedTickable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/IPostInitializable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/IStartable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/InjectAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Container.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/ContainerBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/IInjector.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Registry.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Unity/InstanceProviders/ExistingComponentProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/VContainer.asmdef" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Packages/packages-lock.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/ProjectSettings/PackageManagerSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/ProjectSettings/PackageManagerSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2iZtrLyjtNkBOzAHs2ffgoUAhi9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -99,13 +128,6 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\Admin\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\Admin\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\Admin\\AppData\\Local\\Symbols\\src&quot;
-    ]
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -115,6 +137,9 @@
       <option name="WORKING_DIRECTORY" value="C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
@@ -123,6 +148,9 @@
       <option name="WORKING_DIRECTORY" value="C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -130,19 +158,27 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
       <option name="selectedOptions">
         <list />
       </option>
+      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="11096">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="11096" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
       <option name="selectedOptions">
         <list />
       </option>
+      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -192,7 +228,19 @@
       <workItem from="1735569411832" duration="2634000" />
       <workItem from="1737816213380" duration="6446000" />
       <workItem from="1737854186370" duration="6067000" />
-      <workItem from="1737862106934" duration="1914000" />
+      <workItem from="1737862106934" duration="6770000" />
+      <workItem from="1738293584098" duration="5023000" />
+      <workItem from="1738314094537" duration="5770000" />
+      <workItem from="1738381076667" duration="4062000" />
+      <workItem from="1738463203639" duration="1638000" />
+      <workItem from="1739374576501" duration="2850000" />
+      <workItem from="1739406876004" duration="2006000" />
+      <workItem from="1749995372792" duration="48000" />
+      <workItem from="1750005178886" duration="25000" />
+      <workItem from="1750563352697" duration="1008000" />
+      <workItem from="1750566609723" duration="11128000" />
+      <workItem from="1750607441133" duration="4252000" />
+      <workItem from="1750693691412" duration="7967000" />
     </task>
     <task id="LOCAL-00001" summary="remove excessive folder, remove panel of dotween, add package audio git">
       <option name="closed" value="true" />
@@ -402,7 +450,63 @@
       <option name="project" value="LOCAL" />
       <updated>1737861728343</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="test for done">
+      <option name="closed" value="true" />
+      <created>1737873064777</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1737873064777</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Update head">
+      <option name="closed" value="true" />
+      <created>1737875155193</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1737875155193</updated>
+    </task>
+    <task id="LOCAL-00029" summary="set sibling index screen view">
+      <option name="closed" value="true" />
+      <created>1738306687223</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1738306687223</updated>
+    </task>
+    <task id="LOCAL-00030" summary="refactor this code">
+      <option name="closed" value="true" />
+      <created>1738317263019</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1738317263019</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add assembly dotween">
+      <option name="closed" value="true" />
+      <created>1739377756940</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1739377756940</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Add LoadImageHelper for loading images from URLs and caching sprites">
+      <option name="closed" value="true" />
+      <created>1750566700600</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1750566700600</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Add dependency injection framework with VContainer integration">
+      <option name="closed" value="true" />
+      <created>1750701301192</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1750701301192</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,6 +514,11 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -428,12 +537,6 @@
       <path value="$PROJECT_DIR$/Assets/tvan.uni.features" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="sorry , code returned :)) not change" />
-    <MESSAGE value="build template continue" />
-    <MESSAGE value="Loading Template" />
-    <MESSAGE value="LocalData" />
-    <MESSAGE value="Update asm" />
-    <MESSAGE value="Finish scene" />
     <MESSAGE value="remove mapping direction" />
     <MESSAGE value="Update script local project" />
     <MESSAGE value="reverst ProjectSettings" />
@@ -444,7 +547,6 @@
     <MESSAGE value="init features commit" />
     <MESSAGE value="move to submodule package" />
     <MESSAGE value="Uupdate head" />
-    <MESSAGE value="Update head" />
     <MESSAGE value="Refactor ScreenManager" />
     <MESSAGE value="Update installer object pool" />
     <MESSAGE value="update head" />
@@ -453,7 +555,14 @@
     <MESSAGE value="Update util" />
     <MESSAGE value="Update screen for test" />
     <MESSAGE value="Update for test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update for test" />
+    <MESSAGE value="test for done" />
+    <MESSAGE value="Update head" />
+    <MESSAGE value="set sibling index screen view" />
+    <MESSAGE value="refactor this code" />
+    <MESSAGE value="add assembly dotween" />
+    <MESSAGE value="Add LoadImageHelper for loading images from URLs and caching sprites" />
+    <MESSAGE value="Add dependency injection framework with VContainer integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add dependency injection framework with VContainer integration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -461,22 +570,21 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/GDK_TrongLe/TEst1/PeopleBlueprintController.cs</url>
           <line>63</line>
-          <properties documentPath="C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity\Assets\Scripts\TEst1\ScriptableObjectController.cs" initialLine="55" containingFunctionPresentation="Method 'Awake'" />
+          <properties documentPath="C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity\Assets\Scripts\TEst1\ScriptableObjectController.cs" containingFunctionPresentation="Method 'Awake'" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/ScreenManager.cs</url>
-          <line>122</line>
-          <properties documentPath="C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity\Assets\Packages\Tvan\Foundation\UniUI\Scripts\Manager\ScreenManager.cs" initialLine="122" containingFunctionPresentation="Local function 'InstantiateScreen'">
-            <startOffsets>
-              <option value="4533" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4675" />
-            </endOffsets>
-          </properties>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
