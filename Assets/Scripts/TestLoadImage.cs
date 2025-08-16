@@ -1,13 +1,13 @@
 using Cysharp.Threading.Tasks;
 using GameFoundation.Scripts.UIModule.Utilities.LoadImage;
-using GDK_TrongLe.UniCore.Extension.Unity;
+using Tvan.Foundation.UniCore.Extension.Unity;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class TestLoadImage : MonoBehaviour
 {
     public  Image           targetImage; // Gán Image từ Inspector
-    private LoadImageHelper loadImageHelper => this.GetCurrentContainer().Resolve<LoadImageHelper>();
+    private LoadImageHelper LoadImageHelper => this.GetCurrentContainer().Resolve<LoadImageHelper>();
 
     private void Start()
     {
@@ -18,5 +18,8 @@ public class TestLoadImage : MonoBehaviour
         this.LoadImageFromURL(imageUrl).Forget();
     }
 
-    private async UniTaskVoid LoadImageFromURL(string url) { await this.loadImageHelper.LoadSpriteFromUrl(this.targetImage, url); }
+    private async UniTaskVoid LoadImageFromURL(string url)
+    {
+        await this.LoadImageHelper.LoadSpriteFromUrl(this.targetImage, url);
+    }
 }

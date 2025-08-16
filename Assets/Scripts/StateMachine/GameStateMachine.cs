@@ -2,21 +2,21 @@
 {
     using System.Collections.Generic;
     using StateMachine.States;
-    using tvan.uni.foundation.UniCore.SignalBus;
-    using tvan.uni.foundation.UniCore.StateMachine.Controller;
-    using tvan.uni.foundation.UniCore.StateMachine.Interface;
-    using Zenject;
+    using Tvan.Foundation.UniCore.SignalBus;
+    using Tvan.Foundation.UniCore.StateMachine.Controller;
+    using Tvan.Foundation.UniCore.StateMachine.Interface;
+    using VContainer.Unity;
 
-    public class GameStateMachine : StateMachine, IInitializable
+    public class GameStateMachine : StateMachine, IStartable
     {
-        public GameStateMachine(List<IState> listGameState, SignalBus signalBus) : base(listGameState, signalBus)
+        public GameStateMachine(IEnumerable<IState> listGameState, SignalBus signalBus) : base(new(listGameState), signalBus)
         {
-            listGameState.ForEach(e =>
+            foreach (var state in listGameState)
             {
-                if (e is BaseGameState state) state.GameStateMachine = this;
-            });
+                if (state is BaseGameState baseState) baseState.GameStateMachine = this;
+            }
         }
 
-        public void Initialize() { }
+        public void Start() { }
     }
 }

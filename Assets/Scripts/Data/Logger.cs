@@ -4,28 +4,29 @@
     using System.IO;
     using Data.Csv;
     using Sylvan.Data.Csv;
-    using tvan.uni.foundation.UniCore.Extension;
+    using Tvan.Foundation.DI;
+    using Tvan.Foundation.UniCore.Extension;
     using UnityEngine;
-    using Zenject;
+    using VContainer;
 
     public class Logger : MonoBehaviour
     {
-        [Inject] private DiContainer diContainer;
-        [Inject] private LevelCsv    levelCsv;
+        [Inject] private IDependencyContainer diContainer;
+        [Inject] private LevelCsv             levelCsv;
 
         private void Awake() { Debug.Log(DateTime.UtcNow); }
 
         private async void Start()
         {
-            // Tải tệp CSV từ Resources
-            var csvFile = Resources.Load<TextAsset>("CsvData/Level"); // "data" không cần phần mở rộng .csv
+            // T?i t?p CSV t? Resources
+            var csvFile = Resources.Load<TextAsset>("CsvData/Level"); // "data" kh�ng c?n ph?n m? r?ng .csv
             Debug.Log(csvFile.text);
             if (csvFile != null)
-                // Tạo một MemoryStream từ nội dung của TextAsset
+                // T?o m?t MemoryStream t? n?i dung c?a TextAsset
                 using (var stream = new MemoryStream(csvFile.bytes))
                 using (var reader = new StreamReader(stream))
                 {
-                    // Tạo đối tượng CsvDataReader từ nội dung của StreamReader
+                    // T?o d?i tu?ng CsvDataReader t? n?i dung c?a StreamReader
                     var opts = new CsvDataReaderOptions();
                     using (var csv = await CsvDataReader.CreateAsync(reader, opts))
                     {
@@ -39,7 +40,7 @@
                     }
                 }
             else
-                Debug.LogError("Không tìm thấy tệp CSV trong Resources.");
+                Debug.LogError("Kh�ng t�m th?y t?p CSV trong Resources.");
         }
 
         private void Update()

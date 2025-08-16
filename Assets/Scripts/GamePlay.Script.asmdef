@@ -16,8 +16,12 @@
     "Unity.ResourceManager",
     "UniTask.DOTween",
     "DOTween.modules",
-    "Zenject",
-    "UniCore.ObjectPool"
+    "VContainer",
+    "MessagePipe",
+    "Tvan.Foundation.DI",
+    "GDK.Script",
+    "UniCore.ObjectPool",
+    "UniDI.Script"
   ],
   "includePlatforms": [],
   "excludePlatforms": [],

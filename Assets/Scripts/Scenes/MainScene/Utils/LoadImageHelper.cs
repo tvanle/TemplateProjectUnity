@@ -5,8 +5,8 @@ namespace GameFoundation.Scripts.UIModule.Utilities.LoadImage
     using Cysharp.Threading.Tasks;
     using DG.DemiEditor;
     using DG.Tweening;
-    using tvan.uni.foundation.UniCore.AssetLibrary.Scripts;
-    using tvan.uni.foundation.UniCore.ObjectPool;
+    using Tvan.Foundation.UniCore.AssetLibrary.Scripts;
+    using Tvan.Foundation.UniCore.ObjectPool;
     using UnityEngine;
     using UnityEngine.Networking;
     using UnityEngine.Scripting;

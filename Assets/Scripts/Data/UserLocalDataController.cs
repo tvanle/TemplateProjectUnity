@@ -1,6 +1,6 @@
 namespace Data
 {
-    using tvan.uni.foundation.UniData.Scripts.LocalData.Controller;
+    using Tvan.Foundation.UniData.Scripts.LocalData.Controller;
 
     public class UserLocalDataController : BaseLocalDataController<UserLocalData>
     {

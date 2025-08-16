@@ -1,5 +1,5 @@
-using GDK_TrongLe.UniCore.Extension.Unity;
-using Packages.Tvan.Foundation.UniUI.Scripts.Manager;
+using Tvan.Foundation.UniCore.Extension.Unity;
+using Tvan.Foundation.UniUI.Scripts.Manager;
 using UI.Loading;
 using UnityEngine;
 

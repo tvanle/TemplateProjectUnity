@@ -2,14 +2,13 @@ namespace UI.Loading
 {
     using Cysharp.Threading.Tasks;
     using DG.Tweening;
-    using Packages.Tvan.Foundation.UniUI.Scripts.BaseScreen.Presenter;
-    using Packages.Tvan.Foundation.UniUI.Scripts.BaseScreen.View;
     using TMPro;
-    using tvan.uni.foundation.UniCore.AssetLibrary.Scripts;
-    using tvan.uni.foundation.UniCore.Extension.Unity;
-    using tvan.uni.foundation.UniCore.SignalBus;
-    using tvan.uni.foundation.UniData.Scripts.Csv.CsvController;
-    using tvan.uni.foundation.UniData.Scripts.LocalData.Manager;
+    using Tvan.Foundation.UniCore.AssetLibrary.Scripts;
+    using Tvan.Foundation.UniCore.SignalBus;
+    using Tvan.Foundation.UniData.Scripts.Csv.CsvController;
+    using Tvan.Foundation.UniData.Scripts.LocalData.Manager;
+    using Tvan.Foundation.UniUI.Scripts.BaseScreen.Presenter;
+    using Tvan.Foundation.UniUI.Scripts.BaseScreen.View;
     using UnityEngine;
     using UnityEngine.ResourceManagement.AsyncOperations;
     using UnityEngine.ResourceManagement.ResourceProviders;

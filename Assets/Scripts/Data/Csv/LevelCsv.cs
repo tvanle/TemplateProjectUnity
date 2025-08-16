@@ -1,6 +1,6 @@
-﻿namespace Data.Csv
+namespace Data.Csv
 {
-    using tvan.uni.foundation.UniData.Scripts.Csv.CsvReader;
+    using Tvan.Foundation.UniData.Scripts.Csv.CsvReader;
 
     [CsvInfo("Level")]
     public class LevelCsv : GenericCsvReader<int, LevelRecord>

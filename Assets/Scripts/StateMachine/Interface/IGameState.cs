@@ -1,6 +1,6 @@
-﻿namespace StateMachine.Interface
+namespace StateMachine.Interface
 {
-    using tvan.uni.foundation.UniCore.StateMachine.Interface;
+    using Tvan.Foundation.UniCore.StateMachine.Interface;
 
     public interface IGameState : IState
     {

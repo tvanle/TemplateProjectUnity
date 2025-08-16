@@ -5,12 +5,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdea3b60-c858-424d-9249-98c6fa7d5bfd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes/LoadingScene/LoadingSceneScope.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TemplateProjectUnity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Features" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Features" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/AISystem/Scripts/AISystem/Actions/MoveToTargetAIAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/AISystem/Scripts/AISystem/Actions/MoveToTargetAIAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/AISystem/Scripts/AISystem/Considerations/InRangeConsideration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/AISystem/Scripts/AISystem/Considerations/InRangeConsideration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/AISystem/Scripts/Preconditions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/AISystem/Scripts/Preconditions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Csv/ItemCsv.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Csv/ItemCsv.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Csv/ShopCsv.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Csv/ShopCsv.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Model/Controller/InventoryDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Model/Controller/InventoryDataController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Model/LocalData/InventoryData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Features/InventorySystem/Model/LocalData/InventoryData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/GDK.Script.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/GDK.Script.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/GDKInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/GDKInstaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/AssetLibrary/Scripts/GameAssets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/AssetLibrary/Scripts/GameAssets.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/DictionaryExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/DictionaryExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/EnumerableExtension.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/EnumerableExtension.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/IterTools.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/IterTools.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/ListExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/ListExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/OtherExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/OtherExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/ReflectionUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/ReflectionUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/TupleExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/TupleExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/TypeExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/TypeExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/UniCore.Extensions.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/UniCore.Extensions.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/DOTweenModuleExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/DOTweenModuleExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/GameObjectExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/GameObjectExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/TransformExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/TransformExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/ZenjectUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/ZenjectUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/Agent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/Agent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/AgentMediator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/AgentMediator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/IVisitor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/IVisitor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/Mediatior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/Mediatior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/Payload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/Mediator/Payload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/ObjectPool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/ObjectPoolExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/ObjectPoolExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/ObjectPoolManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/ObjectPoolManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/SignalBus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/SignalBus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/SignalBusInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/SignalBusInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/SignalExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/SignalExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/UniCore.SignalBus.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/UniCore.SignalBus.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Controller/StateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Controller/StateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Interface/IState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Interface/IState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Interface/IStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Interface/IStateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Signal/OnStateEnterSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Signal/OnStateEnterSignal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Signal/OnStateExitSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/Signal/OnStateExitSignal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/UniCore.StateMachine.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/StateMachine/UniCore.StateMachine.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/UniCore.Script.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/UniCore.Script.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/UniCoreInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniCore/UniCoreInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/BasePopupPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/BasePopupPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/BaseScreenPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/BaseScreenPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/ScreenManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/ScreenManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Signal/ScreenSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Signal/ScreenSignal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/UniUIInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/UniUIInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/SceneToolBarExtend.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/SceneToolBarExtend.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/SceneToolBarExtend.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/SceneToolBarExtend.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Csv/LevelCsv.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Csv/LevelCsv.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Logger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Logger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/UserLocalData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/UserLocalData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/UserLocalDataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/UserLocalDataController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GamePlay.Script.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GamePlay.Script.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenes/LoadingScene/LoadingSceneInstaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenes/LoadingScene/LoadingSceneInstaller.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes/LoadingScene/LoadingSceneScope.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenes/MainScene/MainSceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes/MainScene/MainSceneInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scenes/MainScene/Utils/LoadImageHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes/MainScene/Utils/LoadImageHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachineInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/GameStateMachineInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StateMachine/Interface/IGameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine/Interface/IGameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TestScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TestScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/GamePlayScreenView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/GamePlayScreenView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/LoadingScreenView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/LoadingScreenView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/LoseScreenView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/LoseScreenView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/Popup1View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/Popup1View.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/Popup2View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/Popup2View.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/Popup3View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/Popup3View.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/WinScreenView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Loading/WinScreenView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,70 +116,71 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$/Assets/Packages/Tvan/Features" value="8233a8daf519b4555fe28002b21d8aa2ed2aa329" />
+        <entry key="$PROJECT_DIR$/Assets/Packages/Tvan/Foundation" value="558a3793b7ce655a4e00d4b7c23436319ae6e9cf" />
         <entry key="$PROJECT_DIR$/Assets/tvan.uni.foundation" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Assets/Packages/Tvan/Features" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="trong/vcontainer" />
+                    <option name="lastUsedInstant" value="1755376337" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/Assets/Packages/Tvan/Foundation" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="trong/vcontainer" />
+                    <option name="lastUsedInstant" value="1755376345" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/Assets/Packages/Tvan/Features" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/864e15c542c5454281585a958cc3a2ce17200/56/7dd19bef/VContainer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../MyProjects/__The One/Screw3D/UnityScrew3D/Assets/TheOne.FTUE/Sources/Common/Scripts/UIElement/UnlockPopupView.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/DOTweenModuleExtension.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/Extension/Unity/DOTweenModuleExtension.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/ObjectPoolManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/UniCore.ObjectPool.asmdef" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/ObjectPool/UniCore.ObjectPool.asmdef" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/SignalBus/SignalBus.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/Manager/LocalDataManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/UniLocalDataInstaller.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniData/Scripts/LocalData/UniLocalDataInstaller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Assets/Packages/Tvan/Features/AISystem/Scripts/AISystem/Actions/MoveToTargetAIAction.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Assets/Packages/Tvan/Features/InventorySystem/Csv/ItemCsv.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/GDK.Script.asmdef" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/GDK.Script.asmdef" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/AssetLibrary/Scripts/GameAssets.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/AssetLibrary/Scripts/GameAssets.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniCore/UniCoreInstaller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniData/Scripts/Csv/CsvController/CsvDataInstaller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniUI/Editor/SceneToolbarCustomeEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Packages/Tvan/Foundation/UniUI/Scripts/BaseScreen/Presenter/ScreenInfoAttribute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Assets/Scripts/Data/Logger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Assets/Packages/Tvan/Foundation/UniUI/Scripts/Manager/BaseSceneInstaller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Assets/Resources/SceneToolBarExtend.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Assets/Resources/SceneToolBarExtend.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Assets/Resources/SceneToolBarExtend.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Assets/Resources/SceneToolBarExtend.asset.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Assets/Resources/SceneToolBarExtend.asset.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TestLoadImage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TestScreen.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe.zenject@1.8.1/Runtime/DiContainerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe.zenject@1.8.1/Runtime/TypeProxy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.messagepipe@1.8.1/Runtime/MessagePipeOptions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/SplitterGUILayout.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTask.Editor.asmdef" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTaskTrackerTreeView.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Editor/UniTaskTrackerWindow.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/External/DOTween/DOTweenAsyncExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/External/DOTween/UniTask.DOTween.asmdef" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/UniTask.WaitUntil.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/UniTask.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/UniTaskExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@fbe0bf8515/Runtime/UniTaskScheduler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.svermeulen.extenject@742d849576/Runtime/Install/InstallerBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/Util/DelayedActionManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.21/Runtime/ResourceManager/Util/MonoBehaviourCallbackHooks.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ai.navigation@1.1.5/Editor/NavMeshAssetManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@2.4.3/Editor/PlasticSCM/UI/ScreenResolution.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMP_PackageUtilities.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/AwaitableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/IAsyncStartable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/IFixedTickable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/IInitializable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/ILateTickable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/IPostFixedTickable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/IPostInitializable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/IStartable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Annotations/InjectAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Container.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/ContainerBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/IInjector.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Registry.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/Unity/InstanceProviders/ExistingComponentProvider.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.hadashikick.vcontainer@1.16.8/Runtime/VContainer.asmdef" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/Packages/packages-lock.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/ProjectSettings/PackageManagerSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/WorkSpace/Game/Unity/Template/TemplateProjectUnity/ProjectSettings/PackageManagerSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/PC/Documents/Free/TemplateProjectUnity/Packages/packages-lock.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectColorInfo">{
@@ -115,24 +192,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "develop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.1.3f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -143,7 +220,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.1.3f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\WorkSpace\Game\Unity\Template\TemplateProjectUnity" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -241,6 +318,7 @@
       <workItem from="1750566609723" duration="11128000" />
       <workItem from="1750607441133" duration="4252000" />
       <workItem from="1750693691412" duration="7967000" />
+      <workItem from="1755360566454" duration="14661000" />
     </task>
     <task id="LOCAL-00001" summary="remove excessive folder, remove panel of dotween, add package audio git">
       <option name="closed" value="true" />
@@ -506,7 +584,31 @@
       <option name="project" value="LOCAL" />
       <updated>1750701301192</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Refactor namespaces to remove 'Packages.' prefix for consistency">
+      <option name="closed" value="true" />
+      <created>1755376400526</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1755376400526</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Add VContainerAdapter and related interfaces for dependency injection">
+      <option name="closed" value="true" />
+      <created>1755376429328</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1755376429328</updated>
+    </task>
+    <task id="LOCAL-00036" summary="fix data syxtax">
+      <option name="closed" value="true" />
+      <created>1755376599468</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1755376599468</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,9 +639,6 @@
       <path value="$PROJECT_DIR$/Assets/tvan.uni.features" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="remove mapping direction" />
-    <MESSAGE value="Update script local project" />
-    <MESSAGE value="reverst ProjectSettings" />
     <MESSAGE value="change namespace" />
     <MESSAGE value="Update Ultity AI" />
     <MESSAGE value="Update AI System namespace" />
@@ -562,7 +661,10 @@
     <MESSAGE value="add assembly dotween" />
     <MESSAGE value="Add LoadImageHelper for loading images from URLs and caching sprites" />
     <MESSAGE value="Add dependency injection framework with VContainer integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add dependency injection framework with VContainer integration" />
+    <MESSAGE value="Refactor namespaces to remove 'Packages.' prefix for consistency" />
+    <MESSAGE value="Add VContainerAdapter and related interfaces for dependency injection" />
+    <MESSAGE value="fix data syxtax" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix data syxtax" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

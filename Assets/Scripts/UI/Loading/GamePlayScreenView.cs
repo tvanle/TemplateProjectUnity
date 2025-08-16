@@ -1,9 +1,9 @@
 ﻿namespace UI.Loading
 {
     using Cysharp.Threading.Tasks;
-    using Packages.Tvan.Foundation.UniUI.Scripts.BaseScreen.Presenter;
-    using Packages.Tvan.Foundation.UniUI.Scripts.BaseScreen.View;
-    using tvan.uni.foundation.UniCore.SignalBus;
+    using Tvan.Foundation.UniCore.SignalBus;
+    using Tvan.Foundation.UniUI.Scripts.BaseScreen.Presenter;
+    using Tvan.Foundation.UniUI.Scripts.BaseScreen.View;
 
     public class GamePlayScreenView : BaseView
     {

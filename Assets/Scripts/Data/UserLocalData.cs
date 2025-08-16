@@ -1,7 +1,7 @@
 namespace Data
 {
     using System;
-    using tvan.uni.foundation.UniData.Scripts.LocalData.Interface;
+    using Tvan.Foundation.UniData.Scripts.LocalData.Interface;
 
     public class UserLocalData : ILocalData
     {

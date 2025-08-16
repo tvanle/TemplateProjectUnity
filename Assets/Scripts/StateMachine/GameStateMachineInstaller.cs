@@ -1,14 +1,22 @@
 ﻿namespace StateMachine
 {
     using StateMachine.Interface;
-    using Zenject;
+    using Tvan.Foundation.UniCore.Extension;
+    using VContainer;
+    using VContainer.Unity;
 
-    public class GameStateMachineInstaller : Installer<GameStateMachineInstaller>
+    public static class GameStateMachineInstaller
     {
-        public override void InstallBindings()
+        public static void Install(IContainerBuilder builder)
         {
-            this.Container.BindInterfacesAndSelfTo<GameStateMachine>().AsCached().NonLazy();
-            this.Container.Bind<IGameState>().To(convention => convention.AllNonAbstractClasses().DerivingFrom<IGameState>()).WhenInjectedInto<GameStateMachine>();
+            builder.Register<GameStateMachine>(Lifetime.Singleton).AsImplementedInterfaces().AsSelf();
+            builder.RegisterEntryPoint<GameStateMachine>();
+
+            // Register all game states
+            var gameStateTypes = ReflectionUtils.GetAllDerivedTypes<IGameState>();
+            foreach (var type in gameStateTypes)
+                if (!type.IsAbstract && !type.IsInterface)
+                    builder.Register(type, Lifetime.Transient).As<IGameState>();
         }
     }
 }
