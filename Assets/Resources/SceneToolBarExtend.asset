@@ -11,5 +11,5 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: SceneToolBarExtend
-  m_EditorClassIdentifier: UniUI.Editor:Packages.Tvan.Foundation.UniUI.Editor:SceneToolBarExtend
+  m_EditorClassIdentifier: UniUI.Editor:Tvan.Foundation.UniUI.Editor:SceneToolBarExtend
   sceneFolders: []
